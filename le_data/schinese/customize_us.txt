@@ -703,7 +703,7 @@
 "HASH_3BCC0881": "黄色金属"
 "HASH_85BB8081": "蓝色金属"
 "HASH_B6AF7C81": "都市乐福鞋"
-"HASH_CD3C2882": "\\"There's gold in them thar holes!\\""
+"HASH_CD3C2882": "\"那洞里头有金子！\""
 "HASH_2A8BEE82": "脸颊高低"
 "HASH_A6587083": "史上最强悍的经典。"
 "HASH_D8FA6483": "油箱"
