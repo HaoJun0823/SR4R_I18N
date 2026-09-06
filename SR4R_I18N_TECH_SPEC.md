@@ -3,10 +3,10 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
-  ProduceID: '7b284b1e-4e72-47aa-85f8-47057ff6b85d'
-  PropagateID: '7b284b1e-4e72-47aa-85f8-47057ff6b85d'
-  ReservedCode1: 'ba010e5a-fead-49a1-8cb6-214d30597960'
-  ReservedCode2: 'ba010e5a-fead-49a1-8cb6-214d30597960'
+  ProduceID: 'e5e04c02-4cd1-49fa-a527-f56d4c175601'
+  PropagateID: 'e5e04c02-4cd1-49fa-a527-f56d4c175601'
+  ReservedCode1: 'fce72fb6-b500-4cf4-8863-698878fcfe47'
+  ReservedCode2: 'fce72fb6-b500-4cf4-8863-698878fcfe47'
 ---
 
 # SR4R_I18N — Saints Row IV 外挂汉化 DLL 技术方案
@@ -167,39 +167,84 @@ vf3 头格式：`TNFV` (magic) + version 4 + 变长布局（与 SR3R 完全相�
 
 ---
 
-## 6. Hook 定位状态
+## 6. Hook 定位状态（全部完成）
 
-### 6.1 特征码匹配结果（SR3R → SR4）
+### 6.1 函数调用拓扑桥接法
 
-| Hook | SR3R VA | SR4 VA | 特征码 | 状态 |
-|------|---------|--------|--------|------|
-| A: DrawWide | 0x1408B5FF0 | 0x1421C106C | **直接命中** | ✅ 可用 |
-| B: Format | 0x140812610 | 0x14153E3EC | **直接命中** | ✅ 可用 |
-| C: FontLookup | 0x140859B10 | 0x141FF63EC | **直接命中** | ✅ 可用 |
-| D: TexObj | 0x14085DB30 | — | 未命中 | ❌ 需重新定位 |
-| E: SrvResolve | 0x140915D60 | — | 未命中 | ❌ 需重新定位 |
-| F: LangCur | 0x140812060 | 多候选 | 模式命中(5处) | ⚠️ 需筛选 |
-| G: LangTxt | 0x140812040 | 多候选 | 模式命中(4处) | ⚠️ 需筛选 |
-| J: Subtitle | 0x1402D2BC0 | 3 候选 | 部分匹配(3处) | ⚠️ 需筛选 |
+SR3R 和 SR4 使用不同编译器版本/选项，寄存器分配和指令选择完全不同，字节模式匹配不可靠。
+但函数调用拓扑（谁调用谁）完全一致。通过 SR3R→SR4 的函数对应关系链式推导，精确定位目标函数。
 
-### 6.2 分析
+### 6.2 全部 7 个 Hook 定位结果
 
-- **3 个核心 hook 直接命中**：DrawWide（文本绘制）、Format（格式化）、FontLookup（字体查询）——这三个是整个系统的基础，特征码完全匹配说明 SR3R 和 SR4 在这些函数的**编译入口完全一致**。
-- **TexObj/SrvResolve 未命中**：这两个函数包含 RIP 相对地址引用（`cmp r8d,[rip+xxx]`），SR4 编译后地址不同属于正常。但结构性前缀 `4C 63 C1`（movsxd r8,ecx）在 SR4 中也未找到 TexObj 的完整匹配，说明 SR4 编译器可能改变了指令选择（如用 `48 63 C1` movsxd rax,ecx 或其他变体）。需要用 IDA 从 FontLookup 的调用关系逆向定位。
-- **LangCur/LangTxt/Subtitle 有候选**：模式搜索产生多个候选，需要用 IDA 反编译确认正确的函数（检查调用者上下文、全局变量引用等）。
-- **地址偏移不固定**：SR3R → SR4 的函数地址偏移不均匀（DrawWide +0x190B07C，Format +0xD2BDDC，FontLookup +0x179C8DC），不能用固定差值推算其他函数地址。
+| Hook | 名称 | SR3R VA | SR4 VA | 入口特征码 | 状态 |
+|------|------|---------|--------|-----------|------|
+| A | DrawWide | `0x1408B5FF0` | `0x140DC36A0` | `40 53 56 57 48 81 EC 10 01 00 00 8B BC 24 60 01` | ✅ |
+| B | Format | `0x140812610` | `0x140CF9A00` | `40 55 56 57 41 57 48 8D AC 24 78 D0 FF FF` | ✅ |
+| C | FontLookup | `0x140859B10` | `0x140BF8550` | `83 F9 FF 7D 3E 8D 81 FF FF FF 7F 83 F8 FF 7E 2E` | ✅ |
+| D | TexObj | `0x14085DB30` | `0x140B7AF30` | `4C 63 C1 85 C9 78 77 44 3B 05 8E A3 D9 05 7D 6E` | ✅ |
+| E | SrvResolve | `0x140915D60` | `0x140E2C9E0` | `40 53 48 83 EC 20 0F B6 DA 83 F9 FF` | ✅ |
+| F | LangCur | `0x140812060` | `0x140CF1980` | `48 8B 05 B1 DD 4C 06 48 85 C0 74 0C 48 8B 50 08` | ✅ |
+| G | LangTxt | `0x140812040` | `0x140CF1960` | `48 8B 05 D1 DD 4C 06 48 85 C0 74 0B 48 8B 10` | ✅ |
+| J | Subtitle | `0x1402D2BC0` | `0x140476D80` | `40 53 55 56 57 41 54 41 55 41 56 41 57 48 81 EC F8 00 00 00 48 8B 05 0D 85 56 01 48 33 C4 48 89` | ✅ |
 
-### 6.3 待完成的 IDA 定位工作
+### 6.3 SR4 架构变更（重要适配点）
 
-1. 用 IDA 打开 sr_hv.exe，在 FontLookup (0x141FF63EC) 附近反编译，从调用链找 TexObj/SrvResolve
-2. 反编译 Subtitle 3 个候选 (0x141AD181C / 0x141C88CFC / 0x141E57E0C)，确认哪个是字幕绘制入口
-3. 在 LangCur/LangTxt 候选中确认语言服务 thunk（检查对全局变量 qword 后跟 vtable 调用的模式）
-4. 提取所有新 hook 的 16 字节入口特征码
-5. 定位 SR4 的引擎全局变量（FONTTAB / FONTCOUNT / D3D_DEVICE / D3D_CONTEXT）
+#### Subtitle (Hook J) 架构变更
+- SR4 字幕文本从 UTF-16 改为 **UTF-8**（`char*` vs `wchar_t*`）
+- SR4 Subtitle (975B) 比 SR3R (1094B) 小 — 不含 `\n`+毫秒时长解析逻辑和 `0x2711` 计数器
+- SR4 Subtitle 不直接调 DrawText，绘制逻辑移到独立的渲染函数
+- SR4 不再引用 `byte_1415AD4B0`（字幕激活标志），改用 `dword_1417E3E6C` 状态机
+
+#### SrvResolve (Hook E) 架构变更
+- SR3R 从 SRV 全局表（`qword_1415456F0[+0x28]`，64字节步长 `shl rax, 6`）查找 SRV
+- SR4 改为直接从 `texObj+0x38` 读取 QWORD 指针，跳过全局表索引
+- 返回值偏移：SR3R `[entry+0x30]`/`[entry+0x38]` → SR4 `[ptr+8]`/`[ptr+0x10]`（ptr = entry+0x28）
+
+#### 字体对象布局差异
+- SR3R font 对象 texId 在 +184 偏移，SR4 改为 **+568** 偏移
+
+### 6.4 完整函数映射表
+
+| 功能 | SR3R | SR4 |
+|------|------|-----|
+| FontLookup (C) | `sub_140859B10` | `sub_140BF8550` |
+| DrawWide (A) | `sub_1408B5FF0` (1333B) | `sub_140DC36A0` (1333B) |
+| TexObj (D) | `sub_14085DB30` | `sub_140B7AF30` |
+| TexObj wrapper | `sub_14085D930` (39B) | `sub_140B7AC00` (39B) |
+| TexObj query (no anim) | — | `sub_140B7AC30` (0x7c) |
+| Streaming tex resolver | `sub_1408FE2F0` | `sub_140D98D30` |
+| SrvResolve (E) | `sub_140915D60` (259B) | `sub_140E2C9E0` (101B) |
+| Tex flag query | `sub_140D313C0` (195B) | `sub_140DFD410` (75B) |
+| Format (B) | `sub_140812610` (0x6d2) | `sub_140CF9A00` (0x78c) |
+| LangCur (F) | `sub_140812060` | `sub_140CF1980` |
+| LangTxt (G) | `sub_140812040` | `sub_140CF1960` |
+| SrvResolve cache | `sub_140916DD0` | `sub_140E0F7D0`/`E0FCD0`/`E0FF30` (3变体) |
+| Subtitle (J) | `sub_1402D2BC0` (0x446) | `sub_140476D80` (0x3cf) |
+| 折行 wrapper | `sub_14085A1F0` (83B) | `sub_140BF8D40` (80B) |
+| 折行核心 | `sub_140859620` | `sub_140BE8830` |
+| 测量回调 | `sub_140859C80` | `sub_140BF8760` (27B) |
+| 测量函数 | — | `sub_140BE7D60` |
+| 测量 wrapper | — | `sub_140BF8740` (14B) |
+| D3D11 创建 | `sub_140921C80` | `sub_140E4F1A0` |
+
+### 6.5 全局变量映射表
+
+| SR3R 全局变量 | SR4 全局变量 | 用途 | 状态 |
+|---------------|-------------|------|------|
+| `qword_142998650` | `qword_1469152D8` | 纹理表 (24字节步长) | ✅ |
+| `dword_142998660` | `dword_1469152CC` | 纹理计数 | ✅ |
+| `dword_14295B650` | `dword_146AEA4A0` | 随机种子 | ✅ |
+| `qword_143070F02` | `qword_1473F0992` | streaming tex 计数 (u16) | ✅ |
+| `xmmword_143070F10` | `xmmword_1473F09A0` | streaming tex 表 (8字节步长) | ✅ |
+| `qword_142906D28` | `qword_1471BF738` | 语言服务对象 (vtable[0]=LangTxt, [1]=LangCur, [3]=Symbol) | ✅ |
+| `qword_1430784F8` | `qword_147667C70` | D3D11Device* | ✅ |
+| `qword_143078500` | `qword_147667C78` | D3D11DeviceContext* | ✅ |
+| `qword_1415456F0` | **不再需要** | SRV全局表 — SR4 SrvResolve 改用 `[texObj+0x38]` 直接指针 | ✅ |
+| FONTTAB | `qword_146AE7060` | 字体表 | ✅ |
+| FONTCOUNT | `dword_146AE504C` | 字体计数 | ✅ |
+| `qword_142998658` | ? | SRV cache (8字节步长) | ❌ 待定位 |
 
 ---
-
-## 7. 移植清单
 
 ### 7.1 可直接复用（引擎无关）
 
@@ -218,13 +263,15 @@ vf3 头格式：`TNFV` (magic) + version 4 + 变长布局（与 SR3R 完全相�
 
 | 模块 | 改动 |
 |------|------|
-| 所有 VA 常量 | 重新计算（见 §6） |
-| 所有特征码 | 重新提取（3 个已确认，7 个待 IDA 定位） |
+| 所有 VA 常量 | 已重新计算（见 §6.2） |
+| 所有特征码 | 已提取（见 §6.2，7/7 完成） |
 | MAGIC texId 安全区 | 理论可复用（0x60000000 段），需验证 SR4 纹理注册数 |
-| 字体对象布局 | 需用 IDA 确认 SR4 的 font object struct 是否同 SR3R（208B 头 + metrics 16B + xtab/ytab + kern） |
-| 纹理对象布局 | 需用 IDA 确认 |
-| D3D11 全局指针 | 需重新定位 VA |
-| FONTTAB / FONTCOUNT | 需重新定位 VA |
+| 字体对象布局 | texId 偏移 +184 → **+568** |
+| 纹理对象布局 | SrvResolve 改用 `[texObj+0x38]` 直接指针 |
+| D3D11 全局指针 | 已定位：`qword_147667C70` (device) / `qword_147667C78` (context) |
+| FONTTAB / FONTCOUNT | 已定位：`qword_146AE7060` / `dword_146AE504C` |
+| Subtitle 文本编码 | UTF-16 → **UTF-8**（`char*` vs `wchar_t*`） |
+| SrvResolve 架构 | 不含 SRV 全局表，改用 `[texObj+0x38]` 直接指针 |
 
 ### 7.3 需要从 SR3R 移植的文件
 
@@ -236,15 +283,16 @@ vf3 头格式：`TNFV` (magic) + version 4 + 变长布局（与 SR3R 完全相�
 | pch.h / pch.cpp | SR3R_I18N/ | 预编译头 |
 | framework.h | SR3R_I18N/ | Windows 头 |
 
-### 7.4 需要新建/修改的工具
+### 7.4 已完成/待完成的工具
 
 | 工具 | 说明 | 状态 |
 |------|------|------|
-| sr4_vpp.py | VPP v10 解包器 | ✅ 已完成、已验证 |
-| sr4le_extract.py | le_strings → txt 解包 | 待建（从 sr3le_extract.py 改格式） |
-| sr4le_repack.py | txt → le_strings 回写 | 待建（从 le_strings_repack.py 改） |
-| sr4_vpp_pack.py | txt → vpp_pc 打包 | 待建（从 vpp_pack.py 改格式） |
-| charlist 生成 | SR4 简体用字 charlist.txt | 待建 |
+| sr4_vpp.py | VPP v10 解包器 | ✅ 已验证 |
+| sr4le_extract.py | le_strings → txt 解包 | ✅ 已验证（210文件/273028条） |
+| sr4le_repack.py | txt → le_strings 回写 | ❌ 待建 |
+| sr4_vpp_pack.py | txt → vpp_pc 打包 | ❌ 待建 |
+| charlist 生成 | SR4 简体用字 charlist.txt | ❌ 待建 |
+| exe_hardcoded 提取 | exe 内硬编码字符串 | ❌ 待做 |
 
 ---
 
@@ -380,17 +428,26 @@ early_diag = 0
 
 ## 12. 当前进度
 
+### 已完成
+
 - [x] 摸清 SR4 游戏目录、主进程（sr_hv.exe, x64）
 - [x] 逆向 vpp 格式 (v10: zlib 无 adler, 无对齐)
 - [x] 编写并验证 vpp 解包器 (sr4_vpp.py, 317 文件 0 失败)
 - [x] 确认 le_strings 格式与 SR3R 完全相同
 - [x] 确认 vf3 字体格式与 SR3R 完全相同
 - [x] 分析 charlist (jap 有 1893 CJK 汉字，用户选择外挂字库路线)
-- [x] 验证 3 个核心 hook 特征码直接命中 (DrawWide/Format/FontLookup)
-- [x] 搜索 7 个待定 hook 的候选位置
 - [x] 编写本方案文档
-- [ ] 阶段 1：文本工具链 (sr4le_extract.py 等)
-- [ ] 阶段 2：IDA 定位全部 hook 点
+- [x] **阶段 1：le_strings 提取工具 sr4le_extract.py 完成**（210文件/273028条字符串/18281个xtbl键名反查）
+- [x] **阶段 2：全部 7 个 hook 定位完成**（A/B/C/D/E/F/G/J）
+- [x] 全部 7 个特征码提取完成
+- [x] 全局变量定位：纹理表、语言服务对象、字体表、D3D设备/上下文（SRV_CACHE 待定位）
+- [x] SR4 架构变更分析：Subtitle 编码改 UTF-8、SrvResolve 改直接指针、字体 texId 偏移 +568
+
+### 待处理
+
+- [ ] le_strings repack 工具（sr4le_repack.py）
+- [ ] exe_hardcoded 硬编码字符串提取
+- [ ] SRV cache 全局变量定位（低优先级，可能不需要）
 - [ ] 阶段 3：DLL 代码移植与编译
 - [ ] 阶段 4：部署实测
 - [ ] 阶段 5：完整翻译
