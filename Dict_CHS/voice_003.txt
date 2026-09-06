@@ -703,7 +703,7 @@
 "Sorry.": "抱歉。";
 "Well I'm here to help.": "我就是来帮忙的。";
 "DELETE": "删除";
-"CID...?": "C.I.D.……？";
+"CID...?": "C.I.D.…在哪儿？";
 "Ow! My toe!": "哎哟！我的脚趾！";
 "I wish real ladles were this useful.": "真希望现实里的勺子也这么有用。";
 "Matt, if it makes any difference...": "马特，如果这话管用的话……";
@@ -958,7 +958,7 @@
 "I had no idea you had that in you.": "我不知道你还有这一手。";
 "Wha--whoa... Something's definitely happening in my brain...": "什——哇……我脑子里肯定在发生什么……";
 "Well, at least I didn't have to interrogate anyone this time.": "至少这次我没得去审问谁。";
-"CID...?": "C.I.D.……？";
+"CID...?": "C.I.D.…在哪儿？";
 "You're just not a people-person.": "你就是不会和人打交道。";
 "FUCK. YOU.  I swear to christ I'm gonna get outta here and find you and when I do I am going to take my fucking time, do you hear me?  DO YOU FUCKING HEAR ME?": "去你的。去你的。我他妈向上帝发誓，我会从这里出去找到你，等我找到了，我会慢慢来，你听见了吗？你他妈听见了吗？";
 "Kinzie, you still there?": "金吉，你还在吗？";
