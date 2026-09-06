@@ -1,0 +1,10 @@
+.temp/
+.vs/
+*.ipch
+*.db
+*.suo
+*.vsidx
+x64/
+Debug/
+Release/
+packages/
