@@ -64,7 +64,7 @@
 "Kinzie, remind me to give you a raise.": "Kinzie, remind me to give you a raise.";
 "Let me know when we're close to the next cell.": "Let me know when we're close to the next cell.";
 "Son of a bitch...": "Son of a bitch...";
-"Thank you.": "Thank you.";
+"Thank you.": "谢谢。";
 "Great!  At least you have a way to get the Zin off your back now, so keep that in mind.  Remember, this is only the beginning.  With everything we're going to throw at Zinyak he won't know what hit him.": "Great!  At least you have a way to get the Zin off your back now, so keep that in mind.  Remember, this is only the beginning.  With everything we're going to throw at Zinyak he won't know what hit him.";
 "She's annoying.": "She's annoying.";
 "Okay then.  Hey, if he brought in the Brotherhood, you think Donnie's with them?": "Okay then.  Hey, if he brought in the Brotherhood, you think Donnie's with them?";
@@ -82,7 +82,7 @@
 "What the fuck? Death lasers?!": "What the fuck? Death lasers?!";
 "Everyone okay?": "Everyone okay?";
 "This is all from your head, Asha. He's getting this from you.": "This is all from your head, Asha. He's getting this from you.";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "Got another Kinzie ahead.  Should I--wait!": "Got another Kinzie ahead.  Should I--wait!";
 "You're seriously gonna make me carry this?  Dammit!": "You're seriously gonna make me carry this?  Dammit!";
 "Is this what I'm looking for?": "Is this what I'm looking for?";
@@ -94,7 +94,7 @@
 "Of course you can't...that'd be too easy.": "Of course you can't...that'd be too easy.";
 "Hmmm, not sure yet.  Though any help you can give with gathering information on systems in the simulation would be useful.  I'll leave any tasks I have for you in the Quests section of your HUB.": "Hmmm, not sure yet.  Though any help you can give with gathering information on systems in the simulation would be useful.  I'll leave any tasks I have for you in the Quests section of your HUB.";
 "You call that fast?": "You call that fast?";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "There's no more safehouses for the us in the city... Great! Fucking great.": "There's no more safehouses for the us in the city... Great! Fucking great.";
 "Well, things get messy sometimes...": "Well, things get messy sometimes...";
 "Is that what you think?": "Is that what you think?";
@@ -114,7 +114,7 @@
 "Right.  Yell if you get in trouble.": "Right.  Yell if you get in trouble.";
 "*struggling*": "*struggling*";
 "Reassure yourself, Gat.  Kinzie sure as shit won't help.": "Reassure yourself, Gat.  Kinzie sure as shit won't help.";
-"Thank you.": "Thank you.";
+"Thank you.": "谢谢。";
 "*sigh*  Your funeral...": "*sigh*  Your funeral...";
 "These relays have shields, Kinzie.": "These relays have shields, Kinzie.";
 "Could I make up something that ridiculous?": "Could I make up something that ridiculous?";
@@ -124,7 +124,7 @@
 "We can't hide from the Zin forever. We're gonna have to make a last stand eventually.": "We can't hide from the Zin forever. We're gonna have to make a last stand eventually.";
 "Well then. I'll come up with something.": "Well then. I'll come up with something.";
 "You don't even know what I was going to ask.": "You don't even know what I was going to ask.";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "Kinzie, what can you do about this...": "Kinzie, what can you do about this...";
 "And you find this entertaining?": "And you find this entertaining?";
 "Clear out the guards.  I don't want the CPC damaged if you try leaving with it first.": "Clear out the guards.  I don't want the CPC damaged if you try leaving with it first.";
@@ -132,7 +132,7 @@
 "There should be three data towers controlling the security to Matt's prison.": "There should be three data towers controlling the security to Matt's prison.";
 "How many simulations is Asha having you build?": "How many simulations is Asha having you build?";
 "So we trail this guy quietly.  Deal?": "So we trail this guy quietly.  Deal?";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "But what if it was.": "But what if it was.";
 "I hope you never had kids otherwise it'll be \\"hey George, go play in traffic with your friends.\\"": "I hope you never had kids otherwise it'll be \\"hey George, go play in traffic with your friends.\\"";
 "So why'd we head to the Nuke Plant?": "So why'd we head to the Nuke Plant?";
@@ -144,17 +144,17 @@
 "Zinyak thinks being in a town where the Saints don't run things is enough to break me.": "Zinyak thinks being in a town where the Saints don't run things is enough to break me.";
 "Can we not focus on that.": "Can we not focus on that.";
 "Whatever Kinzie complied, let's try running it through CID. ": "Whatever Kinzie complied, let's try running it through CID. ";
-"Here we go...": "Here we go...";
-"The hell you talking about?": "The hell you talking about?";
+"Here we go...": "来了...";
+"The hell you talking about?": "你他妈在说什么？";
 "Alright. This is bugging me. I know that woman. Who is she?": "Alright. This is bugging me. I know that woman. Who is she?";
-"Where to now?": "Where to now?";
-"DELETE": "DELETE";
+"Where to now?": "现在去哪儿？";
+"DELETE": "删除";
 "Cool, man. You swing on by the ship if you feel like finishing this right.": "Cool, man. You swing on by the ship if you feel like finishing this right.";
 "Bring it on, Johnny. I'm ready for you!": "Bring it on, Johnny. I'm ready for you!";
 "Keith! Keith, stop!": "Keith! Keith, stop!";
 "Yes. Yes I did.": "Yes. Yes I did.";
 "But I'm the President, dammit.": "But I'm the President, dammit.";
-"This contestant just keeps taking the punishment!": "This contestant just keeps taking the punishment!";
+"This contestant just keeps taking the punishment!": "这位选手就是能扛！";
 "Right boss.": "Right boss.";
 "I don't know if I can.": "I don't know if I can.";
 "Zimos would straighten this bloke out.": "Zimos would straighten this bloke out.";
@@ -178,7 +178,7 @@
 "Well, prez, we got visitors.": "Well, prez, we got visitors.";
 "So you have what you need now?": "So you have what you need now?";
 "Really don't think we need much else.": "Really don't think we need much else.";
-"What?": "What?";
+"What?": "什么？";
 "Fair enough.": "Fair enough.";
 "Well, at least I can shop just about anywhere now.": "Well, at least I can shop just about anywhere now.";
 "Check in that empty grave.  I dropped something for you.": "Check in that empty grave.  I dropped something for you.";
@@ -187,7 +187,7 @@
 "Cut it a little close, Kinzie.": "Cut it a little close, Kinzie.";
 "How the hell should I know? I don't know, you're the one who says they're so \\"amazing\\".": "How the hell should I know? I don't know, you're the one who says they're so \\"amazing\\".";
 "Then I suppose the monster trucks are in context.  You don't suppose Donnie's in here...?": "Then I suppose the monster trucks are in context.  You don't suppose Donnie's in here...?";
-"The contestant has to be watching those targets!": "The contestant has to be watching those targets!";
+"The contestant has to be watching those targets!": "选手可得盯紧那些靶子！";
 "So who's the mark?": "So who's the mark?";
 "This town's crawlin' with Zinyak's crew.": "This town's crawlin' with Zinyak's crew.";
 "Two heads are better than one, Kinzie. My choice is made.": "Two heads are better than one, Kinzie. My choice is made.";
@@ -215,7 +215,7 @@
 "And that...that is my hell.": "And that...that is my hell.";
 "Good. Now get us the fuck out of here.": "Good. Now get us the fuck out of here.";
 "Fine, but I better get something outta this.": "Fine, but I better get something outta this.";
-"Keep dreaming.": "Keep dreaming.";
+"Keep dreaming.": "继续做梦吧。";
 "Genkibowl! Oh absolutely. I'll only need a moment.": "Genkibowl! Oh absolutely. I'll only need a moment.";
 "Zinyak above all!": "Zinyak above all!";
 "I'm...": "I'm...";
@@ -232,7 +232,7 @@
 "Why does my ass hurt?": "Why does my ass hurt?";
 "Hold on, someone's going to have to stay to make sure this one stays open.": "Hold on, someone's going to have to stay to make sure this one stays open.";
 "Will taking out the vehicle mess up the thing on board?": "Will taking out the vehicle mess up the thing on board?";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "Not bad, huh?": "Not bad, huh?";
 "Of which we are required to extol the virtues.": "Of which we are required to extol the virtues.";
 "Sounds like a strange comparison but okay.": "Sounds like a strange comparison but okay.";
@@ -241,14 +241,14 @@
 "Got it, Kinzie!": "Got it, Kinzie!";
 "I can't tell if you're kidding or not.": "I can't tell if you're kidding or not.";
 "Since when did the Vice Kings have giant robots?": "Since when did the Vice Kings have giant robots?";
-"Really?": "Really?";
+"Really?": "真的？";
 "Little bit.": "Little bit.";
 "I'm sure you'll do a...fine job.": "I'm sure you'll do a...fine job.";
 "Have you tracked down Asha?": "Have you tracked down Asha?";
 "Can't recall where the nearest one is.": "Can't recall where the nearest one is.";
 "Oh shit, that's really not good...": "Oh shit, that's really not good...";
 "Laser eye?": "Laser eye?";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "And changing me out of this ridiculous ensemble is not a \\"basic hack\\"?": "And changing me out of this ridiculous ensemble is not a \\"basic hack\\"?";
 "\\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\\"": "\\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\\"";
 "I'll be right back. I'm going to get the car.": "I'll be right back. I'm going to get the car.";
@@ -263,9 +263,9 @@
 "Some low blows at the midway point but the dream team really came together.": "Some low blows at the midway point but the dream team really came together.";
 "Whatever, she has Asha to latch onto now.": "Whatever, she has Asha to latch onto now.";
 "Ooh. Sounds serious.": "Ooh. Sounds serious.";
-"Are you fucking kidding me?": "Are you fucking kidding me?";
+"Are you fucking kidding me?": "你他妈在逗我？";
 "All the people on the left: wopbamboogie, all the people on the right: boogaloo!": "All the people on the left: wopbamboogie, all the people on the right: boogaloo!";
-"That sounds like a good thing.": "That sounds like a good thing.";
+"That sounds like a good thing.": "听起来是好事。";
 "Matthew Miller, the self-proclaimed hacker god, ran all the cyber terrorism for the Syndicate back in Steelport.  Now, he's Asha's right hand man in MI6.  I just hope we can trust him like she does.": "Matthew Miller, the self-proclaimed hacker god, ran all the cyber terrorism for the Syndicate back in Steelport.  Now, he's Asha's right hand man in MI6.  I just hope we can trust him like she does.";
 "Already working on it.": "Already working on it.";
 "I found an overload point. That's what it's called, right? The racing thing?": "I found an overload point. That's what it's called, right? The racing thing?";
@@ -281,7 +281,7 @@
 "We almost done?": "We almost done?";
 "Death from above!": "Death from above!";
 "Look who's here! My favorite wannabe spy and her BFF.": "Look who's here! My favorite wannabe spy and her BFF.";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "Stay back, you vile beverages!": "Stay back, you vile beverages!";
 "It's a robot, isn't it...": "It's a robot, isn't it...";
 "Cut it a little close, Kinzie.": "Cut it a little close, Kinzie.";
@@ -309,7 +309,7 @@
 "I don't think we can drop her out a window this time!": "I don't think we can drop her out a window this time!";
 "Let Kinzie be.  I need you both right here.  So Matt, you and Asha falling back into your old rhythm?": "Let Kinzie be.  I need you both right here.  So Matt, you and Asha falling back into your old rhythm?";
 "Maybe they're all factory rejects.": "Maybe they're all factory rejects.";
-"One down.": "One down.";
+"One down.": "干掉一个了。";
 "Zinyak thinks putting me in a town where I have nothing is enough to break me.": "Zinyak thinks putting me in a town where I have nothing is enough to break me.";
 "You good?": "You good?";
 "Ah!  If it doesn't match, it doesn't count.": "Ah!  If it doesn't match, it doesn't count.";
@@ -355,7 +355,7 @@
 "You're not leaving here!": "You're not leaving here!";
 "Asha, I respect you too much to bullshit y-": "Asha, I respect you too much to bullshit y-";
 "Take a guess, Kinzie.": "Take a guess, Kinzie.";
-"Oh shit.": "Oh shit.";
+"Oh shit.": "我操。";
 "Well, looks like the Zin don't appreciate that very much.": "Well, looks like the Zin don't appreciate that very much.";
 "So why are people trying to off Tammy? She cross a drug lord or something?": "So why are people trying to off Tammy? She cross a drug lord or something?";
 "And by \\"a matter\\" you mean...?": "And by \\"a matter\\" you mean...?";
@@ -379,7 +379,7 @@
 "Yeah, and the Saints are my crew so get outta the way before I remind you why.": "Yeah, and the Saints are my crew so get outta the way before I remind you why.";
 "See, this is why I don't let you borrow my sweaters.": "See, this is why I don't let you borrow my sweaters.";
 "Fair enough.": "Fair enough.";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "No!": "No!";
 "Campaigning is a mix of toeing the line and shaking up the establishment. Like those rifts around town, y'know.": "Campaigning is a mix of toeing the line and shaking up the establishment. Like those rifts around town, y'know.";
 "Oh shit. Kinzie, prime the turrets.": "Oh shit. Kinzie, prime the turrets.";
@@ -387,9 +387,9 @@
 "Damn it...": "Damn it...";
 "Aim for the mascots!": "Aim for the mascots!";
 "He held me hostage. What, are you on his side now?!": "He held me hostage. What, are you on his side now?!";
-"Of course.": "Of course.";
+"Of course.": "当然。";
 "Why didn't you say so in the first place?": "Why didn't you say so in the first place?";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "Since when have furries been so into Veteran Child?": "Since when have furries been so into Veteran Child?";
 "We should be good, CID.": "We should be good, CID.";
 "Create weaknesses in the simulation and Kinzie'll cook us up some serious firepower.": "Create weaknesses in the simulation and Kinzie'll cook us up some serious firepower.";
@@ -413,7 +413,7 @@
 "Mon Dieu, it is massive.": "Mon Dieu, it is massive.";
 "Oh ho, no, I am. But I really don't want to have this conversation right now.": "Oh ho, no, I am. But I really don't want to have this conversation right now.";
 "Oh shit. One of the pods is broken.": "Oh shit. One of the pods is broken.";
-"Good enough for me.": "Good enough for me.";
+"Good enough for me.": "对我来说够用了。";
 "Shoulda known not to trust a man in eyeliner...": "Shoulda known not to trust a man in eyeliner...";
 "Those C.I.D.s seem to be able to pass through unhindered.  Perhaps throwing them back would work.": "Those C.I.D.s seem to be able to pass through unhindered.  Perhaps throwing them back would work.";
 "That doesn't sound good...": "That doesn't sound good...";
@@ -433,7 +433,7 @@
 "You know what, fuck you.  You blew my planet up, so why play these mind games with me now?": "You know what, fuck you.  You blew my planet up, so why play these mind games with me now?";
 "Deal with who?": "Deal with who?";
 "Shit on a shingle!  I'm comin', Ben!": "Shit on a shingle!  I'm comin', Ben!";
-"Works for me.": "Works for me.";
+"Works for me.": "我没意见。";
 "Since when did the Vice Kings have giant robots?": "Since when did the Vice Kings have giant robots?";
 "Well, before he lost his mind, he was my Vice President.": "Well, before he lost his mind, he was my Vice President.";
 "They're closing us in!": "They're closing us in!";
@@ -444,7 +444,7 @@
 "About time I was rescued!": "About time I was rescued!";
 "I'd be happier if my favorite Russian brute was here to watch my back.": "I'd be happier if my favorite Russian brute was here to watch my back.";
 "Can't you do this yourself?": "Can't you do this yourself?";
-"There will be penalties for that mistake.": "There will be penalties for that mistake.";
+"There will be penalties for that mistake.": "那个失误可是要罚分的。";
 "Here's the deal: you're gonna need three teams to help you defeat Zinyak.  The first team will help you get the Key into the mainframe.  The second will help you overload the simulation.  The final team will get you into the Zin mothership so you can get to Zinyak.": "Here's the deal: you're gonna need three teams to help you defeat Zinyak.  The first team will help you get the Key into the mainframe.  The second will help you overload the simulation.  The final team will get you into the Zin mothership so you can get to Zinyak.";
 "Oh, this is crazy.  This is embarrassing!": "Oh, this is crazy.  This is embarrassing!";
 "That sounds fine though she did vanish on us last time.": "That sounds fine though she did vanish on us last time.";
@@ -465,7 +465,7 @@
 "Ready to take on the Zin's security while I upload the next virus?  Well, I hope you are cause that's what's next.": "Ready to take on the Zin's security while I upload the next virus?  Well, I hope you are cause that's what's next.";
 "Well, not anymore...": "Well, not anymore...";
 "Roger that.": "Roger that.";
-"There.": "There.";
+"There.": "好了。";
 "To give his people a boost or something.  I don't know, you're the one who says they're \\"amazing\\".": "To give his people a boost or something.  I don't know, you're the one who says they're \\"amazing\\".";
 "*struggling*": "*struggling*";
 "I swear, if that little weasel Matt steps out of line at all I'm gonna kick him out an airlock.  I don't care if he's all MI6 now, I still remember him crashing our damn helicopter with ME in it!": "I swear, if that little weasel Matt steps out of line at all I'm gonna kick him out an airlock.  I don't care if he's all MI6 now, I still remember him crashing our damn helicopter with ME in it!";
@@ -477,7 +477,7 @@
 "Let's go!": "Let's go!";
 "Kinzie, did he hurt Shaundi?": "Kinzie, did he hurt Shaundi?";
 "Why'd we bring her along?  She's just going to fuck up the plan.": "Why'd we bring her along?  She's just going to fuck up the plan.";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "Eh... yeah, probably not.": "Eh... yeah, probably not.";
 "Shaundi, shouldn't we be going after--": "Shaundi, shouldn't we be going after--";
 "Pissing me off, that's what.  Seems Julius is still running the Saints here.": "Pissing me off, that's what.  Seems Julius is still running the Saints here.";
@@ -502,7 +502,7 @@
 "According to Kinzie, every person's simulation is based on their deepest darkest fears.": "According to Kinzie, every person's simulation is based on their deepest darkest fears.";
 "Okay... now right!": "Okay... now right!";
 "Pardonnez moi, that is not how I meant it.": "Pardonnez moi, that is not how I meant it.";
-"Oh!  What a set back!": "Oh!  What a set back!";
+"Oh!  What a set back!": "哦！真是受挫了！";
 "Oh. Is the Broken Shillelagh closed for repairs?": "Oh. Is the Broken Shillelagh closed for repairs?";
 "Don't tell me you'd be satisfied with a half-ass performance?": "Don't tell me you'd be satisfied with a half-ass performance?";
 "Whoa, did you see that, Kinzie?": "Whoa, did you see that, Kinzie?";
@@ -520,7 +520,7 @@
 "I know you think you're being valiant here. Really. I get that. You're an A1 superhero, Asha.": "I know you think you're being valiant here. Really. I get that. You're an A1 superhero, Asha.";
 "Fine. No mind bullets. For now.": "Fine. No mind bullets. For now.";
 "The reporter from GenkiBowl? So there weren't any former child stars around?": "The reporter from GenkiBowl? So there weren't any former child stars around?";
-"Sounds good to me.": "Sounds good to me.";
+"Sounds good to me.": "我觉得挺好。";
 "So I think we're done, right?": "So I think we're done, right?";
 "Don't worry, I'll be sure to block any attempt she makes at slipping through the code.": "Don't worry, I'll be sure to block any attempt she makes at slipping through the code.";
 "Why would I waste *two* bullets on those lights when I can just use *one* on the guard?": "Why would I waste *two* bullets on those lights when I can just use *one* on the guard?";
@@ -533,9 +533,9 @@
 "Fine, but if you really want to get to the docks then you may wanna use the gas pedal.  Seriously Pierce, you're like, going the speed limit.": "Fine, but if you really want to get to the docks then you may wanna use the gas pedal.  Seriously Pierce, you're like, going the speed limit.";
 "I thought we wanted it to crash.": "I thought we wanted it to crash.";
 "Hold on, this is about that asshole?": "Hold on, this is about that asshole?";
-"What?": "What?";
+"What?": "什么？";
 "God, I feel sick...": "God, I feel sick...";
-"Electricity is dangerous stuff!": "Electricity is dangerous stuff!";
+"Electricity is dangerous stuff!": "电可不是闹着玩的！";
 "So whose subconscious are we dealing with?": "So whose subconscious are we dealing with?";
 "CID, if you're making any progress...": "CID, if you're making any progress...";
 "We're moving. Why are we moving? Let's get to the bridge.": "We're moving. Why are we moving? Let's get to the bridge.";
@@ -601,7 +601,7 @@
 "How many training simulations does Asha want?": "How many training simulations does Asha want?";
 "You picked a helluva time to drop out on me, Kinzie.": "You picked a helluva time to drop out on me, Kinzie.";
 "Oooh, that must have been a decoy. That's smart. See if there are any more around!": "Oooh, that must have been a decoy. That's smart. See if there are any more around!";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "Guess I don't have a choice...": "Guess I don't have a choice...";
 "Quiet! This is Haddaway.": "Quiet! This is Haddaway.";
 "Will you listen to yourself?  That generator over there isn't even turned on...": "Will you listen to yourself?  That generator over there isn't even turned on...";
@@ -630,7 +630,7 @@
 "I know that.  You think I don't know that?": "I know that.  You think I don't know that?";
 "Use the stun gun!": "Use the stun gun!";
 "I'm seriously questioning your sanity, Matt.": "I'm seriously questioning your sanity, Matt.";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "The boys in blue turned into Zin.": "The boys in blue turned into Zin.";
 "You know it, playa.": "You know it, playa.";
 "*BEEP*? What the *BEEP* is with the *BEEP*?": "*BEEP*? What the *BEEP* is with the *BEEP*?";
@@ -645,11 +645,11 @@
 "Shit! UP!": "Shit! UP!";
 "Don't mind me, I'll just be in the murder tank!": "Don't mind me, I'll just be in the murder tank!";
 "Zinyak kicked the stool out from under my political aspiration when he and his armada showed up. One of the worst things you can do is piss off America. Now, I don't necessarily agree with how the President is handling these things. Seems there must be a better way. I'm not saying I'd do better but, shit, maybe that's exactly what I'm saying. If I had the chance anyway.": "Zinyak kicked the stool out from under my political aspiration when he and his armada showed up. One of the worst things you can do is piss off America. Now, I don't necessarily agree with how the President is handling these things. Seems there must be a better way. I'm not saying I'd do better but, shit, maybe that's exactly what I'm saying. If I had the chance anyway.";
-"Fair point.": "Fair point.";
+"Fair point.": "有道理。";
 "That Zinyak asshole blew up the Earth and we are going to kick that alien motherfucker's ass. Don't be flippant about this.": "That Zinyak asshole blew up the Earth and we are going to kick that alien motherfucker's ass. Don't be flippant about this.";
 "The dealer ducked around the corner.": "The dealer ducked around the corner.";
 "We're not letting Johnny down again, Kinzie can you reset this thing?": "We're not letting Johnny down again, Kinzie can you reset this thing?";
-"Sorry.": "Sorry.";
+"Sorry.": "抱歉。";
 "What the fuck...": "What the fuck...";
 "You know, if they generated a shield around themselves.": "You know, if they generated a shield around themselves.";
 "What?  Why not just an entire fuckin' island then?": "What?  Why not just an entire fuckin' island then?";
@@ -683,7 +683,7 @@
 "Bombs?": "Bombs?";
 "Seriously, more shieldbots?": "Seriously, more shieldbots?";
 "Zinyak, you ass-headed--": "Zinyak, you ass-headed--";
-"Are you fucking kidding me?": "Are you fucking kidding me?";
+"Are you fucking kidding me?": "你他妈在逗我？";
 "Ooooh!  Ha!  That's going to hurt in the morning.": "Ooooh!  Ha!  That's going to hurt in the morning.";
 "Why's all this stuff here, anyway?": "Why's all this stuff here, anyway?";
 "Oh, I'm just peachy.": "Oh, I'm just peachy.";
@@ -696,7 +696,7 @@
 "Somebody fuck up your ship, Zinyak? Heh.": "Somebody fuck up your ship, Zinyak? Heh.";
 "Umm, Kinzie, all your stuff's gone.": "Umm, Kinzie, all your stuff's gone.";
 "It's...in a safe place. Once you're free, I'll pick you up at the landing platform.": "It's...in a safe place. Once you're free, I'll pick you up at the landing platform.";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "Was that supposed to be reassuring?": "Was that supposed to be reassuring?";
 "Fine, but if you really want to get to the docks then you may wanna use the gas pedal.  Seriously Pierce, you're like, going the speed limit.": "Fine, but if you really want to get to the docks then you may wanna use the gas pedal.  Seriously Pierce, you're like, going the speed limit.";
 "Johnny, I can't wait to show you some of my new tricks.": "Johnny, I can't wait to show you some of my new tricks.";
@@ -723,8 +723,8 @@
 "Ooh. Cyrus. That was a mistake.": "Ooh. Cyrus. That was a mistake.";
 "Give us a minute to recover from last time, yeah?": "Give us a minute to recover from last time, yeah?";
 "Oh god. Why don't they have these things in the real world?": "Oh god. Why don't they have these things in the real world?";
-"Bingo.": "Bingo.";
-"Nope.": "Nope.";
+"Bingo.": "宾果。";
+"Nope.": "不行。";
 "Gat! Let me go in first!": "Gat! Let me go in first!";
 "Not bad, huh?": "Not bad, huh?";
 "I don't...I don't feel anything.": "I don't...I don't feel anything.";
@@ -737,7 +737,7 @@
 "Get us to a safe spot so we can get back to the real world.": "Get us to a safe spot so we can get back to the real world.";
 "It was on this plane where Shaundi and I lost our best friend.  Johnny Gat helped found the Saints originally, and Shaundi looked up to him ever since she joined.  He sacrificed himself to save us.  Now I want our friend back.": "It was on this plane where Shaundi and I lost our best friend.  Johnny Gat helped found the Saints originally, and Shaundi looked up to him ever since she joined.  He sacrificed himself to save us.  Now I want our friend back.";
 "Totally cool.": "Totally cool.";
-"Clean, accurate shooting.  That's how it's done.": "Clean, accurate shooting.  That's how it's done.";
+"Clean, accurate shooting.  That's how it's done.": "干净利落的射击。就该这么打。";
 "55 minutes.": "55 minutes.";
 "Well, yes, but which part exactly?": "Well, yes, but which part exactly?";
 "You've gotta be joking.": "You've gotta be joking.";
@@ -776,7 +776,7 @@
 "Scan fast.": "Scan fast.";
 "Everything will be fine, Kinzie. Don't worry.": "Everything will be fine, Kinzie. Don't worry.";
 "Well you can't have one. You have power armor. Can we focus on getting Matt?": "Well you can't have one. You have power armor. Can we focus on getting Matt?";
-"I love the smell of ozone in the arena.": "I love the smell of ozone in the arena.";
+"I love the smell of ozone in the arena.": "我爱竞技场里臭氧的味道。";
 "I know, man. I know.": "I know, man. I know.";
 "So I got a great idea for what you need right now.  Swing by and I'll fill you in.": "So I got a great idea for what you need right now.  Swing by and I'll fill you in.";
 "That so-called puckish rogue didn't even shed a tear when their best friend's girl was beheaded right in front of them.": "That so-called puckish rogue didn't even shed a tear when their best friend's girl was beheaded right in front of them.";
@@ -784,7 +784,7 @@
 "How are you holding up?": "How are you holding up?";
 "I suppose you're right.": "I suppose you're right.";
 "You focus on that. I'll finish off these guys.": "You focus on that. I'll finish off these guys.";
-"What?": "What?";
+"What?": "什么？";
 "Shit. Kinzie, I'm starting to worry about you.": "Shit. Kinzie, I'm starting to worry about you.";
 "Fair. Just make sure that idiot doesn't make me look like a jackass, okay?": "Fair. Just make sure that idiot doesn't make me look like a jackass, okay?";
 "Freckle Bitches Get!": "Freckle Bitches Get!";
@@ -795,13 +795,13 @@
 "Looks like CID was right, they've got another generator up and running.": "Looks like CID was right, they've got another generator up and running.";
 "Fuck this. I'm totally killing this guy.": "Fuck this. I'm totally killing this guy.";
 "Oh whatever, just kill those things first.  Now can I go back to flying this thing or do you want us to crash?": "Oh whatever, just kill those things first.  Now can I go back to flying this thing or do you want us to crash?";
-"What?": "What?";
+"What?": "什么？";
 "Ooh. Cyrus. Bad mistake.": "Ooh. Cyrus. Bad mistake.";
 "Is MI6 really called upon to escort TV correspondents on shopping trips?": "Is MI6 really called upon to escort TV correspondents on shopping trips?";
 "Incredible!  There's no stopping this Saint today.": "Incredible!  There's no stopping this Saint today.";
 "Well, since you put it that way...": "Well, since you put it that way...";
 "Kinzie...?": "Kinzie...?";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "CID?  Any progress on that shield?": "CID?  Any progress on that shield?";
 "What just happened?": "What just happened?";
 "Just before I was kidnapped.  Probably why Zinyak went after me, actually.": "Just before I was kidnapped.  Probably why Zinyak went after me, actually.";
@@ -810,7 +810,7 @@
 "ENGLISH, Kinzie. You know I hate technobabble.": "ENGLISH, Kinzie. You know I hate technobabble.";
 "I don't intend to.  I've been talkin' with Matt and he figured out a way to allow you to power up your ability to dance on stage.  I'm thinking we can use you to draw her out.": "I don't intend to.  I've been talkin' with Matt and he figured out a way to allow you to power up your ability to dance on stage.  I'm thinking we can use you to draw her out.";
 "But CID will download faster, right?": "But CID will download faster, right?";
-"Shit!": "Shit!";
+"Shit!": "妈的！";
 "Way to go Kinzie!": "Way to go Kinzie!";
 "Look, I know secrecy is MI6's thing but I've kind of had enough with--": "Look, I know secrecy is MI6's thing but I've kind of had enough with--";
 "Hands off, Veteran Child.": "Hands off, Veteran Child.";
@@ -821,8 +821,8 @@
 "Trust me.": "Trust me.";
 "He's gonna learn really quick how bad an idea is to fuck with us.": "He's gonna learn really quick how bad an idea is to fuck with us.";
 "Overloading?": "Overloading?";
-"What?": "What?";
-"What's happening?": "What's happening?";
+"What?": "什么？";
+"What's happening?": "出什么事了？";
 "See?  I told you Johnny was alive.": "See?  I told you Johnny was alive.";
 "Maybe I should get an eye exam. I wonder if our coverage is any good...": "Maybe I should get an eye exam. I wonder if our coverage is any good...";
 "Kinzie, what's going to happen to this tank when I get it back to the warehouse?": "Kinzie, what's going to happen to this tank when I get it back to the warehouse?";
@@ -830,7 +830,7 @@
 "Meaning?": "Meaning?";
 "Look, I have to prove to other me that I'm more than a party girl. So I came up with a list of things that are causing problems in the simulation.": "Look, I have to prove to other me that I'm more than a party girl. So I came up with a list of things that are causing problems in the simulation.";
 "Ah.  Gentlemen.  Parlez vous Francais?": "Ah.  Gentlemen.  Parlez vous Francais?";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "What?  Why not just an entire fuckin' island then?": "What?  Why not just an entire fuckin' island then?";
 "That's not my usual style.": "That's not my usual style.";
 "Wait for him to pass.": "Wait for him to pass.";
@@ -845,7 +845,7 @@
 "This simulation better be killer, Matt.": "This simulation better be killer, Matt.";
 "She is in the park, Benjamin.": "She is in the park, Benjamin.";
 "Inside to find King.": "Inside to find King.";
-"The Saints are known for unethical shooting...": "The Saints are known for unethical shooting...";
+"The Saints are known for unethical shooting...": "圣徒向来以“不道德射击”闻名……";
 "Oh sure, no problem...": "Oh sure, no problem...";
 "Fine.  Why do you ask?": "Fine.  Why do you ask?";
 "CID, this is--okay, I'm curious but NO. This is not the time for that discussion.": "CID, this is--okay, I'm curious but NO. This is not the time for that discussion.";
@@ -862,7 +862,7 @@
 "Shh! He'll hear you.": "Shh! He'll hear you.";
 "Because open auditions are the dream of every dancer.  Preconceived notions of age, race, and training are gone, and all that matters is raw talent and the love of the art.": "Because open auditions are the dream of every dancer.  Preconceived notions of age, race, and training are gone, and all that matters is raw talent and the love of the art.";
 "Johnny...it's you.": "Johnny...it's you.";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "Tear...": "Tear...";
 "Yeah, that's a good look for him.": "Yeah, that's a good look for him.";
 "Steady, Joe, steady...": "Steady, Joe, steady...";
@@ -892,7 +892,7 @@
 "Look, just spread the word, we're meeting at Kinzie's...": "Look, just spread the word, we're meeting at Kinzie's...";
 "But the Zin officials are protected in the real world with defenses controlled by the virtual one. Shut down those defenses and I can strike.": "But the Zin officials are protected in the real world with defenses controlled by the virtual one. Shut down those defenses and I can strike.";
 "Looks like he's heading to--": "Looks like he's heading to--";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "I know what I'm walking into.": "I know what I'm walking into.";
 "This data is amazing.  Incomplete, but amazing.": "This data is amazing.  Incomplete, but amazing.";
 "This looks important. Let's blow this up.": "This looks important. Let's blow this up.";
@@ -941,7 +941,7 @@
 "Now's our chance: kill him!": "Now's our chance: kill him!";
 "Splendid. That should give me enough time to destroy more Zin.": "Splendid. That should give me enough time to destroy more Zin.";
 "Let's hear it, hon.": "Let's hear it, hon.";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "You can trace all these gangs back to him, right? You can find his simulation?": "You can trace all these gangs back to him, right? You can find his simulation?";
 "Stay down, Cyrus. I'm walking out of here with Kinzie and there's no way I'm letting you stop me.": "Stay down, Cyrus. I'm walking out of here with Kinzie and there's no way I'm letting you stop me.";
 "C'mon, Pierce, we don't have all night.": "C'mon, Pierce, we don't have all night.";
@@ -953,7 +953,7 @@
 "Go left! Go left!": "Go left! Go left!";
 "Are you refusing a Presidential order?": "Are you refusing a Presidential order?";
 "By all means.": "By all means.";
-"Well shit...": "Well shit...";
+"Well shit...": "呃，搞什么...";
 "Kinzie?!": "Kinzie?!";
 "You realize your potential \\"readers\\" total about ten people, right?": "You realize your potential \\"readers\\" total about ten people, right?";
 "We need all the help we can get.  How do we get him?": "We need all the help we can get.  How do we get him?";
@@ -977,7 +977,7 @@
 "Hold on, are you tripping?": "Hold on, are you tripping?";
 "What the hell happened to her?": "What the hell happened to her?";
 "Zinyak believes being stuck in a town where I don't call the shots is going to break me.": "Zinyak believes being stuck in a town where I don't call the shots is going to break me.";
-"DELETE": "DELETE";
+"DELETE": "删除";
 "No ball gag. I'll consider this a win.": "No ball gag. I'll consider this a win.";
 "I'm doing the best I can. It'd be much easier if Kinzie were still here.": "I'm doing the best I can. It'd be much easier if Kinzie were still here.";
 "Hurt him. But save the last hit for me.": "Hurt him. But save the last hit for me.";
@@ -995,10 +995,10 @@
 "Bah, Kinzie's job is easy.": "Bah, Kinzie's job is easy.";
 "Hey! You two get back here!": "Hey! You two get back here!";
 "Pierce, you mind explaining to me what's been going on here?": "Pierce, you mind explaining to me what's been going on here?";
-"What?": "What?";
+"What?": "什么？";
 "Zinyak's only as good as his soldiers. Take out this patrol.": "Zinyak's only as good as his soldiers. Take out this patrol.";
 "EXCUSE ME?": "EXCUSE ME?";
 "Here I thought I couldn't hate Saints Flow enough.": "Here I thought I couldn't hate Saints Flow enough.";
 "Let me go you creep!": "Let me go you creep!";
 "I'm not Kinzie, CID...": "I'm not Kinzie, CID...";
-"Got to stay away from those unethical targets.": "Got to stay away from those unethical targets.";
+"Got to stay away from those unethical targets.": "得离那些不讲武德的目标远点。";
