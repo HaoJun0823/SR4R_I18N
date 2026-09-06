@@ -31,7 +31,8 @@ LE_DATA = os.path.join(ROOT, "schinese")
 SUPP    = os.path.join(PROJECT, "Dict_CHS", "le_data_supplement.txt")
 
 # 匹配 "KEY": "VALUE"  或  "KEY": "VALUE";
-LINE_RE = re.compile(r'^("(?P<k>(?:[^"\\]|\\.)*)":\s*")(?P<v>(?:[^"\\]|\\.)*)("\s*;?\s*)$')
+# 用命名组 pre/post 取首尾引号(避免命名组占用编号导致 group(1)/group(3) 错位)
+LINE_RE = re.compile(r'^(?P<pre>"(?:[^"\\]|\\.)*":\s*")(?P<v>(?:[^"\\]|\\.)*)(?P<post>"\s*;?\s*)$')
 
 def load_sr3_tm(path):
     d = {}
@@ -71,7 +72,7 @@ def process_file(path, tm, dry):
             total += 1
             if en in tm:
                 newv = tm[en]
-                out.append(m.group(1) + newv + m.group(3) + nl)
+                out.append(m.group("pre") + newv + m.group("post") + nl)
                 inh += 1
             else:
                 out.append(ln)
