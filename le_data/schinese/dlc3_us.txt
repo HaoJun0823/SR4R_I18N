@@ -18,7 +18,7 @@
 "cm_mask_washington": "THE ORIGINAL PREZ MASK"
 "HASH_6372B927": "PRESIDENTIAL PACK"
 "HASH_B02C3DA8": "Das zingy beat ist wunderbar!"
-"HASH_C338ECE9": "CLASSICAL"
+"HASH_C338ECE9": "古典乐"
 "HASH_D8AB256A": "BG-40"
 "HASH_7F1FE20B": "Lends your rampages a touch of class ... or is that dysentery?"
 "cm_hair_benfranklin": "THE FRANKLIN"
