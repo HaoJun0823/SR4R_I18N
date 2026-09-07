@@ -3,10 +3,10 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
-  ProduceID: 'e5e04c02-4cd1-49fa-a527-f56d4c175601'
-  PropagateID: 'e5e04c02-4cd1-49fa-a527-f56d4c175601'
-  ReservedCode1: 'fce72fb6-b500-4cf4-8863-698878fcfe47'
-  ReservedCode2: 'fce72fb6-b500-4cf4-8863-698878fcfe47'
+  ProduceID: '6e07eba8-ed0f-4d46-a4a7-06a475f0ea51'
+  PropagateID: '6e07eba8-ed0f-4d46-a4a7-06a475f0ea51'
+  ReservedCode1: 'e4f6e3e5-f7d5-49b4-8eb5-6dbe08653a7b'
+  ReservedCode2: 'e4f6e3e5-f7d5-49b4-8eb5-6dbe08653a7b'
 ---
 
 # SR4R_I18N — Saints Row IV 外挂汉化 DLL 技术方案
@@ -442,12 +442,16 @@ early_diag = 0
 - [x] 全部 7 个特征码提取完成
 - [x] 全局变量定位：纹理表、语言服务对象、字体表、D3D设备/上下文（SRV_CACHE 待定位）
 - [x] SR4 架构变更分析：Subtitle 编码改 UTF-8、SrvResolve 改直接指针、字体 texId 偏移 +568
+- [x] le_strings 回写工具（sr4le_repack.py）
+- [x] vpp 打包工具（sr4_vpp_pack.py）
+- [x] exe_hardcoded 硬编码字符串提取（5528 条，已译 1436 条）
+- [x] **阶段 3：DLL 代码移植与编译**（Release|x64，vs2017 v141）
+- [x] **阶段 4：部署实测通过**（词典命中、CJK 字形注入、字幕整句替换均正常）
+- [x] **阶段 5：完整翻译**（voice 100%、le_data_supplement 94%、exe_hardcoded 26%）
+- [x] 字幕 Hook J 修正（sub_1403D18F0 正确入口）
 
 ### 待处理
 
-- [ ] le_strings repack 工具（sr4le_repack.py）
-- [ ] exe_hardcoded 硬编码字符串提取
 - [ ] SRV cache 全局变量定位（低优先级，可能不需要）
-- [ ] 阶段 3：DLL 代码移植与编译
-- [ ] 阶段 4：部署实测
-- [ ] 阶段 5：完整翻译
+- [ ] le_data_supplement 剩余 ~6% 技术性条目（单字符/格式标签/品牌名）
+- [ ] exe_hardcoded 剩余技术字符串（动画状态/调试标志/硬件品牌，暂保留英文）

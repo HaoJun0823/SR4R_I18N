@@ -1,3 +1,4 @@
+# 过程产物（不入库）
 .temp/
 .vs/
 *.ipch
@@ -10,3 +11,11 @@ Release/
 packages/
 __pycache__/
 *.pyc
+
+# 翻译施工中间产物（分批 JSON/脚本，结果已沉淀到 Dict_CHS/ 与 le_data/schinese/）
+le_data/.qa/
+
+# 部署产物
+*.asi
+*.log
+DumpText.dtxt
