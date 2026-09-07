@@ -92,14 +92,13 @@ static constexpr size_t  CHARLIST_MAX_BYTES = (1 << 20);   // 1MB 上限
 static constexpr uint32_t CHARLIST_FREQ_BASE = 60000;      // 权重基值(>词典真实频率上限, 保证 charlist 顺序优先)
 
 // 字幕/HUD 绘制入口整串替换（IDA 2026-09-07 实测, sr_hv.exe）
-//   SR4 签名: __int64 sub_140476D80(int64 a1, uint a2, int a3, int64 a4, int64 a5, int a6)
-//   - a1 = UTF-8 char* 文本（SR3R 为 wchar_t*, 完全不同）
-//   - 返回值 __int64（SR3R 为 double）
-//   - 6 参数（SR3R 为 4 参数）
-//   - 内部 sub_140BF8D40 折行布局后逐行绘制
-static constexpr uint64_t VA_SUBTITLE_DRAW = 0x140476D80ULL;
+//   sub_1403D18F0(text, a2, a3, a4): a1=宽字符串, 内部折行布局后
+//   逐行绘制; a3<=0.1 时从尾部字面 \n<毫秒> 解析显示时长(atoi/1000), 否则 2s。
+//   特征码前 16 字节在 sr_hv.exe 全映像唯一（已验证）。
+//   与 SR3R sub_1402D2BC0 完全相同签名和逻辑。
+static constexpr uint64_t VA_SUBTITLE_DRAW = 0x1403D18F0ULL;
 static const uint8_t SIG_SUBTITLE_DRAW[16] = {
-    0x40,0x53,0x55,0x56,0x57,0x41,0x54,0x41,0x55,0x41,0x56,0x41,0x57,0x48,0x81,0xEC };
+    0x4C,0x8B,0xDC,0x55,0x56,0x41,0x54,0x49,0x8D,0xAB,0xA8,0xFB,0xFF,0xFF,0x48,0x81 };
 
 // 引擎全局（VA, IDA 2026-09-07 实测）
 static constexpr uint64_t VA_FONTTAB     = 0x146AE7060ULL;  // 字体对象指针表
@@ -816,7 +815,8 @@ static const wchar_t* WrapProcess(const wchar_t* s, size_t len)
             size_t  fullLen = 0, sufAt = 0;
             const DictNode* r = WrapTryConcat(g_wrap.pend, g_wrap.pendLen, s, len,
                                               cand, &fullLen, &sufAt);
-            if (r && r->len >= 4 && r->len < WRAP_MAX_CHARS)
+            size_t tlen0 = r ? wcslen(r->trans) : 0;
+            if (r && tlen0 >= 4 && tlen0 < WRAP_MAX_CHARS)
             {
                 wmemcpy(g_wrap.full, cand, fullLen + 1);
                 g_wrap.fullLen = fullLen;
@@ -825,7 +825,7 @@ static const wchar_t* WrapProcess(const wchar_t* s, size_t len)
                 g_wrap.node    = r;
                 g_wrap.pendLen = 0;
 
-                size_t tlen = r->len;
+                size_t tlen = tlen0;
                 size_t est  = (tlen * g_wrap.preLen + fullLen / 2) / fullLen; // 英文比例->译文字符
                 if (est < 2) est = 2;
                 if (est > tlen - 2) est = tlen - 2;
@@ -868,7 +868,8 @@ static const wchar_t* WrapProcess(const wchar_t* s, size_t len)
             size_t  fullLen = 0, sufAt = 0;
             const DictNode* r = WrapTryConcat(g_wrap.pend, g_wrap.pendLen, s, len,
                                               cand, &fullLen, &sufAt);
-            if (r && r->len >= 4 && r->len < WRAP_MAX_CHARS)
+            size_t tlen1 = r ? wcslen(r->trans) : 0;
+            if (r && tlen1 >= 4 && tlen1 < WRAP_MAX_CHARS)
             {
                 // 命中 -> 进入稳定态: 存完整原文/折行位置, 预计算两行译文
                 wmemcpy(g_wrap.full, cand, fullLen + 1);
@@ -879,7 +880,7 @@ static const wchar_t* WrapProcess(const wchar_t* s, size_t len)
                 g_wrap.mode    = WRAP_STABLE;
                 g_wrap.pendLen = 0;
 
-                size_t tlen = r->len;
+                size_t tlen = tlen1;
                 size_t est  = (tlen * g_wrap.preLen + fullLen / 2) / fullLen; // 英文比例->译文字符
                 if (est < 2) est = 2;
                 if (est > tlen - 2) est = tlen - 2;
@@ -2035,67 +2036,92 @@ static const wchar_t* __fastcall HookLangTxt(uint64_t a1, uint64_t a2, uint64_t 
 // SR4 签名变更（IDA 2026-09-07 实测, sr_hv.exe）:
 //   __int64 sub_140476D80(__int64 a1, unsigned int a2, int a3, __int64 a4, __int64 a5, int a6)
 //   - a1 = UTF-8 char* 文本（SR3R 为 wchar_t*, 完全不同）
-//   - 返回值 __int64（SR3R 为 double）
-//   - 6 参数（SR3R 为 4 参数）
-//   - 内部 sub_140BF8D40 折行布局后逐行绘制
-//   - SR4 不含 \n<毫秒> 尾码解析逻辑和 0x2711 计数器
+//   - 返回值 double（与 SR3R 一致）
+//   - 4 参数（与 SR3R 一致）
+//   - 内部折行布局后逐行绘制
+//   - 含 \n<毫秒> 尾码解析逻辑和 0x2711 计数器
 // 与其他 hook 的关系:
 //   - 字幕链不经 Format, F/G 语言服务层收不到语音字幕 —— 本 hook 是该链路唯一替换点
 //   - 文本若已在 Format 层(Hook B)替换为中文, 本层查词典 miss 原样放行, 无双重替换
 //   - 字形升级无需在此触发: 字幕绘制链必经 FontLookup(Hook C) 公共点, 自动覆盖
-using SubtitleDraw_t = __int64(__fastcall*)(const char*, unsigned int, int, __int64, __int64, int);
+using SubtitleDraw_t = double(__fastcall*)(const wchar_t*, float, double, int);
 static SubtitleDraw_t g_origSubtitle = nullptr;
 static volatile LONG g_hitJ = 0, g_missJ = 0;
 
 // 译文输出缓冲（渲染线程专用, 与 g_wrap 状态机同线程假设, 无锁）
-static constexpr size_t SUBBUF_BYTES = (WRAP_MAX_CHARS + 32) * 4;  // UTF-8 最多 4 字节/字符
-static char g_subBuf[SUBBUF_BYTES];
+static constexpr size_t SUBBUF_CHARS = WRAP_MAX_CHARS + 32;
+static wchar_t g_subBuf[SUBBUF_CHARS];
 
-static __int64 __fastcall HookSubtitle(const char* text, unsigned int a2, int a3, __int64 a4, __int64 a5, int a6)
+// 尾部字面 \n<数字> 时长尾码检测: 返回主体长度（尾码起点）; 无尾码返回 len
+static size_t SubBodyLen(const wchar_t* s, size_t len)
 {
-    if (text && *text && g_dictReady && !strchr(text, '%'))
+    if (len < 4) return len;                      // 至少 \n + 1 数字 + 1 主体字符
+    size_t e = len;
+    while (e > 0 && s[e - 1] >= L'0' && s[e - 1] <= L'9') --e;
+    if (e == len || e < 2) return len;            // 尾部无数字 / 前面放不下 \n
+    if (s[e - 1] != L'n' || s[e - 2] != L'\\') return len;
+    return e - 2;                                 // 主体 [0, e-2)
+}
+
+static double __fastcall HookSubtitle(const wchar_t* text, float a2, double a3, int a4)
+{
+    if (text && *text && g_dictReady && !wcschr(text, L'%'))
     {
-        size_t len = strlen(text);
-        if (len < SUBBUF_BYTES / 4)
+        size_t len = wcslen(text);
+        if (len < WRAP_MAX_CHARS)
         {
-            // UTF-8 -> wchar_t for dictionary lookup
-            wchar_t wbuf[WRAP_MAX_CHARS + 1];
-            int wn = MultiByteToWideChar(CP_UTF8, 0, text, (int)len, wbuf, WRAP_MAX_CHARS);
-            if (wn > 0)
+            size_t bodyLen = SubBodyLen(text, len);
+
+            // 查词典: 有尾码 -> 按主体查（词典 KEY 实测零尾码, 整串查只会 miss）;
+            //          无尾码 -> 整串查。trim/规范化/miss-dump 由 LookupNode 统一处理。
+            // （未来若词典加入含尾码 KEY, 仍走主体查询 + 原尾码回填, 语义自洽不重复追加）
+            const DictNode* r;
+            size_t hitLen;
+            if (bodyLen < len)
             {
-                wbuf[wn] = L'\0';
-                const DictNode* r = LookupNode(wbuf, &g_hitJ, &g_missJ);
-                if (r)
+                wchar_t body[WRAP_MAX_CHARS];
+                wmemcpy(body, text, bodyLen);
+                body[bodyLen] = L'\0';
+                r = LookupNode(body, &g_hitJ, &g_missJ);
+                hitLen = bodyLen;
+            }
+            else
+            {
+                r = LookupNode(text, &g_hitJ, &g_missJ);
+                hitLen = len;
+            }
+            if (r)
+            {
+                size_t tn = wcslen(r->trans);
+                size_t tailLen = len - hitLen;
+                if (tn + tailLen + 1 <= SUBBUF_CHARS)
                 {
-                    // 译文 wchar_t -> UTF-8
-                    int un = WideCharToMultiByte(CP_UTF8, 0, r->trans, -1,
-                                                g_subBuf, (int)SUBBUF_BYTES - 1, nullptr, nullptr);
-                    if (un > 0)
+                    // 译文 + 原尾码重组（保留尾码 => 引擎 a3<=0.1 时时长语义不变）
+                    wmemcpy(g_subBuf, r->trans, tn);
+                    wmemcpy(g_subBuf + tn, text + bodyLen, tailLen);
+                    g_subBuf[tn + tailLen] = L'\0';
+                    if (g_cfg.earlyDiag)
                     {
-                        g_subBuf[un] = '\0';  // WideCharToMultiByte with -1 includes NUL in un
-                        if (g_cfg.earlyDiag)
-                        {
-                            static volatile LONG dbg = 0;
-                            if (InterlockedIncrement(&dbg) <= 8)
-                                Log("sub: HIT \"%.48hs\" -> \"%.48hs\"", text, g_subBuf);
-                        }
-                        return g_origSubtitle(g_subBuf, a2, a3, a4, a5, a6);
+                        static volatile LONG dbg = 0;
+                        if (InterlockedIncrement(&dbg) <= 8)
+                            Log("sub: HIT len=%zu \"%.48ls\" -> \"%.48ls\"", len, text, g_subBuf);
                     }
+                    return g_origSubtitle(g_subBuf, a2, a3, a4);
                 }
-                else if (g_cfg.earlyDiag)
-                {
-                    static volatile LONG dbg = 0;
-                    bool asciiWordy = false;
-                    for (size_t i = 0; i + 1 < (size_t)wn; ++i)
-                        if (wbuf[i] == L' ' && wbuf[i + 1] >= L'a' && wbuf[i + 1] <= L'z')
-                            { asciiWordy = true; break; }
-                    if (asciiWordy && InterlockedIncrement(&dbg) <= 6)
-                        Log("sub: miss len=%zu \"%.64hs\"", len, text);
-                }
+            }
+            else if (g_cfg.earlyDiag)
+            {
+                static volatile LONG dbg = 0;
+                bool asciiWordy = false;
+                for (size_t i = 0; i + 1 < len; ++i)
+                    if (text[i] == L' ' && text[i + 1] >= L'a' && text[i + 1] <= L'z')
+                        { asciiWordy = true; break; }
+                if (asciiWordy && InterlockedIncrement(&dbg) <= 6)
+                    Log("sub: miss len=%zu \"%.64ls\"", len, text);
             }
         }
     }
-    return g_origSubtitle(text, a2, a3, a4, a5, a6);
+    return g_origSubtitle(text, a2, a3, a4);
 }
 
 // ---------- txt 词典加载（le_strings 格式: "KEY": "VALUE", KEY=英文原文/槽位名） ----------
