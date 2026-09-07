@@ -1,15 +1,4 @@
----
-AIGC:
-  ContentProducer: '001191110102MAD55U9H0F10002'
-  ContentPropagator: '001191110102MAD55U9H0F10002'
-  Label: '1'
-  ProduceID: 'e67f28ca-178c-4c15-9557-580018354d6a'
-  PropagateID: 'e67f28ca-178c-4c15-9557-580018354d6a'
-  ReservedCode1: '77c01c9e-267a-4891-bebc-6c1e7ecfd1f4'
-  ReservedCode2: '77c01c9e-267a-4891-bebc-6c1e7ecfd1f4'
----
-
-# SR4R_I18N — 黑道圣徒4（Saints Row IV）外挂式简体中文汉化
+﻿# SR4R_I18N — 黑道圣徒4（Saints Row IV）外挂式简体中文汉化
 
 基于 dinput8/binkw64 代理注入的运行时汉化 DLL。**不动任何游戏资源文件**，卸载 DLL 即完全恢复原版。
 

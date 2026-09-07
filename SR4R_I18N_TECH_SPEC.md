@@ -1,15 +1,4 @@
----
-AIGC:
-  ContentProducer: '001191110102MAD55U9H0F10002'
-  ContentPropagator: '001191110102MAD55U9H0F10002'
-  Label: '1'
-  ProduceID: '6e07eba8-ed0f-4d46-a4a7-06a475f0ea51'
-  PropagateID: '6e07eba8-ed0f-4d46-a4a7-06a475f0ea51'
-  ReservedCode1: 'e4f6e3e5-f7d5-49b4-8eb5-6dbe08653a7b'
-  ReservedCode2: 'e4f6e3e5-f7d5-49b4-8eb5-6dbe08653a7b'
----
-
-# SR4R_I18N — Saints Row IV 外挂汉化 DLL 技术方案
+﻿# SR4R_I18N — Saints Row IV 外挂汉化 DLL 技术方案
 
 ## 1. 项目目标
 

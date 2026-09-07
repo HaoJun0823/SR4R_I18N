@@ -1,15 +1,4 @@
----
-AIGC:
-  ContentProducer: '001191110102MAD55U9H0F10002'
-  ContentPropagator: '001191110102MAD55U9H0F10002'
-  Label: '1'
-  ProduceID: 'de64d8b0-76e1-40e9-a35d-bfa24aa53921'
-  PropagateID: 'de64d8b0-76e1-40e9-a35d-bfa24aa53921'
-  ReservedCode1: '902095dd-15ff-4d52-8c97-0d62e45f7d31'
-  ReservedCode2: '902095dd-15ff-4d52-8c97-0d62e45f7d31'
----
-
-# SR4R 语音翻译术语表
+﻿# SR4R 语音翻译术语表
 
 基于 SR3R 已有翻译 + SR4R le_data 已完成部分，统一角色与术语命名。
 
