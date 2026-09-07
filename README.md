@@ -3,10 +3,10 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
-  ProduceID: 'ffbe4ba3-3173-45e2-bdb5-5a547ffc7009'
-  PropagateID: 'ffbe4ba3-3173-45e2-bdb5-5a547ffc7009'
-  ReservedCode1: '8d7b2c25-49a8-411d-a49a-7b8e8ebbc9e3'
-  ReservedCode2: '8d7b2c25-49a8-411d-a49a-7b8e8ebbc9e3'
+  ProduceID: 'e67f28ca-178c-4c15-9557-580018354d6a'
+  PropagateID: 'e67f28ca-178c-4c15-9557-580018354d6a'
+  ReservedCode1: '77c01c9e-267a-4891-bebc-6c1e7ecfd1f4'
+  ReservedCode2: '77c01c9e-267a-4891-bebc-6c1e7ecfd1f4'
 ---
 
 # SR4R_I18N — 黑道圣徒4（Saints Row IV）外挂式简体中文汉化
@@ -15,6 +15,7 @@ AIGC:
 
 > 项目代号：SR4R（Saints Row IV Re-Elected / EOS 2024+ 版）
 > 架构参照已交付的 SR3R_I18N（黑道圣徒3重制版 v7.5.2）。
+> 姊妹项目：**[SR3R_I18N](https://github.com/HaoJun0823/SR3R_I18N)**（黑道圣徒3重制版汉化，同作者同架构）。两仓库共享同一套外挂注入/字形注入/词典替换方法论，互可对照阅读。
 
 ---
 
@@ -35,6 +36,17 @@ AIGC:
 | `voice_001~017.txt` | 15797 | 100% | 语音台词（含字幕） |
 | `le_data_supplement.txt` | 12306 | ~94% | le_data 全部文本（菜单/HUD/任务/电台/字幕等） |
 | `exe_hardcoded.txt` | 5528 | ~26% | 引擎硬编码字符串（面向玩家的已译，技术/调试/动画状态保留英文） |
+
+## 注入机制（binkw64 代理 / ASI Loader）
+
+与 SR3R 相同，采用 **binkw64 代理 DLL 注入**，不改 EXE、无第三方注入器：
+
+1. 游戏根目录原版 `binkw64.dll` 重命名为 `binkw64Hooked.dll`
+2. 放入同名 `binkw64.dll`（ASI Loader，代理 DLL）顶替原版
+3. 代理在 `DllMain` 中 `LoadLibrary("binkw64Hooked.dll")` 转发原版函数，同时扫描 `scripts\` 目录加载所有 `*.asi`（即 `SR4R_I18N.asi`）
+4. `SR4R_I18N.asi` 的 `DllMain` 安装各 hook（MinHook），文本替换与字形注入生效；删除代理 DLL 即完全恢复原版
+
+> 注意：`binkw64.dll` 是**注入器**，不是汉化本体；汉化本体是 `scripts\SR4R_I18N.asi`。
 
 ## 安装
 
@@ -78,7 +90,7 @@ AIGC:
 
 ## 构建
 
-需要 VS2017（v141 工具集）+ MinHook 1.3.3（NuGet 自动还原）。
+需要 VS2017（v141 工具集）+ MinHook 1.3.3（NuGet 自动还原，许可证见 `LICENSE-MinHook.txt`）。
 
 ```
 MSBuild.exe SR4R_I18N/SR4R_I18N.vcxproj /p:Configuration=Release /p:Platform=x64 /t:Rebuild
@@ -110,6 +122,7 @@ MSBuild.exe SR4R_I18N/SR4R_I18N.vcxproj /p:Configuration=Release /p:Platform=x64
 │   ├── sr4le_extract.py # .le_strings → txt 解包器
 │   └── sr4le_repack.py  # txt → .le_strings 回写器
 ├── Docs/glossary_voice.md  # 语音术语表（角色/名词统一命名）
+├── LICENSE-MinHook.txt     # MinHook 第三方依赖许可证（BSD-2-Clause）
 └── SR4R_I18N_TECH_SPEC.md  # 完整逆向技术方案
 ```
 
@@ -122,4 +135,8 @@ MSBuild.exe SR4R_I18N/SR4R_I18N.vcxproj /p:Configuration=Release /p:Platform=x64
 
 ## License
 
-仅供学习交流使用。游戏资源版权归原厂商所有。
+本工程仅供学习交流使用，游戏资源版权归原厂商所有。
+
+第三方依赖：
+- **MinHook**（[TsudaKageyu/minhook](https://github.com/TsudaKageyu/minhook)，BSD-2-Clause）——见 `LICENSE-MinHook.txt`
+- **stb_truetype**（Public Domain / MIT，单头文件随源码分发）
