@@ -2287,7 +2287,7 @@
 "MADE IN AMERICA": "美国制造";
 "PURPLE TENTACLE": "紫色触手";
 "LOWER CHEST": "下胸";
-"\\\"QUARTER CIRCLE FORWARD + A\\\"": "\"QUARTER CIRCLE FORWARD + A\"";
+"\\\"QUARTER CIRCLE FORWARD + A\\\"": "斜前四分之一圆+A";
 "FRONT BUMPERS": "前保险杠";
 "HIPSTER GIRL": "潮人女孩";
 "DARK BLUE-GREEN": "深蓝绿";
@@ -4071,7 +4071,7 @@
 "Get in that holiday spirit with CID.": "和C.I.D.一起感受节日气氛。";
 "He'll tell you who's naughty and who's nice.": "他会告诉你谁淘气谁乖。";
 "8: THE FUTURE": "8：未来";
-"Surprisingly, we rarely saw Clawz. Rumors bounded that he was busy working on some grander plan, some ultimate \\\"Master Phase\\\" but no one knew for certain what that was.": "令人意外的是，我们很少见到克劳兹。有传闻说他正忙着某个更大的计划，某个终极的\"大师阶段\"，但没人知道那到底是什么。"
+"Surprisingly, we rarely saw Clawz. Rumors bounded that he was busy working on some grander plan, some ultimate \\\"Master Phase\\\" but no one knew for certain what that was.": "令人意外的是，我们很少见到克劳兹。有传闻说他正忙着某个更大的计划，某个终极的大师阶段，但没人知道那到底是什么。";
 "Soon after, it was over. Air Force One was grounded, we were all taken hostage, and Christmas was forever ruined. The planet had fallen to an evil version of Santa and his no-good army of twisted Christmas icons. All hope was lost. We had no choice but to surrender to Clawz's will. The world was his now. Or so he thought.": "令人惊讶的是，我们很少见到爪子。有传言说他忙着策划什么更大的计划，某个终极\"主阶段\"，但没人知道具体是什么。";
 "TO SING A SONG AROUND A CHRISTMAS TREE": "不久之后，一切就结束了。空军一号迫降了，我们全都被俘，圣诞节永远毁了。地球落入了邪恶版圣诞老人和他那支扭曲圣诞图标大军之手。一切希望都破灭了。我们别无选择只能屈服于爪子的意志。世界归他了。至少他这么以为。";
 "I just thought it'd be nice for younger me to experience a good Holiday like she used to. After all, I was kinda mean to her when I found her in the simulation, but I've totally realized she's still a part of me that I needed to accept. And I know how much it would've meant to me back then to get gifts that didn't come from the gas station or some back alley light bulb.": "我只是觉得让年轻的自己体验一次美好的节日挺好的。毕竟，我在模拟世界里找到她时对她挺刻薄的，但我已经完全意识到她仍然是我需要接受的一部分。而且我知道那时候如果能收到不是来自加油站或后巷灯泡的礼物，对我来说意味着很多。";
@@ -6137,7 +6137,7 @@
 "SELECT HOOD TO TAKEOVER": "选择要占领的街区";
 "NONE": "无";
 "CACHE": "缓存";
-"SPAIN": "SPAIN";
+"SPAIN": "西班牙";
 "Would you like to log out of the community site?": "你要退出社区网站吗？";
 "DAMAGED SAVED GAME": "损坏的存档";
 "SHOW FILM GRAIN": "显示胶片颗粒";
@@ -6182,7 +6182,7 @@
 "SPRINT": "冲刺";
 "Enter the two digits of your birth year.": "输入出生年份的两位数字。";
 "The game has been set to invite only.": "本局游戏已设为仅限邀请。";
-"NORTH AMERICA": "NORTH AMERICA";
+"NORTH AMERICA": "北美";
 "Password Confirmation": "密码确认";
 "VEHICLE THEFTS": "偷车任务";
 "ALWAYS": "始终开启";
@@ -6283,7 +6283,7 @@
 "This downloadable content will not be accessible until the Season Pass is installed. Proceed with download?": "这份可下载内容需安装季票后才可使用。仍要继续下载吗？";
 "VOLITION": "意志";
 "You have been returned to the title screen\nbecause a Storage Device containing\ndownloadable content was removed.": "由于装有可下载内容的存储设备被移除，你已被送回标题画面。";
-"FRANCE": "FRANCE";
+"FRANCE": "法国";
 "SaintsRow.com is the place to visit for everything Saints Row.": "SaintsRow.com 是了解《黑道圣徒》一切的必访之地。";
 "Lost Internet connection while retrieving Downloadble Content": "获取下载内容时丢失了网络连接";
 "There is no content available for download at this time.  Please try again later.": "当前没有可下载的内容，请稍后再试。";
@@ -6296,7 +6296,7 @@
 "Welcome to Saints Row IV: Re-Elected.": "欢迎来到《黑道圣徒IV：Re-Elected》。";
 "CANNOT READ FILE FROM DISK": "无法从光盘读取文件";
 "VOLTA": "VOLTA";
-"POLAND": "POLAND";
+"POLAND": "波兰";
 "PRODUCT DEVELOPMENT": "产品开发";
 "PRIVATE": "私人";
 "ON FOOT CONTROLS": "步行操作";
@@ -6417,7 +6417,7 @@
 "CIVILIAN": "平民";
 "ALL DOWNLOADABLE CONTENT": "全部下载内容";
 "FEATURE PACKS": "特色包";
-"UNITED KINGDOM": "UNITED KINGDOM";
+"UNITED KINGDOM": "英国";
 "GAME AND SOFTWARE DEVELOPMENT": "游戏与软件开发";
 "STEER": "转向";
 "RELOAD": "装填";
@@ -6430,7 +6430,7 @@
 "Stilwater, birthplace of the President, named Number One Travel Destination by The Sabbatical Channel.": "斯提尔沃特——总统的出生地——被《悠长假期频道》评为头号旅游目的地。";
 "FLASHPOINT": "闪点";
 "JOIN IN PROGRESS": "正在加入";
-"ITALY": "ITALY";
+"ITALY": "意大利";
 "Camera mode allows you to take screenshots and share them with your friends.": "相机模式让你可以截图并与好友分享。";
 "Are you sure you don't want to sign in? Progress for this game will not be saved!": "你确定不登录吗？本游戏的进度将不会保存！";
 "You must select a Storage Device to use save/load.": "要使用保存/读取功能，你必须选择存储设备。";
@@ -6523,7 +6523,7 @@
 "ADVANCED": "高级";
 "SAINTS": "圣徒";
 "ONLINE PASS MISSING": "缺少在线通行证";
-"GERMANY, AUSTRALIA, SWITZERLAND": "GERMANY, AUSTRALIA, SWITZERLAND";
+"GERMANY, AUSTRALIA, SWITZERLAND": "德国、澳大利亚、瑞士";
 "{GAME_CASH}{0} PER HOUR": "{GAME_CASH}{0} 每小时";
 "E-MAIL ADDRESS": "电子邮箱地址";
 "ACTIVE": "主动";
@@ -6552,12 +6552,12 @@
 "Lost Ethernet Connection while retrieving Downloadable Content": "获取下载内容时丢失了以太网连接";
 "Redeeming Code": "正在兑换";
 "CONTINUE": "继续";
-"AUSTRALIA & NEW_ZEALAND": "AUSTRALIA & NEW_ZEALAND";
+"AUSTRALIA & NEW_ZEALAND": "澳大利亚和新西兰";
 "WORLD": "世界";
 "Play Silverlink games to unlock content in Saints Row 4.": "游玩 Silverlink 游戏以解锁《黑道圣徒4》中的内容。";
 "PLAYLIST": "播放列表";
 "STATION SELECTION": "选择电台";
-"JAPAN": "JAPAN";
+"JAPAN": "日本";
 "HUB MENU": "中枢菜单";
 "CONTINUE WITHOUT SAVING": "不保存继续";
 "Desired Username": "想要的用户名";
@@ -6586,7 +6586,7 @@
 "TOGGLE STATION": "切换电台";
 "SAVE SUCCESSFUL": "保存成功";
 "Player": "玩家";
-"NORDICS": "NORDICS";
+"NORDICS": "北欧";
 "MOTION CAPTURE PERFORMERS": "动作捕捉演员";
 "AUDIO/VIDEO TEAM": "音频/视频团队";
 "SCHEME": "方案";
@@ -6648,7 +6648,7 @@
 "Secret Service to undergo specialized anti-gang training. \\\"Given the s**t we've faced, we have to be prepared for anything,\\\" says Director Shaundi.": "特勤局将接受专门的抗帮派训练。局长香蒂说：\"鉴于我们面临过的烂摊子，我们必须做好万全准备。\"";
 "INVERT AIM UP/DOWN": "反转瞄准 上/下";
 "EXTRAS": "额外配件";
-"GREATER CHINA, KOREA & SOUTHEAST ASIA": "GREATER CHINA, KOREA & SOUTHEAST ASIA";
+"GREATER CHINA, KOREA & SOUTHEAST ASIA": "大中华区、韩国及东南亚";
 "ACCOUNT VERIFICATION CODE": "账号验证码";
 "NO STATISTICS": "暂无统计数据";
 "Change e-mail address": "修改电子邮箱地址";
@@ -11209,7 +11209,7 @@
 "UNLOCK BLAST": "解锁爆破";
 "[format][scale:1.0][image:map_other_crib][/format]": "[format][scale:1.0][image:map_other_crib][/format]";
 "Save": "保存";
-"%d OF %d": "%d / %d";
+"%d OF %d": "第%d / %d";
 "WARNING": "警告";
 "WHEELS": "车轮";
 "NOTHING": "无";
@@ -11546,7 +11546,7 @@
 "SPECIAL": "特殊武器";
 "SANCHEZ": "桑切斯";
 "FRANKLIN": "富兰克林";
-"<TBD>": "<TBD>";
+"<TBD>": "<待定>";
 "I need CID": "我需要 CID";
 "Help": "帮助";
 "RIM STYLE": "轮毂样式";

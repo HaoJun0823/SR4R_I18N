@@ -2323,6 +2323,7 @@ static void AddDictEntry(const wchar_t* key, const wchar_t* val,
     origW[effLen] = L'\0';
 
     if (DictInsert(origW, (uint32_t)effLen, transW)) ++*loaded;
+
     // 空格规范化副本键（KEY 含连续空格时, 引擎侧永远以单空格形态到来）
     {
         wchar_t norm[4097];
