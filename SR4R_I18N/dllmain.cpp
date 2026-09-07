@@ -2312,6 +2312,34 @@ static void AddDictEntry(const wchar_t* key, const wchar_t* val,
         size_t nl = NormalizeKey(origW + b, tl, norm, 4096);
         if (nl && DictInsert(norm, (uint32_t)nl, transW)) ++*loaded;
     }
+
+    // \n→空格 规范化副本键: 引擎把含 \n 的文本按换行拆段分别送入 hook,
+    // WrapTryConcat 以空格拼接段1+段2, 词典原键含 \n 无法命中。
+    // 补一份 \n 替换为空格 + 压连续空格 + trim 的副本键, 使空格拼接能命中。
+    {
+        wchar_t nlNorm[4097];
+        size_t w = 0;
+        bool hasNl = false;
+        for (size_t i = 0; i < effLen; ++i)
+        {
+            wchar_t c = origW[i];
+            if (c == L'\n') { c = L' '; hasNl = true; }
+            if (c == L' ' && w > 0 && nlNorm[w - 1] == L' ') continue;   // 压连续空格
+            if (w >= 4096) { w = 0; break; }
+            nlNorm[w++] = c;
+        }
+        if (hasNl && w > 0)
+        {
+            size_t nb = 0, ne = w;
+            while (nb < ne && nlNorm[nb] <= 0x20) ++nb;               // trim 左
+            while (ne > nb && nlNorm[ne - 1] <= 0x20) --ne;            // trim 右
+            if (nb < ne)
+            {
+                nlNorm[ne] = L'\0';
+                if (DictInsert(nlNorm + nb, (uint32_t)(ne - nb), transW)) ++*loaded;
+            }
+        }
+    }
 }
 
 // 加载一个 txt 文件（UTF-8, 带/不带 BOM; CRLF/LF）
