@@ -2,7 +2,7 @@
 // Lines 8001-9000 of 16797
 // Format: "English": "Chinese translation";
 
-"We come together... Ready, girl?  \\"and you know-- it ain't fiction...\\"": "我们合体了……准备好了吗，姑娘？\\"你知道的——这可不是虚构……\\"";
+"We come together... Ready, girl?  \"and you know-- it ain't fiction...\"": "我们合体了……准备好了吗，姑娘？\"你知道的——这可不是虚构……\"";
 "Empty.": "空了。";
 "Y'think?  Tell me how to get around it.": "你觉得呢？告诉我怎么绕过去。";
 "Another one of those red spinny rooms.": "又是那种红色旋转房间。";
@@ -344,7 +344,7 @@
 "What did they do now?": "他们又干了什么？";
 "I found you power armor! The guns are just missing...stuff.": "我给你找到了动力装甲！只是枪缺了点……部件。";
 "DELETE": "删除";
-"Like hitting \\"delete\\"?": "就像按下\\"删除\\"键？";
+"Like hitting \"delete\"?": "就像按下\"删除\"键？";
 "Kinzie! Let's get outta here!": "金吉！我们离开这儿！";
 "Never stop.": "永不停歇。";
 "Way to balance inspirational speech and totally creepy cult leader, Asha.": "既平衡了励志演说，又拿捏了邪教头子的毛骨悚然感，真有你的，阿莎。";
@@ -469,9 +469,9 @@
 "Look I gotta tell you something....it always drove me crazy that you had ex's in every city and were willing to go on a dating show but not once did you ever give me a shot": "听着，我得跟你说件事……你每座城市都有前任，还愿意上相亲节目，却从来不肯给我一次机会，这件事一直让我抓狂。";
 "That's a lot of fucking people, Kinzie.": "金吉，这人也太多了。";
 "MILLER!": "米勒！";
-"So where is this \\"Army of Minions\\" at?": "那你说的这支\\"喽啰军团\\"在哪？";
+"So where is this \"Army of Minions\" at?": "那你说的这支\"喽啰军团\"在哪？";
 "The only edge I need is already within me.": "我需要的唯一优势已经在我体内了。";
-"Yeah, well, big towers controlling security on a linear path... Not very creative for your \\"superior intelligence\\".": "是啊，好吧，在一条直线上建几座控制安保的大塔……对你那\\"超级智能\\"来说可不太有创意。";
+"Yeah, well, big towers controlling security on a linear path... Not very creative for your \"superior intelligence\".": "是啊，好吧，在一条直线上建几座控制安保的大塔……对你那\"超级智能\"来说可不太有创意。";
 "That's a good thing, isn't it?": "那是好事，不是吗？";
 "I don't know if I can.": "我不知道我行不行。";
 "DAMMIT.": "该死！";
@@ -691,7 +691,7 @@
 "You have any bright ideas on how to get through this door, or am I just using brute force?": "你有什么过这扇门的妙招吗，还是我就用蛮力？";
 "So you have what you need now?": "那你现在有需要的东西了吗？";
 "This Saint is definitely not fire proof!": "这位圣徒可绝对不防火！";
-"I swear, every time I come home it's all \\"What'd you bring me? How come I never get to go on any raids...\\"": "我发誓，每次我一回家就是\\"你给我带了什么？为什么我从来不能去参加突袭……\\"";
+"I swear, every time I come home it's all \"What'd you bring me? How come I never get to go on any raids...\"": "我发誓，每次我一回家就是\"你给我带了什么？为什么我从来不能去参加突袭……\"";
 "This absorption thing. It's not gonna give me a rash or anything, will it?": "这个吸收装置。它不会让我起疹子什么的吧？";
 "You really don't believe I'd make it that easy for you to kill my new pet, do you?": "你真的以为我会让你那么容易就杀了我的新宠物，对吧？";
 "Got the virus. What's next?": "病毒拿到了。接下来呢？";
@@ -793,7 +793,7 @@
 "But I'm just driving a car.": "但我只是开着一辆车。";
 "Nearly built, but without power it's really just a glorified paperweight.": "基本建好了，但没有电力，它其实就是个漂亮镇纸。";
 "I got this, Kinzie. You focus on the rest of the plan.": "我来处理，金吉。你专注计划的其他部分。";
-"In between my moments of \\"dear god, dear god, don't let this thing blow me up\\", yes I am.": "在我时不时地\\""老天爷老天爷，别让这玩意儿炸了我\\""之余，是的。";
+"In between my moments of \"dear god, dear god, don't let this thing blow me up\", yes I am.": "在我时不时地\""老天爷老天爷，别让这玩意儿炸了我\""之余，是的。";
 "Sure I do... This is where I got my start -- though I was too scared to even talk back then.": "我当然有……这是我起步的地方——虽然那时候我吓得连话都不敢说。";
 "Pierce, are you okay?": "皮尔斯，你还好吗？";
 "Kinzie, focus. What do we do now?": "金吉，集中精神。我们现在该怎么办？";
@@ -808,7 +808,7 @@
 "Good question. Asha really doesn't talk about her past.": "问得好。阿莎真的不谈自己的过去。";
 "So charge it.": "那就给它充能。";
 "Just shut up, I have to tell you something:  for years I thought you were dead, and I blamed myself for it.  When you were gone there was a hole in my life that I tried to fill with anything I could find...partying, sex, revenge...sometimes a weird combination of the three.": "闭嘴听我说，我有话要告诉你：多年来我以为你死了，我一直怪我自己。你不在的时候，我生活里有个空洞，我试着用能找到的一切去填……派对、性爱、复仇……有时是这三样的诡异组合。";
-"This is it, the last virus to insert into the system.  Do your \\"keeping the area safe\\" thing and I'll get this uploaded a door opened.": "就这些了，最后一个要插入系统的病毒。做好你\\""守住区域\\"的活儿，我就把它上传，打开一扇门。";
+"This is it, the last virus to insert into the system.  Do your \"keeping the area safe\" thing and I'll get this uploaded a door opened.": "就这些了，最后一个要插入系统的病毒。做好你\""守住区域\"的活儿，我就把它上传，打开一扇门。";
 "You know, forget what I just said, don't listen to her.  She's a bad influence on you.  Dammit...": "你知道吗，忘了我刚才说的，别听她的。她对你有坏影响。该死……";
 "Here we go.": "开始了。";
 "You had better not explode...": "你最好别爆炸……";

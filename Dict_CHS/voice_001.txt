@@ -369,7 +369,7 @@
 "Scan fast.": "快扫描。";
 "Zinyak'll have to try harder than that....": "齐尼亚克得多下点功夫才行……";
 "What the fuck... Zinyak trashed my apartment!": "搞什么鬼……齐尼亚克把我的公寓给砸了！";
-"Whoa whoa whoa, \\"Fake Shaundi\\"?": "等等等等，那什么假莎蒂？";
+"Whoa whoa whoa, \"Fake Shaundi\"?": "等等等等，那什么假莎蒂？";
 "Nope.": "不行。";
 "Hold on. We're coming to get you.": "坚持住，我们这就来救你。";
 "Hahahaha!": "哈哈哈哈！";
@@ -523,7 +523,7 @@
 "No. The brainwashing is too ingrained. I'll have to beat it out of him.": "不行。洗脑太深了，我得把他打醒。";
 "Kinzie, sweetie, you're too tense. This is gonna be fine.": "金吉，亲爱的，你太紧张了。不会有事的。";
 "Come on!": "来吧！";
-"So where is this \\"Army of Minions\\" at?": "那这个「喽啰大军」在哪儿？";
+"So where is this \"Army of Minions\" at?": "那这个「喽啰大军」在哪儿？";
 "How many simulations is Asha having you build?": "阿莎让你建多少个模拟世界？";
 "I kill enough of you, I'll just build a ladder back to Earth!": "我只要杀够你们，就能用尸体搭梯子爬回地球！";
 "Ben asked me to do the audio version of his book. He does know the Earth is blown up, right?": "本让我录他的有声书。他知道地球已经炸没了吧？";
@@ -667,9 +667,9 @@
 "This would be so much easier if I could throw myself.": "要是我能把自己扔过去，这事就简单多了。";
 "Hmm. Johnny's a lot shorter than I imagined.": "嗯。约翰尼比我想象中矮了不少。";
 "This should be interesting...": "这应该会很有意思……";
-"Who you callin' \\"sidekick\\", lady?": "你说谁是跟班，女士？";
+"Who you callin' \"sidekick\", lady?": "你说谁是跟班，女士？";
 "Kinzie, I just may cry a little.": "金吉，我都快感动哭了。";
-"Who you callin' \\"sidekick\\", lady?": "你说谁是跟班，女士？";
+"Who you callin' \"sidekick\", lady?": "你说谁是跟班，女士？";
 "It's explosives and chemicals, lady. What else you need to know?": "就是炸药和化学品，女士。你还想知道什么？";
 "Good job, Kinzie.": "干得好，金吉。";
 "I didn't know much about Asha Odekar before she helped us save the entire damn country, but in the years since, I've come to know her as one of the best soldiers I've ever met. If I'm going to take down Zinyak, I want her in my crew.": "在阿莎·奥德卡帮助我们拯救整个国家之前，我对她了解不多。但这些年下来，我知道她是我见过的最优秀的士兵之一。如果我要扳倒齐尼亚克，我要她加入我的团队。";
@@ -693,7 +693,7 @@
 "Murderbots? That's my kind of household appliance.": "杀人机器人？那正是我喜欢的家用电器。";
 "Goodness me, what a dream.": "天哪，真是梦想成真。";
 "I was kinda hoping for more of a plan.": "我本来希望能有更周全的计划。";
-"Kinzie's been touchy since she got back. What exactly is an \\"Ozzie and Harriet\\" special?": "金吉回来之后一直很敏感。那个「奥兹和哈丽雅特」特辑到底是什么？";
+"Kinzie's been touchy since she got back. What exactly is an \"Ozzie and Harriet\" special?": "金吉回来之后一直很敏感。那个「奥兹和哈丽雅特」特辑到底是什么？";
 "That's a question you should ask yourself, Zinyak.": "这个问题该问你自己，齐尼亚克。";
 "Look who's here! My favorite wannabe spy and her BFF.": "看看谁来了！我最喜欢的三流间谍和她的小跟班。";
 "Johnny, I'm telling you--": "约翰尼，我告诉你——";
@@ -897,7 +897,7 @@
 "I'll take what I can get.": "有什么我都拿。";
 "The goal's simple enough, just kill everyone and everything.  Extra points for not dying.": "目标很简单，杀光所有人所有东西。没死就算加分。";
 "Yaaaaaahhhhhhh!": "呀啊啊啊——！";
-"Oh, I got plenty to say these days -- starting with \\"you're dead\\"!": "哦，这几天我有好多话要说——首先就是「你死定了」！";
+"Oh, I got plenty to say these days -- starting with \"you're dead\"!": "哦，这几天我有好多话要说——首先就是「你死定了」！";
 "Hey Kinzie, you wanna fuck?": "嘿金吉，想上床吗？";
 "I'm in the belly of the beast...": "我在野兽的肚子里……";
 "As long as it's not dozens of different versions of me. Look, I've had more than enough of psychological introspection.": "只要不是几十个不同版本的我。听着，我受够这种心理剖析了。";

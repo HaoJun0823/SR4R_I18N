@@ -63,7 +63,7 @@
 "Qu'est que c'est?!": "这是什么？！";
 "So we're not in immediate danger of exploding?": "所以我们暂时没有爆炸的危险？";
 "Fuck! I...": "操！我……";
-"Kinzie did not share my sentiment that stating I wished her to be rescued would count towards settling my debt to her for my real-world body.  I always thought the human saying was \\"it is the thought that counts\\".  Perhaps I misunderstood what that means.": "我提出把她救出来算作偿还我为现实身体欠她的人情，但金吉并不认同这个说法。我一直以为人类有句老话叫「重在心意」。也许我理解错了。";
+"Kinzie did not share my sentiment that stating I wished her to be rescued would count towards settling my debt to her for my real-world body.  I always thought the human saying was \"it is the thought that counts\".  Perhaps I misunderstood what that means.": "我提出把她救出来算作偿还我为现实身体欠她的人情，但金吉并不认同这个说法。我一直以为人类有句老话叫「重在心意」。也许我理解错了。";
 "Get ready. I'm gonna clear it.": "准备好。我要把它清掉。";
 "Shit. They found us.": "妈的。他们发现我们了。";
 "All systems go.": "所有系统就绪。";
@@ -93,11 +93,11 @@
 "No you didn't, I was right with you the whole time.": "不，你没有，我全程都跟你在一起。";
 "Um, okay...": "呃，好吧……";
 "If there's a chance that this guy can help save our friends it's worth the risk...what's the worse that can happen?": "要是这家伙有机会帮忙救我们的朋友，冒这个险就值了……最坏能怎么样？";
-"Matt, flip my powers back to \\"On.\\"": "马特，把我的能力切回「开」。";
+"Matt, flip my powers back to \"On.\"": "马特，把我的能力切回「开」。";
 "No gun?  You're putting a lot of faith in my winning personality.": "没有枪？你还真是赌我的魅力爆棚啊。";
 "We almost done?": "我们快完了吗？";
 "Matthew, allow me to do this for you...": "马修，让我来替你做这件事……";
-"We come together... now your turn, come on, \\"and you know... it ain't fiction...\\" COME ON!": "我们一起唱……现在轮到你了，来，「你知道……这不是虚构……」，来啊！";
+"We come together... now your turn, come on, \"and you know... it ain't fiction...\" COME ON!": "我们一起唱……现在轮到你了，来，「你知道……这不是虚构……」，来啊！";
 "Good to see you haven't changed THAT much...": "很高兴看到你没怎么变……";
 "Don't worry Paul, I'll pour one out for you.": "别担心，保罗，我会为你祭一杯。";
 "I gotta end this quick.": "我得速战速决。";
@@ -351,7 +351,7 @@
 "Ain't the whole point to let it crash?": "难道重点不就是要让它坠毁吗？";
 "Okay, everybody, forward!": "好，所有人，前进！";
 "... Really?": "……真的假的？";
-"So where is this \\"Army of Minions\\" at?": "那这支「喽啰大军」在哪儿？";
+"So where is this \"Army of Minions\" at?": "那这支「喽啰大军」在哪儿？";
 "Try it again.": "再试一次。";
 "Kinzie said the guns are missing...stuff.": "金吉说那些枪不见了……之类的东西。";
 "I've marked a viral injection point. Protect the virus while it uploads.": "我标好了一个病毒注入点。保护病毒，让它完成上传。";
@@ -365,7 +365,7 @@
 "Well I don't think they'd help you out now.": "我觉得他们现在可不会帮你。";
 "Shaundi, please. *pauses* Shaundi?": "拜托了，莎蒂。*停顿* 莎蒂？";
 "You are far too weak, mere human!": "你太弱了，区区凡人！";
-"\\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\\"": "「嘿，阿莎，你还好吗？想不想来点茶和烤饼？要不要亲热一下？哦！*亲亲的声音*」";
+"\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\"": "「嘿，阿莎，你还好吗？想不想来点茶和烤饼？要不要亲热一下？哦！*亲亲的声音*」";
 "DELETE": "删除";
 "I told you: No weapons allowed. But the power of music can overcome all obstacles.": "我告诉过你：不能带武器。但音乐的力量可以克服一切障碍。";
 "Shaundi, you okay?": "莎蒂，你还好吗？";
@@ -532,7 +532,7 @@
 "Do I remem--PFFT.": "我记不记得——噗。";
 "And Bob's your uncle!": "然后大功告成！";
 "Huh. Like I'd let you take all the credit.": "哼。好像我会让你独揽功劳似的。";
-"And is getting me some decent clothes a \\"basic hack\\"?": "给我弄身像样的衣服，算不算「基础黑客」？";
+"And is getting me some decent clothes a \"basic hack\"?": "给我弄身像样的衣服，算不算「基础黑客」？";
 "Sweet!": "爽！";
 "Fantastic!  See you back here.": "太棒了！回头见。";
 "I thought we were!": "我以为我们已经走了！";
@@ -575,7 +575,7 @@
 "The sooner the better.": "越快越好。";
 "Huargh!": "喝啊——！";
 "Believe me, I'll do it, but can't you fly?": "相信我，我会做的，但你就不能飞吗？";
-"No offense, Kinzie, but that sounds, how you say, \\"bonkers.\\"": "无意冒犯，金吉，但这听起来，用你们的话说，有点「发疯」。";
+"No offense, Kinzie, but that sounds, how you say, \"bonkers.\"": "无意冒犯，金吉，但这听起来，用你们的话说，有点「发疯」。";
 "If you have a crippling fear of Saints Flow, how were ever able to be its spokesman?": "你要是对圣徒流量有致命恐惧，当初是怎么当上它代言人的？";
 "Way to balance inspirational speech and totally creepy cult leader, Asha.": "激励演讲和邪教头子的毛骨悚然感平衡得真好，阿莎。";
 "As soon as I can see again, I will.": "等我眼睛能再看见，我就去。";
@@ -829,7 +829,7 @@
 "Ouch! This is gonna hurt.": "哎哟！这会很疼。";
 "Fine with me.": "我没意见。";
 "CID, why is everything a target?": "C.I.D.，为什么什么东西都变成目标了？";
-"*sigh* Forget I said \\"balls.\\"": "*叹气* 就当我没说过「球」吧。";
+"*sigh* Forget I said \"balls.\"": "*叹气* 就当我没说过「球」吧。";
 "They've kind of been on the offensive the whole time, Kinzie...": "他们好像一直处于攻势，金吉……";
 "Fine, and the not floating part?": "行，那不漂浮的部分呢？";
 "Once more for old time's sake!": "为了旧日时光，再来一次！";

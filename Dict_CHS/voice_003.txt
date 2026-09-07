@@ -37,7 +37,7 @@
 "Heh. Since when has Veteran Child been a hit with the furries?": "嘿，老兵之子什么时候在毛皮控里这么受欢迎了？";
 "Where are we going CID?": "我们往哪儿走，C.I.D.？";
 "To the cockpit!": "去驾驶舱！";
-"Hey, I heard \\"pilotable statue\\".  That's enough for me.": "嘿，我听到「可驾驶的雕像」了，这够了。";
+"Hey, I heard \"pilotable statue\".  That's enough for me.": "嘿，我听到「可驾驶的雕像」了，这够了。";
 "I'm not sure what this whole thing is but I know it isn't real. I'm not some easily duped goon who buys into fantasies. I also know I can't get out of this place until I do what I have to do.": "我不清楚这一切到底是什么，但我知道它不是真的。我不是那种随便就被幻想骗走的傻蛋。我还知道，在完成该做的事之前，我出不了这个地方。";
 "You mean to the gimp?": "你是说那个变态？";
 "I wonder why she would reject such a masterpiece?": "我想不通她怎么会拒绝这样的杰作？";
@@ -370,7 +370,7 @@
 "Um. Is that how it's being delivered?": "嗯，就这么送过来的？";
 "And we're supposed to believe you're suddenly reformed? After you tried to kill--": "我们凭什么相信你突然改邪归正了？在你试图杀掉——";
 "Oh god, now THIS is the jinx.": "老天，这他妈才是真麻烦。";
-"If by \\"okay\\" you mean \\"fucking annoyed\\" than, yeah...": "如果你的「还好」是指「火大得很」，那，嗯，是啊……";
+"If by \"okay\" you mean \"fucking annoyed\" than, yeah...": "如果你的「还好」是指「火大得很」，那，嗯，是啊……";
 "No Kinzie! I can't!": "不，金吉！我不能！";
 "Pierce drinks so much Saints Flow, he can no longer show emotion.": "皮尔斯圣徒之流喝太多了，他已经不会表达感情了。";
 "Ooohohoho... I'm going to have fun breaking you.": "噢呵呵呵……我要好好享受调教你。";
@@ -513,7 +513,7 @@
 "Zinyak tries to kill us, we kill his people.  Seems fair to me.": "齐尼亚克想杀我们，我们就杀他的人。挺公平的。";
 "Look who's here! My favorite wannabe spy and her BFF.": "看看谁来了！我最爱的间谍预备役和她的闺蜜。";
 "Clear out these guards.": "清掉这些守卫。";
-"The good news is they didn't get everybody. Just...a whole bunch of people. According to what I've been able to decipher, the Simulation is designed to house the best and brightest \\"specimens\\" from various worlds.": "好消息是他们没抓到所有人。只是……抓了一大堆人。根据我破译的情报，模拟程序是用来关押来自各个世界的「最优秀最聪明」的*样本*的。";
+"The good news is they didn't get everybody. Just...a whole bunch of people. According to what I've been able to decipher, the Simulation is designed to house the best and brightest \"specimens\" from various worlds.": "好消息是他们没抓到所有人。只是……抓了一大堆人。根据我破译的情报，模拟程序是用来关押来自各个世界的「最优秀最聪明」的*样本*的。";
 "Any disasters happen in the past five minutes?": "过去五分钟有什么灾难发生吗？";
 "We got a lot of VKs here...and a dude in a gimp costume.": "这里好多副王帮的人……还有个穿皮衣的怪人。";
 "Ha!  There ya go!  Like sticking a fork in a socket!": "哈！成了吧！就像把叉子插进插座！";
@@ -564,7 +564,7 @@
 "Yeah, that's a mighty big loss there, ain't it?": "是啊，那真是损失惨重，不是吗？";
 "*Opposites Attract Lyrics*": "*《异性相吸》歌词*";
 "No shit.": "废话。";
-"Hang on, mate, you said we'd fight an army of \\"minions.\\"  But who keeps an army of zombies?": "等等，哥们，你说我们要打一支「喽啰」大军。可谁家会屯一支僵尸大军？";
+"Hang on, mate, you said we'd fight an army of \"minions.\"  But who keeps an army of zombies?": "等等，哥们，你说我们要打一支「喽啰」大军。可谁家会屯一支僵尸大军？";
 "I'll run, you drive, we'll see who gets there first?": "我来跑，你来开，看谁先到？";
 "Gosh. This is swell.": "老天，这可真棒。";
 "Well... when you put it like that... Sorry?  I'll get on that taking over a neighborhood thing for you...": "好吧……既然你这么说……不好意思？我这就去帮你接管街区……";
@@ -606,7 +606,7 @@
 "Ow! Shit!": "哎哟！靠！";
 "Then I'm good. Let's do this.": "那我就放心了。上吧。";
 "What could you two possibly do that doesn't end horribly?": "你们俩还能干出什么不搞砸的事？";
-"\\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\\"": "「嘿，阿莎，最近怎么样？来点茶和小圆饼？想亲个嘴吗？喔！*亲亲声*」";
+"\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\"": "「嘿，阿莎，最近怎么样？来点茶和小圆饼？想亲个嘴吗？喔！*亲亲声*」";
 "Now this is what I'm talkin' about.": "这才是我说的。";
 "Ooh. Bit of a head rush.": "哦。有点上头。";
 "Don't just stand there, get in the turret!": "别愣在那儿，上炮台！";
@@ -614,7 +614,7 @@
 "By the time you get back here I should have that second doorway in Downtown online.": "等你回来，我这边应该已经把市中心那个第二道门上线了。";
 "Ain't nothin' unethical about that!": "那一点都不缺德！";
 "No one's coming to save you now.": "现在没人来救你了。";
-"You realize your potential \\"readers\\" total about ten people, right?": "你知道你那些所谓的「读者」总共也就十来个人，对吧？";
+"You realize your potential \"readers\" total about ten people, right?": "你知道你那些所谓的「读者」总共也就十来个人，对吧？";
 "Come on, Pierce, let's see how Joe Margarita throws a punch.": "来，皮尔斯，让我看看乔·玛格丽塔能打出什么样的拳。";
 "You got a fucking mech? Where's my fucking mech?": "你他妈有机甲？我他妈机甲在哪儿？";
 "Just keep shooting!": "继续开枪！";
@@ -714,7 +714,7 @@
 "Tell me, Keith!": "告诉我，基思！";
 "Yep, I did.  What's wrong with that?": "对，我干了。那又怎么了？";
 "DELETE": "删除";
-"The fuck you mean \\"Uh-oh\\"": "你他妈「呃哦」是什么意思？";
+"The fuck you mean \"Uh-oh\"": "你他妈「呃哦」是什么意思？";
 "Good, they've abandoned powering up the shield.  Just destroy those generators and you should find the gravity inhibitors.": "好，他们已经放弃给护盾充能了。炸掉那些发生器，你应该就能找到重力抑制器。";
 "What IS love. Haddaway, you are a fuckin' poet.": "爱到底是什么。哈达威，你他妈真是个诗人。";
 "A lone man wandering the earth looking for justice. Never to love again.": "一个孤独的人流浪世间追寻正义。再也不会去爱了。";
@@ -937,7 +937,7 @@
 "I stay on top and you don't get to talk.": "我在上面守着，你别说话。";
 "You know those cars with big speakers on them? Give me one.": "知道那种车顶带大喇叭的车吗？给我来一辆。";
 "I am coming for you, Zinyak.  Today your simulations come to an end and only I will remain.": "我来找你了，齐尼亚克。今天你的模拟程序将走到尽头，只有我会留下来。";
-"That wasn't a bad \\"fuck you\\" to Zinyak. Now let's get back to the ship and find Kinzie.": "那句对齐尼亚克的「去你的」还挺带劲。现在回飞船找金吉吧。";
+"That wasn't a bad \"fuck you\" to Zinyak. Now let's get back to the ship and find Kinzie.": "那句对齐尼亚克的「去你的」还挺带劲。现在回飞船找金吉吧。";
 "What the hell's he gonna do with a broadcast tower?": "他拿一座广播塔能干嘛？";
 "Kinzie. I have a mech. I'll be fine.": "金吉，我有机甲了，我会没事的。";
 "Alright, I like the sound of that.  What is it you need?": "好，我喜欢这个说法。你需要什么？";
@@ -1000,5 +1000,5 @@
 "CID, with me. See you two on the other side.": "C.I.D.，跟我来。咱们另一边见。";
 "Kinzie. That sounds like complete bullshit even coming from you.": "金吉，这就算从你嘴里说出来也是彻头彻尾的屁话。";
 "I don't know, maybe you miss wearing that...": "我不知道，也许你是想念那身……";
-"I don't like the sound of that \\"should\\".": "我不喜欢你那个「应该」的语气。";
-"Normally you yell at me when I \\"wing it\\".": "平时我「即兴发挥」的时候你都冲我吼。";
+"I don't like the sound of that \"should\".": "我不喜欢你那个「应该」的语气。";
+"Normally you yell at me when I \"wing it\".": "平时我「即兴发挥」的时候你都冲我吼。";

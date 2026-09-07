@@ -57,7 +57,7 @@
 "That... works too.": "那……也行。";
 "The more stores you hack, the more doors to the ship I can open.": "你入侵的商店越多，我能打开的飞船门就越多。";
 "Leave my country alone!": "别碰我的国家！";
-"More? You already had \\"some\\" stripper poles?": "还有？你已经有「一些」钢管舞了？";
+"More? You already had \"some\" stripper poles?": "还有？你已经有「一些」钢管舞了？";
 "Shit. Get ready.": "该死。准备好。";
 "Snipers!": "狙击手！";
 "I see you let your lackeys do the talking for you now.": "看来你现在让手下替你说话了。";
@@ -130,7 +130,7 @@
 "*coughs*": "*咳嗽*";
 "They smell so gooooood.": "闻起来太香了。";
 "Be careful Matthew!": "小心，马特！";
-"I'm going to skip the technical details and just go with \\"magic.\\"": "我跳过技术细节，就用「魔法」来解释吧。";
+"I'm going to skip the technical details and just go with \"magic.\"": "我跳过技术细节，就用「魔法」来解释吧。";
 "Ooh. Nice quote.": "哦。好台词。";
 "I dunno. But when I find Matt and Asha, I'm gonna beat that information out of them.": "不知道。等我找到马特和阿莎，我会从他们嘴里打出来的。";
 "You know, forget what I just said, don't listen to her.  She's a bad influence on you.  Dammit...": "算了，忘了我刚说的，别听她的。她对你影响不好。该死……";
@@ -276,7 +276,7 @@
 "I'm not even scratching it!": "我连皮都没擦破！";
 "But of course, Kinzie.": "那当然，金吉。";
 "Uh-oh? Kinzie, what uh-oh?": "糟了？金吉，什么糟了？";
-"Hey, I heard \\"pilotable statue\\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
+"Hey, I heard \"pilotable statue\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
 "Does it matter which one?": "选哪个有区别吗？";
 "I was thinking if we have to rebuild we could throw a few more columns in, plant magnolias --more of an antebellum look?": "我在想如果必须重建，可以多加几根柱子，种些玉兰——更有种南方庄园的感觉？";
 "Oh, this is all about you, huh?": "哦，都是围绕你转的，是吧？";
@@ -410,7 +410,7 @@
 "So I'm not really a NyteBlayde fan. What's the Cyprian Order?": "所以我不算真正的夜刃粉丝。塞浦路斯教团是什么？";
 "Watch your proximity meter to see if you're getting closer to the cluster or farther away.": "看你的接近度计就知道是离集群更近还是更远。";
 "Kinzie, what now?": "金吉，现在怎样？";
-"Hey, I heard \\"pilotable statue\\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
+"Hey, I heard \"pilotable statue\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
 "Hm. Shaundi, you and CID make sure this ship remains intact. Gat, you're with me.": "嗯。莎蒂，你和C.I.D.确保这飞船完好。盖特，你跟我来。";
 "Kinzie, what happened to Shaundi?": "金吉，莎蒂怎么了？";
 "Gat! Let me go in first!": "盖特！让我先进去！";
@@ -513,7 +513,7 @@
 "I had one installed like the first day I was in office. Heh heh. Love the poles.": "我上任第一天就装了一根。嘿嘿。我爱这些钢管。";
 "Uh, Kinzie?": "呃，金吉？";
 "Is that too much to ask?": "这要求太高了？";
-"Hey, I heard \\"pilotable statue\\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
+"Hey, I heard \"pilotable statue\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
 "Not very big.": "不算大。";
 "You're gonna get me outta here, right?": "你会把我弄出去的，对吧？";
 "This certainly ain't the White House.  I miss my office there right now...": "这里肯定不是白宫。我现在好想念我的办公室……";
@@ -616,7 +616,7 @@
 "No kidding.  Does this guy really think we would just trust some random ghost in the machine?": "不假。这家伙真以为我们会信什么机器里的鬼魂？";
 "What the hell? Is that OTHER Stilwater me?": "什么鬼？那是斯提尔沃特的我？";
 "Come on man, let's just get the fuck outta here...": "来吧伙计，我们赶紧离开这个鬼地方……";
-"All I heard was \\"blah blah Key blah blah power generator.\\"": "我只听到了「blah blah 钥匙 blah blah 能源发生器。」";
+"All I heard was \"blah blah Key blah blah power generator.\"": "我只听到了「blah blah 钥匙 blah blah 能源发生器。」";
 "FUCK YOU PAUL!": "去你的保罗！";
 "Alright, you two with me.  Your turn to shine.": "好了，你们俩跟我来。轮到你们发光了。";
 "Wait--what?": "等等——什么？";
@@ -638,7 +638,7 @@
 "What the *BEEP* was that?": "什么*哔*玩意？";
 "Kinzie, where we at on this?": "金吉，我们到哪一步了？";
 "I'm hoping it'll be a robot.": "我希望是机器人。";
-"Hey, Matt, flip my superhero switch back to \\"On.\\"": "嘿，马特，把我的超级英雄开关切回「开。」";
+"Hey, Matt, flip my superhero switch back to \"On.\"": "嘿，马特，把我的超级英雄开关切回「开。」";
 "You gave me access to the webcam you set up in Viola's room, that's not an apology, that's creepy.": "你给我看了你在薇奥拉房间装的摄像头，那不是道歉，那是变态。";
 "Oh shit. One of these again?": "哦该死。又来？";
 "What's playing?": "在放什么？";
@@ -666,7 +666,7 @@
 "Remember that meeting with your superiors? When they almost stripped you of your rank? ": "还记得跟你上级的那次会议吗？他们差点褫夺你的军衔？";
 "I'll be sure to give him your regards.": "我会替你转达问候的。";
 "Hey, I'm not complaining.  Though faster is better, Shaundi.  We're kinda under attack here.": "嘿，我不是在抱怨。不过快点更好，莎蒂。我们正在被攻击。";
-"So where is this \\"Army of Minions\\" at?": "那「喽啰军团」在哪呢？";
+"So where is this \"Army of Minions\" at?": "那「喽啰军团」在哪呢？";
 "Ben King's a genius.  We managed to figured out how we can overload the simulation completely.": "本·金是个天才。我们搞清楚了怎么完全过载模拟。";
 "Josh Birk. How's life after NyteBlayde?": "乔什·伯克。夜刃之后生活怎样？";
 "Okay, we're here. What now? Is this over?": "好了，我们到了。现在呢？结束了吗？";
@@ -677,7 +677,7 @@
 "Keep saying shit that I understand and I'll buy you a pony.": "继续说我听得懂的话，我就给你买匹小马。";
 "Nevermind.": "没什么。";
 "Without me, you'd still be stuck in those rifts without a body here or in the real world.": "没我，你还会卡在那些裂隙里，不管这里还是现实世界都没身体。";
-"I hope you never had kids otherwise it'll be \\"hey George, go play in traffic with your friends.\\"": "希望你没生过孩子，不然就是「乔治，跟朋友去车流里玩吧。」";
+"I hope you never had kids otherwise it'll be \"hey George, go play in traffic with your friends.\"": "希望你没生过孩子，不然就是「乔治，跟朋友去车流里玩吧。」";
 "So play nice, or mama will take your toys away.": "所以乖一点，不然妈妈收走你的玩具。";
 "Remarkable.  I am following your train of thought.": "了不起。我在跟上你的思路。";
 "C'mon, it's cute.": "来吧，挺可爱的。";
@@ -757,7 +757,7 @@
 "Do your thing then we can go after Tanya.": "做你的事，然后我们去找塔尼娅。";
 "Ah, isn't there a nice hotel or something I can use instead?": "啊，没有什么不错的酒店之类的可以代替吗？";
 "That was amazing but I did not see Tanya anywhere.": "太精彩了，但我哪里都没看到塔尼娅。";
-"You know, I am glad that you rescued me first.  If it was Pierce first, I'd never hear the end of it.  It'd be all \\"the boss likes me better\\" and shit.  Though you really do need to tell me more about Paul sometime.  Don't think I'll ever let him live that down.  Maybe we could make a t-shirt.": "你知道吗，我很高兴你先救了我。如果是先救皮尔斯，我永远听不到头。会一直是「老大更喜欢我」之类的。不过你确实得找时间告诉我更多关于保罗的事。我永远不会让他翻篇。也许可以做件T恤。";
+"You know, I am glad that you rescued me first.  If it was Pierce first, I'd never hear the end of it.  It'd be all \"the boss likes me better\" and shit.  Though you really do need to tell me more about Paul sometime.  Don't think I'll ever let him live that down.  Maybe we could make a t-shirt.": "你知道吗，我很高兴你先救了我。如果是先救皮尔斯，我永远听不到头。会一直是「老大更喜欢我」之类的。不过你确实得找时间告诉我更多关于保罗的事。我永远不会让他翻篇。也许可以做件T恤。";
 "Exactly.": "正是。";
 "Where the hell is Pierce with that helicopter?": "皮尔斯和他那直升机到底在哪？";
 "Asha, that light has a family...": "阿莎，那盏灯有家人的……";
@@ -765,7 +765,7 @@
 "We have one shot with this key, you know. We have to make it count.": "这钥匙只有一次机会，你知道。我们得让它算数。";
 "Sounds good. Have Johnny meet me there.": "听起来不错。让约翰尼去那跟我碰头。";
 "Now they're at peace.": "现在他们安息了。";
-"To give his soldiers more juice?  I don't know, you said they're so \\"amazing\\".": "给他的士兵更多能量？我不知道，你说他们很「厉害」的。";
+"To give his soldiers more juice?  I don't know, you said they're so \"amazing\".": "给他的士兵更多能量？我不知道，你说他们很「厉害」的。";
 "Okay, we're here. What now? Is this over?": "好了，我们到了。现在呢？结束了吗？";
 "No. I don't know if Zimos made it but Oleg is... well...": "不。不知道齐莫斯有没有事，但奥列格他……嗯……";
 "No more repairs here, mate.": "这里不能修了，兄弟。";
@@ -795,7 +795,7 @@
 "Just do it!": "快做！";
 "Now I'm following Josh Birk's TV alter-ego around the city. It's a dream come true.": "现在我在跟着乔什·伯克的电视替身满城跑。梦想成真了。";
 "Kinzie, where's the door?": "金吉，门在哪？";
-"You wouldn't know \\"beloved\\" if it bit you on the backside.": "「挚爱」咬你屁股你都不知道。";
+"You wouldn't know \"beloved\" if it bit you on the backside.": "「挚爱」咬你屁股你都不知道。";
 "This isn't a Matt Miller situation, Johnny knows how to handle himself.": "这不是马特·米勒那种情况，约翰尼知道怎么照顾自己。";
 "Losing you just about broke Shaundi.": "失去你差点让莎蒂崩溃。";
 "Kinzie? Can you reset part of a simulation?": "金吉？你能重置模拟的一部分吗？";

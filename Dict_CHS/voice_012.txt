@@ -392,7 +392,7 @@
 "Paul? Seriously? That's it name?": "保罗？真的？就叫这名字？";
 "Where is this goddamn platform...?": "这该死的平台到底在哪儿……？";
 "Maero...": "马埃罗……";
-"\\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\\"": "「嘿，阿莎，你好吗？来点茶和烤饼？来亲一个？噢！*亲吻声*」";
+"\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\"": "「嘿，阿莎，你好吗？来点茶和烤饼？来亲一个？噢！*亲吻声*」";
 "What is going on, Shaundi?": "出什么事了，莎蒂？";
 "Shaundi, I feel funny leaving you with this bunch.": "莎蒂，把你丢给这帮人我还真有点不放心。";
 "Really? How?": "真的？怎么个说法？";
@@ -438,7 +438,7 @@
 "Mmm! Freckle Bitches!": "嗯！弗莱克尔碧池斯！";
 "Any disasters happen in the past five minutes?": "过去五分钟发生什么灾难了吗？";
 "Oh. See, Kinzie, that actually makes it sound fun.": "哦。看，金吉，你这么一说倒让它听起来挺好玩的。";
-"So where is this \\"Army of Minions\\" at?": "那么那支「仆从军团」在哪儿呢？";
+"So where is this \"Army of Minions\" at?": "那么那支「仆从军团」在哪儿呢？";
 "I want payback and I need your help to do it.  Come see me and I'll go over the plan.": "我要报仇，我需要你的帮忙。来找我，我会把计划过一遍。";
 "seriously?": "认真的？";
 "Y'know. Took out some terrorists, became the President of the United States. Rolled back the national debt, got to fly Air Force One.": "你知道嘛。干掉了一些恐怖分子，当上了美国总统。削减了国债，坐了空军一号。";
@@ -452,7 +452,7 @@
 "Honey...it's a gun.  I get it.": "亲爱的……那是枪。我懂。";
 "Uh-oh.": "哦不。";
 "Here we go.": "开始了。";
-"To give his people a boost or something.  I don't know, you're the one who says they're \\"amazing\\".": "给他的人民加加 buff 什么的。我不知道，你是那个说他们「了不起」的人。";
+"To give his people a boost or something.  I don't know, you're the one who says they're \"amazing\".": "给他的人民加加 buff 什么的。我不知道，你是那个说他们「了不起」的人。";
 "Ok, ok, I take it back.": "好好好，我收回。";
 "There's a block button?": "有屏蔽键？";
 "Y'know, for all your big talk, that armor just  says you're scared of me.": "你知道吗，你话说得那么大，那身盔甲只能说明你怕我。";
@@ -529,7 +529,7 @@
 "Dammit, didn't we leave this group behind?": "妈的，我们不是把这帮人甩掉了吗？";
 "I think I figured out how to open more of those doorways back to the ship for you.  Come see me and I'll explain.": "我想我弄清楚怎么给你多开几扇回船的门路了。来找我，我解释给你听。";
 "Johnny's keeping busy...": "强尼正忙着呢……";
-"That wasn't a bad \\"fuck you\\" to Zinyak. Now let's get back to the ship and find Kinzie.": "那对齐尼亚克来说不算是个差的「去你的」。现在我们回船去找金吉。";
+"That wasn't a bad \"fuck you\" to Zinyak. Now let's get back to the ship and find Kinzie.": "那对齐尼亚克来说不算是个差的「去你的」。现在我们回船去找金吉。";
 "Let's waste no time.": "别浪费时间。";
 "*pew*pew*pew*": "*砰**砰**砰*";
 "Way to go Kinzie!": "干得漂亮金吉！";
@@ -582,7 +582,7 @@
 "Gotta come up with something better tha pushing her a window this time!": "这次总得想个比把她推下楼窗更好的办法！";
 "Shaundi, check the cargo bay. It's just as vulnerable as the airlock. Gat, come with me.": "莎蒂，检查货舱。它跟气闸舱一样脆弱。盖特，跟我来。";
 "I'm meeting up with Matt. I'll be in touch via comm.": "我去跟马特碰头。我会通过通讯保持联系。";
-"And shedding these ridiculous clothes isn't a \\"basic hack\\"?": "脱掉这些荒唐的衣服就不算「基本黑客操作」了？";
+"And shedding these ridiculous clothes isn't a \"basic hack\"?": "脱掉这些荒唐的衣服就不算「基本黑客操作」了？";
 "I have my moments.": "我也有高光时刻。";
 "Not the exact words I'd use...": "我倒不会用那些字眼……";
 "Don't worry, I'll be there, blah blah FUCK.": "别担心，我会到的，吧啦吧啦妈的。";
@@ -717,7 +717,7 @@
 "Not bad, huh?": "不错吧？";
 "Stay close Matt, let's get you outta here...": "跟紧我，马特，带你离开这儿……";
 "I had no idea Pierce had issues like this.": "我不知道皮尔斯有这样的心理问题。";
-"If by pet store you mean \\"murder show\\", then yes.": "如果你说的宠物店是指「谋杀秀」，那是的。";
+"If by pet store you mean \"murder show\", then yes.": "如果你说的宠物店是指「谋杀秀」，那是的。";
 "This one's for Uncle Sam!": "这一拳献给山姆大叔！";
 "Thank god.  Let's get this thing and go.": "谢天谢地。拿了东西走吧。";
 "And you must be the protégé I've heard so much about.": "你一定就是我听说了很多的那个徒弟了。";
@@ -749,7 +749,7 @@
 "Why can't I just take everyone?  That'd be easier.": "为什么我不能把所有人都带上？那样省事多了。";
 "WOAH!": "哇！";
 "Well he's the one who ain't here.  He just sent you to do his dirty work.": "他就是那个不在的人。他只是派你来干他的脏活。";
-"So how's this \\"date\\" going to work...": "那么这个「约会」要怎么进行……";
+"So how's this \"date\" going to work...": "那么这个「约会」要怎么进行……";
 "This can't be good...": "这可不妙……";
 "You still have my parts, right?": "我的零件还在你那儿吧？";
 "Ok, ok, I take it back.": "好好好，我收回。";
@@ -932,7 +932,7 @@
 "You two feeling anything?": "你们俩感觉到什么了吗？";
 "Um. Is that how it's being delivered?": "呃。它是这么运送的吗？";
 "Yo! We're here! The target is just ahead!": "嘿！我们到了！目标就在前方！";
-"I don't like the sound of that \\"should\\".": "我不喜欢那个「应该」的语气。";
+"I don't like the sound of that \"should\".": "我不喜欢那个「应该」的语气。";
 "Dammit, this guy was selling a low grade knockoff.": "妈的，这家伙卖的是劣质山寨货。";
 "We got your back.": "我们给你撑腰。";
 "Yeah, but that was code introduced into the system by Zinyak.  I'm thinking of something more... abstract.": "对，但那是齐尼亚克植入系统的代码。我想的是更……抽象的东西。";

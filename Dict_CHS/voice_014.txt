@@ -17,7 +17,7 @@
 "First time I met Oleg, he was naked and strapped into a big machine.": "我第一次见奥列格时，他光着身子被绑在一台大机器上。";
 "Oh no way. You've gotta be joking.": "不会吧。你开玩笑。";
 "Doris, you still owe me that cheesecake recipe!": "多丽丝，你还欠我芝士蛋糕配方呢！";
-"Hey, Matt, flip my superhero switch back to \\"On.\\"": "嘿，马特，把我的超级英雄开关拨回「开」。";
+"Hey, Matt, flip my superhero switch back to \"On.\"": "嘿，马特，把我的超级英雄开关拨回「开」。";
 "Eh. Fair mix of both.": "呃，两者参半吧。";
 "I only wish my parents had been able to settle their differences in such an amicable and loving fashion.": "我只希望我父母当年也能用这么友好和充满爱的方式解决分歧。";
 "Lucky bastard.": "幸运的混蛋。";
@@ -37,7 +37,7 @@
 "You...": "你……";
 "If something's bothering you that much you know I'll help you out.  Don't worry, ok?": "如果有什么事这么困扰你，你知道我会帮你的。别担心，好吗？";
 "Mighty kind of ya, Kinzie.": "你真是太好了，金吉。";
-"If by \\"Tanya\\" you mean \\"the call of the stage\\" then yes.": "如果你说的「塔尼娅」是指「舞台的召唤」，那就是吧。";
+"If by \"Tanya\" you mean \"the call of the stage\" then yes.": "如果你说的「塔尼娅」是指「舞台的召唤」，那就是吧。";
 "So an evil version of me is your worst nightmare?": "所以一个邪恶版本的我是你最可怕的噩梦？";
 "Brace for--mon Dieu!": "准备——老天！";
 "I've seen you shoot.  Trust me, it's better the boss is back there.": "我见过你开枪。相信我，让老大在后面更好。";
@@ -53,7 +53,7 @@
 "Am I on a spaceship? What the fuck?": "我在飞船上？什么鬼？";
 "Download the data to CID. We've got it from there.": "把数据下载到C.I.D.。我们从那里接手。";
 "Heh. This is a piece of cake. But don't you fucking leave me behind.": "哼。小菜一碟。但你他妈的别丢下我。";
-"Thank you! This IS a robot. Kinzie was all \\"this is power armor\\" not...": "谢谢！这确实是机器人。金吉非说「这是动力装甲」来着……";
+"Thank you! This IS a robot. Kinzie was all \"this is power armor\" not...": "谢谢！这确实是机器人。金吉非说「这是动力装甲」来着……";
 "Gonna...": "要……";
 "There's something you're not telling me, am I right?": "你有事瞒着我，对吧？";
 "She didn't exactly say.  All I know is we have to get Paul to follow.": "她没明说。我只知道我们得让保罗跟着走。";
@@ -107,7 +107,7 @@
 "But then I realized Asha would never be able to do this without some help.": "但后来我意识到阿莎没有帮手根本做不到。";
 "You have powers, use them on the shields.": "你有超能力，用它们打护盾。";
 "Johnny, we're getting you out of here.": "约翰尼，我们带你离开这里。";
-"\\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\\"": "「嘿，阿莎，你好吗？来点茶和烤饼吗？想亲热一下？噢！*亲吻声*」";
+"\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\"": "「嘿，阿莎，你好吗？来点茶和烤饼吗？想亲热一下？噢！*亲吻声*」";
 "Strung out.": "筋疲力尽。";
 "Comment allez-vous?": "你最近怎么样？";
 "Whoa, that thing just came out of nowhere.": "哇，那东西凭空冒出来的。";
@@ -134,7 +134,7 @@
 "So we trail this guy quietly.  Deal?": "我们就悄悄跟踪这家伙。行不行？";
 "DELETE": "删除";
 "But what if it was.": "但万一真的是。";
-"I hope you never had kids otherwise it'll be \\"hey George, go play in traffic with your friends.\\"": "希望你没生过孩子，不然就是「嘿，乔治，跟你的朋友去马路上玩吧。」";
+"I hope you never had kids otherwise it'll be \"hey George, go play in traffic with your friends.\"": "希望你没生过孩子，不然就是「嘿，乔治，跟你的朋友去马路上玩吧。」";
 "So why'd we head to the Nuke Plant?": "所以我们为什么要去核电站？";
 "Ben says he has a plan. We need to lose this heat and then--": "本说他有个计划。我们得先甩掉追兵然后——";
 "Is Cyrus really all that bad?": "赛勒斯真的那么坏吗？";
@@ -185,7 +185,7 @@
 "Fuck yeah.": "操，当然。";
 "Matt has located intelligence within the simulation that I can use to hunt down Zin officials in the real world.": "马特在模拟中找到了情报，我可以用它追查现实世界中的辛人官员。";
 "Cut it a little close, Kinzie.": "差点就来不及了，金吉。";
-"How the hell should I know? I don't know, you're the one who says they're so \\"amazing\\".": "我怎么知道？我不知道，你才是那个说它们多「了不起」的人。";
+"How the hell should I know? I don't know, you're the one who says they're so \"amazing\".": "我怎么知道？我不知道，你才是那个说它们多「了不起」的人。";
 "Then I suppose the monster trucks are in context.  You don't suppose Donnie's in here...?": "那么怪物卡车就说得通了。你觉得唐尼在这里吗……？";
 "The contestant has to be watching those targets!": "选手可得盯紧那些靶子！";
 "So who's the mark?": "目标是谁？";
@@ -249,8 +249,8 @@
 "Oh shit, that's really not good...": "哦糟了，这可不太好……";
 "Laser eye?": "激光眼？";
 "DELETE": "删除";
-"And changing me out of this ridiculous ensemble is not a \\"basic hack\\"?": "那把我从这身荒谬的装束换出来就不是「基本骇入」了？";
-"\\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\\"": "「嘿，阿莎，你好吗？来点茶和烤饼吗？想亲热一下？噢！*亲吻声*」";
+"And changing me out of this ridiculous ensemble is not a \"basic hack\"?": "那把我从这身荒谬的装束换出来就不是「基本骇入」了？";
+"\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\"": "「嘿，阿莎，你好吗？来点茶和烤饼吗？想亲热一下？噢！*亲吻声*」";
 "I'll be right back. I'm going to get the car.": "我马上回来。我去开车。";
 "What's up?": "怎么了？";
 "You're in luck. The Zin have a bunch in transit right now.": "你运气好。辛人现在有一批在运输途中。";
@@ -322,7 +322,7 @@
 "Different how?": "怎么不同？";
 "Of course it would.": "当然会。";
 "Fuck you, Zinyak.": "去你的，齐尼亚克。";
-"That wasn't a bad \\"fuck you\\" to Zinyak. Now let's get back to the ship and find Kinzie.": "这句对齐尼亚克的「去你的」说得不错。现在回飞船找金吉吧。";
+"That wasn't a bad \"fuck you\" to Zinyak. Now let's get back to the ship and find Kinzie.": "这句对齐尼亚克的「去你的」说得不错。现在回飞船找金吉吧。";
 "Good, I can't take much more of this...": "好，我再也受不了了……";
 "Time to break up the party, guys.": "该散场了，伙计们。";
 "Flaming bullets? Holy shit.": "燃烧子弹？我靠。";
@@ -358,11 +358,11 @@
 "Oh shit.": "我操。";
 "Well, looks like the Zin don't appreciate that very much.": "嘛，看来辛人不太喜欢那样。";
 "So why are people trying to off Tammy? She cross a drug lord or something?": "那为什么有人要杀塔米？她得罪了毒枭还是什么？";
-"And by \\"a matter\\" you mean...?": "你说的「一件事」是指……？";
+"And by \"a matter\" you mean...?": "你说的「一件事」是指……？";
 "Fuck this. I'm totally killing this guy.": "去他妈的。我非杀了这家伙不可。";
 "Don't shoot, Ben, it's only me.  You remember the White House, right?  Partying with the Jamaican ambassador...?": "别开枪，本，是我。你记得白宫吧？跟牙买加大使一起派对……？";
 "I certainly hope you arrive soon, Kinzie.": "我当然希望你快到了，金吉。";
-"You said, \\"Hey Pierce, how would you like to be the face of the Saints\\" and I was all...I...I...OH MAN I'M GONNA MISS YOU.": "你说过「嘿皮尔斯，你想不想当圣徒的门面」然后我就……我……我……天哪我会想你的。";
+"You said, \"Hey Pierce, how would you like to be the face of the Saints\" and I was all...I...I...OH MAN I'M GONNA MISS YOU.": "你说过「嘿皮尔斯，你想不想当圣徒的门面」然后我就……我……我……天哪我会想你的。";
 "You didn't do too bad yourself. For a spy.": "你自己也不差。作为一个间谍来说。";
 "Whoa, head rush.": "哇，一阵眩晕。";
 "That, Kinzie, was sarcasm.  Remember how that works?": "金吉，那是讽刺。还记得讽刺怎么运作的吧？";
@@ -423,7 +423,7 @@
 "Man, I've had to deal with one Shaundi since I joined this crew.  Now there's two of them?  Are you trying to kill me?": "伙计，我加入这帮以来就对付一个莎蒂。现在有两个了？你想害死我吗？";
 "You're not going anywhere.": "你哪也别想去。";
 "More Ronin on their way. I'm going to enjoy this.": "更多浪人帮来了。我要好好享受一下。";
-"And changing me out of these ridiculous clothes isn't a \\"basic hack\\"?": "那把我从这些荒谬的衣服里换出来就不是「基本骇入」了？";
+"And changing me out of these ridiculous clothes isn't a \"basic hack\"?": "那把我从这些荒谬的衣服里换出来就不是「基本骇入」了？";
 "You need to tell Matt to stop calling me Bwana. It was funny once but that shit's old now.": "你得告诉马特别再叫我主人了。一开始还挺逗，但现在已经老掉牙了。";
 "Such as?": "比如说？";
 "Ben, tell me when Tony and Tanya usually show up to kill you.": "本，告诉我托尼和塔尼娅通常什么时候来杀你。";
@@ -466,7 +466,7 @@
 "Well, not anymore...": "嘛，现在不是了……";
 "Roger that.": "收到。";
 "There.": "好了。";
-"To give his people a boost or something.  I don't know, you're the one who says they're \\"amazing\\".": "给他的人加个油什么的。我不知道，你才是那个说它们多「了不起」的人。";
+"To give his people a boost or something.  I don't know, you're the one who says they're \"amazing\".": "给他的人加个油什么的。我不知道，你才是那个说它们多「了不起」的人。";
 "*struggling*": "*挣扎*";
 "I swear, if that little weasel Matt steps out of line at all I'm gonna kick him out an airlock.  I don't care if he's all MI6 now, I still remember him crashing our damn helicopter with ME in it!": "我发誓，如果马特那个小滑头敢越雷池一步，我就把他从气闸踢出去。我不管他现在是什么军情六处的人了，我还记得他把我们的直升机给撞了，当时我还在里面！";
 "So what cool new power do you have for me, Kinzie?": "那么你给我准备了什么酷炫的新能力，金吉？";
@@ -551,7 +551,7 @@
 "... that one of those giant aliens are coming.": "……那些巨型外星人中有一个要来了。";
 "Believe me, that's for the best.  Now let's get you out of here.": "相信我，那样最好。现在让我带你离开这里。";
 "So unlock them.": "那就解锁啊。";
-"And getting me out of this dumbass outfit ain't a \\"basic hack\\"?": "把我从这身蠢 outfit 里弄出来就不算「基本骇入」了？";
+"And getting me out of this dumbass outfit ain't a \"basic hack\"?": "把我从这身蠢 outfit 里弄出来就不算「基本骇入」了？";
 "I need help.  Situation untenable.  Kinzie...?  Matt...?  Keith...?  Anyone...?": "我需要支援。情况不妙。金吉……？马特……？基思……？有人吗……？";
 "Mmm. Breakfast certainly smells delicious!": "嗯。早餐闻起来确实很香！";
 "Well that didn't go terrible.": "嘛，还算没太糟。";
@@ -621,7 +621,7 @@
 "What an a--amicable fellow.": "真是个——和善的家伙。";
 "No, Kinzie. It's power armor.": "不，金吉。这是动力装甲。";
 "All right Matt: try not to die.": "好了马特：尽量别死。";
-"That's because while you were \\"in the zone\\" she took one look at you and ran for the roof.": "那是因为你「在状态里」的时候她看了你一眼就往屋顶跑了。";
+"That's because while you were \"in the zone\" she took one look at you and ran for the roof.": "那是因为你「在状态里」的时候她看了你一眼就往屋顶跑了。";
 "Heh.  I'm trying to picture big Ben on your wee computer.  When was this?": "哼。我在想象大个子本在你那小电脑上。那是什么时候的事？";
 "Let's do this.  Geronimo!": "上吧。跳！";
 "Oh no! Oh no! Oh no!": "哦不！哦不！哦不！";
@@ -656,7 +656,7 @@
 "I found a few copies of King's book stashed on this ship.  Not really sure what the Zin were doing with them, but figured King might like to have sometime from home.  Though if he thinks I'm going to write a press release to broadcast out into space he's sorely mistaken.": "我在飞船上找到了几本金的书。不太确定辛人拿它们做什么，但想着金也许想要点家乡的东西。不过他要是以为我会写什么新闻稿广播到太空去，那他就大错特错了。";
 "It is.  I've sent you the location of one of their Hotspots.  Start heading there.": "是的。我已经发了其中一个热点的位置给你。去吧。";
 "Right. Sure.": "好。当然。";
-"Hold on, why \\"you all\\"?": "等等，为什么是「你们所有人」？";
+"Hold on, why \"you all\"?": "等等，为什么是「你们所有人」？";
 "Can't wait for the movie, Ben. How can I help?": "等不及看电影了，本。我能帮什么？";
 "Do a few tasks for me and I can better learn how the simulation code works.": "帮我做几个任务，我就能更好地了解模拟代码是怎么运作的。";
 "While I don't relish the idea of seeing someone I care about being murdered over and over again, I also don't see a purpose to needless blubbering.": "虽然我不愿看到自己在乎的人被一遍遍谋杀，但我也觉得没必要的哭哭啼啼没什么用。";
@@ -731,7 +731,7 @@
 "Girls don't like being consolation prizes either...": "女孩也不想当安慰奖……";
 "It's not every day you get to kill aliens with Keith David, no?": "不是每天都能和基思·大卫一起杀外星人，对吧？";
 "Shit man, just asking a question.": "伙计，我就问个问题。";
-"She called it \\"Paranormal Bromance.\\"": "她管这叫「超自然兄弟情」。";
+"She called it \"Paranormal Bromance.\"": "她管这叫「超自然兄弟情」。";
 "How many of you are there?": "你们有多少人？";
 "The Earth is gone, huh? Fuck, man. Fuck.": "地球没了，嗯？操。妈的。";
 "Get us to a safe spot so we can get back to the real world.": "带我们去安全的地方，这样我们能回现实世界。";
@@ -743,7 +743,7 @@
 "You've gotta be joking.": "你开玩笑。";
 "Different, huh? How?": "不同了，嗯？怎么不同？";
 "Why can't I change lanes?": "我怎么不能换车道了？";
-"I hope you never had kids otherwise it'll be \\"hey George, go play in traffic with your friends.\\"": "希望你没生过孩子，不然就是「嘿，乔治，跟你的朋友去马路上玩吧。」";
+"I hope you never had kids otherwise it'll be \"hey George, go play in traffic with your friends.\"": "希望你没生过孩子，不然就是「嘿，乔治，跟你的朋友去马路上玩吧。」";
 "The Zin are still keeping patrols in this area.  Do what you do and take them out.": "辛人还在这个区域巡逻。干你该干的，把他们收拾掉。";
 "This looks important. Let's blow this up.": "这看起来很重要。炸了它。";
 "Got it.  Let's get the last one already.": "拿到了。去拿最后一个吧。";
@@ -900,7 +900,7 @@
 "Anytime, Pierce.": "随时奉陪，皮尔斯。";
 "Well give them to him and let's get Pierce.": "那就给他然后去找皮尔斯。";
 "I don't know, man. Kinzie always took care of this shit.": "我不知道，伙计。金吉一直负责处理这种破事。";
-"Not a bad \\"fuck you\\" to the asshole-in-charge. See me when you wanna finish this.": "对那管事的混蛋说句「去你的」说得不错。想结束这事就来找我。";
+"Not a bad \"fuck you\" to the asshole-in-charge. See me when you wanna finish this.": "对那管事的混蛋说句「去你的」说得不错。想结束这事就来找我。";
 "Does this place not have light switches?": "这地方就没有电灯开关吗？";
 "Matt, I want to show Johnny some of what he missed not being in Steelport. Can you recreate some Murder Time Fun Time for us?": "马特，我想给约翰尼看看他不在钢城港时错过了什么。你能给我们重建一些「谋杀时光乐趣」吗？";
 "So what are these drugs, Shaundi?": "那这些是什么药，莎蒂？";
@@ -955,7 +955,7 @@
 "By all means.": "请便。";
 "Well shit...": "呃，搞什么...";
 "Kinzie?!": "金吉？！";
-"You realize your potential \\"readers\\" total about ten people, right?": "你意识到你潜在的「读者」总共也就十个人吧？";
+"You realize your potential \"readers\" total about ten people, right?": "你意识到你潜在的「读者」总共也就十个人吧？";
 "We need all the help we can get.  How do we get him?": "我们需要所有能得到的帮助。怎么找到他？";
 "Actually, you did.  You're the one who made all the choices for me.": "其实你做了。是你替我做了所有选择。";
 "I can't take this anymore!": "我再也受不了了！";

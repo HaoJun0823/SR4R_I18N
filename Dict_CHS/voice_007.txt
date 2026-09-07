@@ -6,7 +6,7 @@
 "It's just that...I'm trying to trace what these relays you're finding are connected to and...": "只是……我正在试着追踪你找到的那些中继器都连着什么，然后……";
 "You changed so much.": "你变了好多。";
 "It is not too easy for you, is it?": "这对你来说不太容易吧？";
-"See, this IS a robot. THANK YOU. Kinzie was all \\"this is power armor\\" not...": "看吧，这确实是机器人。谢天谢地。金吉还坚称这是「动力装甲」，不是……";
+"See, this IS a robot. THANK YOU. Kinzie was all \"this is power armor\" not...": "看吧，这确实是机器人。谢天谢地。金吉还坚称这是「动力装甲」，不是……";
 "Can you break in?": "你能闯进去吗？";
 "Place looks different than I remember. She remodel this?": "这地方跟我记忆里不太一样。她重新装修了？";
 "What the hell...": "搞什么鬼……";
@@ -52,7 +52,7 @@
 "Okay... wait, did that make any sense?": "好吧……等等，这话说得通吗？";
 "I don't get what all the fuss is about that Matt kid.  Seems like if someone pointed a gun at him he'd curl up and wet himself.  Maybe there's just somethin' I ain't seeing.": "我搞不懂那个马特小子有什么好大惊小怪的。感觉只要有人拿枪指着他，他就会缩成一团尿裤子。也许只是我没看出来的地方。";
 "Ha! It blew up. Okay NOW I'm rubbing it in!": "哈！它炸了。好了，现在我要好好得意一把了！";
-"I KNEW it was a robot!  Kinzie's  been on my case about it being \\"power armor\\"": "我早知道那是机器人！金吉还一直跟我吵，说那是「动力装甲」。";
+"I KNEW it was a robot!  Kinzie's  been on my case about it being \"power armor\"": "我早知道那是机器人！金吉还一直跟我吵，说那是「动力装甲」。";
 "Rraaaaaaagh!": "啊啊啊啊啊——！";
 "Whooo!": "喔喔喔——！";
 "I think it's working, though won't be sure until we own the whole area.  So don't stop now, get going.": "我觉得应该有效，不过得等我们拿下整个区域才能确定。所以别停手，继续干。";
@@ -134,7 +134,7 @@
 "That was cutting it close!": "刚才太险了！";
 "What's for dinner?": "晚饭吃什么？";
 "Fair enough.": "说得在理。";
-"\\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\\"": "「嘿，阿莎，你还好吗？想不想来点茶和烤饼？要不要亲热一下？哦！*亲亲的声音*」";
+"\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\"": "「嘿，阿莎，你还好吗？想不想来点茶和烤饼？要不要亲热一下？哦！*亲亲的声音*」";
 "Can you sign my copy of your book?": "能给我签一本你的书吗？";
 "Matt, get back!": "马特，快退回来！";
 "We're not done yet.": "我们还没完。";
@@ -144,7 +144,7 @@
 "Yo, watch out!": "喂，小心！";
 "Another light ahead. Take it out.": "前面又一个灯。打掉它。";
 "Here I come, you sonofabitch.": "我来找你了，你个狗娘养的。";
-"Wouldn't that be \\"us all\\"?": "那不就得是「我们所有人」吗？";
+"Wouldn't that be \"us all\"?": "那不就得是「我们所有人」吗？";
 "How do I get it to--": "我该怎么把它——";
 "Don't worry buddy, I'm coming.": "别担心伙计，我这就来。";
 "Get into the car! GET IN!": "快上车！上车！";
@@ -237,7 +237,7 @@
 "The fish are--huh?  What are you talking about?": "那些鱼——嗯？你在说什么？";
 "Option A, you keep this old hag.": "方案A，你留着这个老巫婆。";
 "DELETE": "删除";
-"So where is this \\"Army of Minions\\" at?": "那这支「喽啰大军」在哪儿？";
+"So where is this \"Army of Minions\" at?": "那这支「喽啰大军」在哪儿？";
 "Deal.": "成交。";
 "There's no way we can take him!": "我们根本不可能干掉他！";
 "Good luck, boss.": "祝你好运，老大。";
@@ -245,7 +245,7 @@
 "Warren! I'm coming for you!": "沃伦！我这就来找你！";
 "Well that didn't go terrible.": "嗯，这次总算没搞砸。";
 "Kill the fucker.": "干掉那个混蛋。";
-"Its formal name is \\"The Ride of the Wild Stallion.\\"": "它的正式名称是「野马骑乘」。";
+"Its formal name is \"The Ride of the Wild Stallion.\"": "它的正式名称是「野马骑乘」。";
 "I touched it.": "我碰到它了。";
 "It's charged. What next?": "充好电了。接下来呢？";
 "I admit I was surprised to see you in here, other me.": "我承认，在这儿看到你有点意外，另一个我。";
@@ -370,7 +370,7 @@
 "Oh do you mean that jackbooted wannabe thug whose missile I rode right into the highest office in the land? I think so.": "哦，你是说那个穿长靴、装模作样的混混？我就是骑着他的导弹一路冲进国家最高权力办公室的。我想是。";
 "Man, all my suits, my records, my merch from press events.  All my cars! Man, I can't believe they're all gone!  Well, and the people of course.  I haven't forgotten about all those people who were on Earth when it blew up.  Naw, that was a bad thing. Oh shit, all my demo tapes! Ooh, who doesn't pack that?": "天哪，我的西装，我的唱片，我的发布会周边。我所有的车！天哪，我不敢相信它们全没了！嗯，还有那些人的。当然，我没忘，地球爆炸时上面还有那些多的人。不，那是件惨事。哦操，我的试听小样！哦，谁出门会不带这个？";
 "Translation device! Ha! Nice one, Kinz--oh, there it is.": "翻译装置！哈！干得漂亮，金吉——哦，原来在那儿。";
-"Wait a minute, these generators look just like the last ones.  Why didn't I just grab your \\"gravity inhibitors\\" from them?": "等等，这些发电机跟上一批长得一模一样。我之前为什么不直接从它们身上拆「重力抑制器」呢？";
+"Wait a minute, these generators look just like the last ones.  Why didn't I just grab your \"gravity inhibitors\" from them?": "等等，这些发电机跟上一批长得一模一样。我之前为什么不直接从它们身上拆「重力抑制器」呢？";
 "Those burns will keep a doctor busy!": "那些烧伤够医生忙活的了！";
 "Lemme guess, destroy more things to shut it down?": "让我猜猜，再破坏些东西来关掉它？";
 "Zinyak, you motherfucking--": "齐尼亚克，你这狗娘养的——";
@@ -398,7 +398,7 @@
 "So what do we do about that?": "那我们该怎么对付那玩意？";
 "Meaning?": "什么意思？";
 "DELETE": "删除";
-"You realize your potential \\"readers\\" total about ten people, right?": "你该清楚你潜在的「读者」总共也就十个人左右吧？";
+"You realize your potential \"readers\" total about ten people, right?": "你该清楚你潜在的「读者」总共也就十个人左右吧？";
 "You know damn well why you're wanted, motherfucker!": "你他妈心里清楚你为什么会上了通缉名单，狗娘养的！";
 "I'm pretty sure having Rim Jobs work on a car will save the vehicle data for you to load later.  Why don't you take a car there and customize it or something.": "我基本可以确定，把车交给边缘改装店打理，会把车辆数据存下来供你之后加载。你不如开辆车去那儿，改装一下什么的。";
 "Hey, he came close that one time!": "嘿，他有一回可是很接近了！";
@@ -410,7 +410,7 @@
 "Should I be worried about who set this race up?": "我该不该担心是谁安排了这场比赛？";
 "Explain later. Powers now.": "回头解释。现在先用能力。";
 "Focus. On the. Job.": "专心。干活。";
-"Could it be as simple as \\"3 D\\"?": "会不会简单到就是「3D」？";
+"Could it be as simple as \"3 D\"?": "会不会简单到就是「3D」？";
 "Okay, another Rim Jobs in this set.  Remember, don't get too cocky about your hacking skills.": "好，这一组里还有一处边缘改装店。记住，别太得意你的黑客技术。";
 "Asha, about Matt...": "阿莎，关于马特……";
 "*BEEP*? What the *BEEP* is with the *BEEP*?": "「哔——」？这他妈「哔——」是怎么回事？";
@@ -522,7 +522,7 @@
 "You know, if they generated a shield around themselves.": "你知道，如果他们给自己周围生成一个护盾的话。";
 "You're coming up on the defense grid.  Touch those beams and you'll be fried.": "你正靠近防御网格。碰到那些光束，你就会被烤熟。";
 "Yeah I don't know what that is.": "是啊，我不知道那是什么。";
-"What, by saying \\"easy enough\\"?": "怎么，说句「小意思」就行？";
+"What, by saying \"easy enough\"?": "怎么，说句「小意思」就行？";
 "Whoa whoa whoa! Nobody said anything about death lasers...": "哇哇哇！没人提过什么死亡激光……";
 "Just asking...": "只是问问……";
 "If you two are finished, we should probably focus on Veteran Child, ya think?": "你们俩要是聊完了，我们是不是该专心对付老兵之子了？";
@@ -540,7 +540,7 @@
 "That's the last of 'em.": "那是最后一个了。";
 "You have my thanks, Kinzie. Now let's show Zinyak who he's messing with.": "多谢你，金吉。现在，让齐尼亚克看看他在跟谁作对。";
 "*sigh*": "*叹气*";
-"Got enough here for a \\"well regulated militia\\"...": "这里的火力够组织一支「纪律严明的民兵」了……";
+"Got enough here for a \"well regulated militia\"...": "这里的火力够组织一支「纪律严明的民兵」了……";
 "I didn't catch that.": "我没听清。";
 "Speaking of which, any chance you have a training program I can use to test it out?": "说到这个，你正好有训练程序可以让我试试它吗？";
 "Stubborn and defensive? Sounds like Asha all right. ": "固执又防卫心重？听起来确实像阿莎。";
@@ -763,7 +763,7 @@
 "That, Kinzie, was sarcasm.  Remember how that works?": "那是讽刺，金吉。还记得讽刺是怎么回事吗？";
 "CID will  be able to help me find the relays, no?": "C.I.D. 能帮我找到中继器，对吧？";
 "Then I'm good. Let's do this.": "那我这边没问题。开干吧。";
-"Yeah, emphasis on \\"murder\\"...": "是啊，重点是「谋杀」……";
+"Yeah, emphasis on \"murder\"...": "是啊，重点是「谋杀」……";
 "Ugh. I hate touching gimp.": "呃。我讨厌碰那种软塌塌的东西。";
 "Every president needs one of these...": "每个总统都该有一台这个……";
 "How long is this gonna take?": "这要多久？";
@@ -776,7 +776,7 @@
 "Oh, you wanna start bringing up shit, we can talk about that stank-ass perfume, the oversized marital aids, and that purple cat Pierce was trying to breed.": "哦，你想翻旧账是吧？那咱就聊聊你那股骚臭香水味、那根特大号成人玩具，还有皮尔斯整天想配种的那只紫猫。";
 "Fine.  I'll try it.  But if you tell me I gotta break dance...": "行。我试试。但要是你让我跳什么霹雳舞……";
 "Are those killer Saints robots?": "那些是杀人圣徒机器人吗？";
-"Look, I showed up to your \\"rift\\", so start explaining how you'll get me to my friends.": "听着，我都到你的「裂缝」来了，所以你最好解释一下怎么把我送到朋友身边。";
+"Look, I showed up to your \"rift\", so start explaining how you'll get me to my friends.": "听着，我都到你的「裂缝」来了，所以你最好解释一下怎么把我送到朋友身边。";
 "No, she's most definitely not.": "不，她绝对不是。";
 "Good point.  Let's clean up the rest and then get out of here.": "说得对。我们把剩下的收拾干净，然后离开这儿。";
 "Stabilize one of my rifts, then continue to upset Zinyak.": "先稳定我的一道裂缝，然后再继续给齐尼亚克找麻烦。";
@@ -800,7 +800,7 @@
 "Never.": "永远不会。";
 "Come on. Come on.": "来吧。来吧。";
 "Well done!  Well done indeed!": "干得好！真是干得好！";
-"The fuck you mean, \\"don't think so.\\" You're playing the goddamn Kat!": "你说「我觉得不是」是什么意思？你他妈可是在弹卡门！";
+"The fuck you mean, \"don't think so.\" You're playing the goddamn Kat!": "你说「我觉得不是」是什么意思？你他妈可是在弹卡门！";
 "While my version of this story had NyteBlayde triumphant over the friend who betrayed him--a far more compelling take on the narrative I believe--I suppose you'll have this your way then.": "在我的版本里，是夜刃战胜了背叛他的朋友——我相信那才是更引人入胜的叙事——不过，那就随你吧。";
 "Tastes wonderful!": "味道好极了！";
 "Sure you're going to make it through this without taking a mortal wound?": "你确定你能毫发无伤地撑过去？";
@@ -854,7 +854,7 @@
 "(All infidels will pay!)": "（所有异教徒都得付出代价！）";
 "Guess you don't know sarcasm either.  You can start with areas around Brickston.": "看来你也不懂讽刺。你可以从布里克顿周边开始。";
 "Fuck me. I'll take it down.": "我的天。我来把它打下来。";
-"So how do we stop the \\"certain doom\\" part...": "那我们怎么阻止「注定的毁灭」这部分……";
+"So how do we stop the \"certain doom\" part...": "那我们怎么阻止「注定的毁灭」这部分……";
 "Pierce, you're holding out on me.": "皮尔斯，你有事瞒着我。";
 "Where to, Kinzie?": "去哪儿，金吉？";
 "Well. Fuck.": "唉。操。";
@@ -983,7 +983,7 @@
 "Glad you understand her.": "很高兴你懂她。";
 "Shit.  Think you can land it safely?": "妈的。你觉得能安全降落吗？";
 "Some Zin troops are patrolling in the area. Show me how you'd handle crowd control.": "有齐恩士兵在附近巡逻。让我看看你怎么处理群体控制。";
-"Planet Zin... And I thought \\"Freckle Bitch's\\" was tacky.": "齐恩星……我还以为「弗莱克尔碧池斯」已经够俗气了。";
+"Planet Zin... And I thought \"Freckle Bitch's\" was tacky.": "齐恩星……我还以为「弗莱克尔碧池斯」已经够俗气了。";
 "Where's the ship, Kinzie?": "船在哪儿，金吉？";
 "Stay behind it.": "待在它后面。";
 "Have you tracked down Asha?": "你找到阿莎了吗？";

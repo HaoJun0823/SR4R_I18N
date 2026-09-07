@@ -197,7 +197,7 @@
 "So tell me what is this about.": "那跟我说说这到底是怎么回事。";
 "Kinzie, goddammit! I didn't get this far to sit on my ass--": "金吉，该死！我走了这么远，可不是为了坐在这儿无所事事——";
 "Everyone okay?": "大家都没事吧？";
-"Chances are it's not a standard \\"behind bars\\" sort of prison.  You'll just have to wing it.": "很可能不是那种普通的\\"铁窗\\"监狱。你只能随机应变了。";
+"Chances are it's not a standard \"behind bars\" sort of prison.  You'll just have to wing it.": "很可能不是那种普通的\"铁窗\"监狱。你只能随机应变了。";
 "Then I'm good. Let's do this.": "那我准备好了。开始吧。";
 "We're all just playing this by ear.": "我们都是摸着石头过河。";
 "Hang on.  I don't think we can bounce just yet.": "等等。我想我们还不能跳跃。";
@@ -205,7 +205,7 @@
 "Well, at least I didn't have to interrogate anyone this time.": "好吧，至少这次我不用审问任何人了。";
 "Right. Sure.": "对。当然。";
 "Roof's this way!": "屋顶在这边！";
-"Tell me, Kinzie, if these have \\"gravity inhibitors,\\" should they not hover or something?   And why did I not take some from the last generators -- they were identical! ": "跟我说说，金吉，如果这些东西有\\"重力抑制器\\"，它们难道不该悬停什么的吗？还有，我为什么没从上一个发电机里拿几个——它们明明一模一样！";
+"Tell me, Kinzie, if these have \"gravity inhibitors,\" should they not hover or something?   And why did I not take some from the last generators -- they were identical! ": "跟我说说，金吉，如果这些东西有\"重力抑制器\"，它们难道不该悬停什么的吗？还有，我为什么没从上一个发电机里拿几个——它们明明一模一样！";
 "Propaganda truck, huh? Come at me!": "宣传车，哈？来啊！";
 "Now that was a beautiful shot.": "刚才那一枪真漂亮。";
 "Too late for mercy now, my friends.": "现在讲仁慈太迟了，我的朋友们。";
@@ -244,7 +244,7 @@
 "Kinzie, I'm warning you... if this last portal unleashes a bunch of stiffs from that 1950s shithole we got trapped in...": "金吉，我警告你……如果最后一个传送门放出一堆我们被困在的那个50年代破地方里的行尸走肉……";
 "So what did I get?  Teleportation?  Laser vision?  Bone claws?": "那我得到了什么？传送？激光眼？骨爪？";
 "If it works, sure thing.": "要是管用，当然好。";
-"I'f I can't kill a few \\"hostiles\\" then something's gone seriously wrong.": "如果我连几个\\"敌对分子\\"都杀不了，那肯定出了大问题。";
+"I'f I can't kill a few \"hostiles\" then something's gone seriously wrong.": "如果我连几个\"敌对分子\"都杀不了，那肯定出了大问题。";
 "Irritating overlords is definitely something we Saints are good at.": "惹恼统治者绝对是我们圣徒的专长。";
 "All right. Here we are.": "好吧。我们到了。";
 "This thing is armored out the ass. How do I destroy it?": "这东西全身都是装甲。我怎么才能毁了它？";
@@ -734,7 +734,7 @@
 "The best and brightest from an *entire* planet? How big is this thing?": "来自*整个*星球的最强大脑？这东西到底有多大？";
 "Oh fuck...what's that taste in my throat?": "哦操……我喉咙里这是什么味道？";
 "That sounds awesome.": "听起来太棒了。";
-"We come together... now your turn, come on, \\"and you know-- it ain't fiction...\\" COME ON! SING IT!": "我们聚在一起……现在轮到你了，来，\\"还有你知道的——这不是虚构的……\\"来！唱！";
+"We come together... now your turn, come on, \"and you know-- it ain't fiction...\" COME ON! SING IT!": "我们聚在一起……现在轮到你了，来，\"还有你知道的——这不是虚构的……\"来！唱！";
 "For a superior intelligence, this wiring must have been contracted to the lowest bidder.": "就凭这种高级智能，这线路八成是包给了出价最低的承包商。";
 "Don't make me chase you!": "别逼我追你！";
 "I find it best to not think too hard about it.": "我发现最好别想太多。";
@@ -841,7 +841,7 @@
 "Come again?": "你再说一遍？";
 "Wait what are you-aww hell...": "等等，你要——哦天……";
 "Hold on, I'm sending in Shaundi to pick you guys up.": "撑住，我让莎蒂去接你们。";
-"That's just it, I can't.  I promised myself... well other me, that I'd try to relax.  That's I'd \\"chill out\\" a little.  And those two damaging my calm are making it impossible.": "问题就在这儿，我做不到。我对自己……呃，对另一个我发过誓，要学着放松一点。让自己\\"放空\\"一下。可那两个破坏我安宁的家伙，让我根本没法放松。";
+"That's just it, I can't.  I promised myself... well other me, that I'd try to relax.  That's I'd \"chill out\" a little.  And those two damaging my calm are making it impossible.": "问题就在这儿，我做不到。我对自己……呃，对另一个我发过誓，要学着放松一点。让自己\"放空\"一下。可那两个破坏我安宁的家伙，让我根本没法放松。";
 "DELETE": "删除";
 "I have the parts! Get to me and I'll set you up.": "我拿到零件了！到我这儿来，我给你装上。";
 "You know, forget what I just said, don't listen to her.  She's a bad influence on you.  Dammit...": "算了，忘了我刚才说的，别听她的。她对你有坏影响。真该死……";

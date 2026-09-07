@@ -43,7 +43,7 @@
 "But of course!": "那当然！";
 "Why do I feel like we're talking in circles?": "为什么我感觉我们一直在原地打转？";
 "Huh.  A rabbit.  A creepy, creepy rabbit.": "哈。一只兔子。一只阴森森的兔子。";
-"To make his people stronger or something?  Look, you're the one who said they're \\"amazing\\".": "为了让他的族人更强还是怎么着？听着，是你说他们\\"了不起\\"的。";
+"To make his people stronger or something?  Look, you're the one who said they're \"amazing\".": "为了让他的族人更强还是怎么着？听着，是你说他们\"了不起\"的。";
 "Why does this all look so odd?": "为什么这一切看起来这么怪？";
 "Well I don't think they'd help you out now.": "我看他们现在不会帮你什么忙了。";
 "It's a shame being fun isn't one of them.": "可惜「有趣」不在其中。";
@@ -193,7 +193,7 @@
 "OH MY GOD WHY DOES THIS HURT SO MUCH?!": "天哪，为什么这玩意儿这么疼？！";
 "*sigh*  Fine, we do it your way.": "*叹气* 行，就按你的方式来。";
 "Boy, they sure are anxious to meet you.": "小子，他们可真是急着想见你啊。";
-"Honey, \\"oh, wow\\" doesn't begin to even cover it.": "亲爱的，\\"哦，哇\\"根本不足以形容。";
+"Honey, \"oh, wow\" doesn't begin to even cover it.": "亲爱的，\"哦，哇\"根本不足以形容。";
 "Do we know where Johnny is?": "我们知道约翰尼在哪吗？";
 "Fine. We'll do the drug thing first. Then we'll hit DJVC.": "行。我们先做药的事，然后再去DJVC。";
 "This part of your plan?": "这也是你计划的一部分？";
@@ -309,7 +309,7 @@
 "On one condition.": "有一个条件。";
 "Matt, I'm heading for Cyrus. Time for Part Two of this plan.": "马特，我正要去找赛勒斯。该进行计划的第二部分了。";
 "Do I know that guy?": "我认识那家伙吗？";
-"We come together... Go, Kinzie, go: \\"and you know-- it ain't fiction...\\"": "我们聚在一起……来吧，金吉，唱：\\"还有你知道的——这不是虚构的……\\"";
+"We come together... Go, Kinzie, go: \"and you know-- it ain't fiction...\"": "我们聚在一起……来吧，金吉，唱：\"还有你知道的——这不是虚构的……\"";
 "What are you doing to my story?": "你对我的故事做了什么？";
 "ummm...maybe?": "唔……也许吧？";
 "But that makes no sense.": "可那说不通啊。";
@@ -332,7 +332,7 @@
 "All soldiers to Processing Tunnel 14 immediately! I repeat all soldiers to Processing Tunnel 14 immediately!": "所有士兵立即前往14号处理隧道！重复，所有士兵立即前往14号处理隧道！";
 "Let me guess. I'm shooting the light.": "让我猜猜。我要打那个灯泡。";
 "Matt, is she really dead this time?": "马特，她这次真死了吗？";
-"So by \\"abstract\\" you mean \\"Ow, ow, that's fucking painful\\".": "所以你说的\\"抽象\\"就是\\"哎哟，哎哟，真他妈疼\\"。";
+"So by \"abstract\" you mean \"Ow, ow, that's fucking painful\".": "所以你说的\"抽象\"就是\"哎哟，哎哟，真他妈疼\"。";
 "Kinzie? Kinzie?": "金吉？金吉？";
 "Glad you could make it back! You can give me my superpowers now.": "真高兴你能赶回来！现在可以把超能力给我了。";
 "Base, are you there? What are we walking into?": "基地，你在吗？我们这是要闯进什么？";
@@ -405,7 +405,7 @@
 "Never stop.": "永不停止。";
 "Uh. Huh. Oops.": "呃。哈。哎呀。";
 "Bloody hell. This day just gets worse and worse.": "见鬼。今天真是越来越糟。";
-"Normally you yell at me when I \\"wing it\\".": "平时我\\"即兴发挥\\"的时候你都会骂我。";
+"Normally you yell at me when I \"wing it\".": "平时我\"即兴发挥\"的时候你都会骂我。";
 "If you don't know why you're doing something, why do it?": "如果不知道自己为什么做某件事，那为什么要做？";
 "Can someone please remind me why we're working with Matt Miller.": "谁能提醒一下我们为什么要跟马特·米勒合作？";
 "battle cry": "战吼";
@@ -524,7 +524,7 @@
 "Shit. He knows why he's wanted.": "操。他知道自己为什么被通缉。";
 "That missile is targeting... Washington!": "那枚导弹的目标是……华盛顿！";
 "I'm gonna check on Kinzie, you're going to secure the doors.": "我去看看金吉，你去守住那些门。";
-"\\"uh-oh\\" what do you mean \\"uh-oh\\"": "\\"哦糟了\\" 你什么意思，\\"哦糟了\\"？";
+"\"uh-oh\" what do you mean \"uh-oh\"": "\"哦糟了\" 你什么意思，\"哦糟了\"？";
 "We've gotta get the hell outta here.": "我们得赶紧离开这鬼地方。";
 "Where are all these old gangmembers coming from?": "这些老帮派成员都是从哪冒出来的？";
 "Boss, the game is on.": "老大，比赛开始了。";
@@ -579,7 +579,7 @@
 "You're not kidding. The Zin are the fiercest opponents in the universe, Bobby.": "你说得没错。齐恩是宇宙里最凶猛的对手，鲍比。";
 "Getting closer, mate.": "快到了，伙计。";
 "Tell Zinyak I have him in my sights!": "告诉齐尼亚克，他已经进了我的瞄准镜！";
-"I'm guessing that's a \\"no\\".": "我猜那就是\\"不\\"了。";
+"I'm guessing that's a \"no\".": "我猜那就是\"不\"了。";
 "We're dismantling a super tank?": "我们在拆解一辆超级坦克？";
 "Well, at least play a girl some driving music.": "好吧，至少给姑娘放点开车音乐。";
 "I'm begging you man, snap outta this...": "求你了兄弟，醒醒吧……";
@@ -640,7 +640,7 @@
 "DELETE": "删除";
 "DELETE": "删除";
 "Same as before. Just throw me into the shield generator.": "和之前一样。把我扔进护盾发生器就行。";
-"So by \\"abstract\\" you mean \\"Ow, ow, that's fucking painful\\".": "所以你说的\\"抽象\\"就是\\"哎哟，哎哟，真他妈疼\\"。";
+"So by \"abstract\" you mean \"Ow, ow, that's fucking painful\".": "所以你说的\"抽象\"就是\"哎哟，哎哟，真他妈疼\"。";
 "Die, human!": "去死吧，人类！";
 "Where are they keeping him Kinzie?": "金吉，他们把他关在哪？";
 "You changed so much.": "你变了太多。";
@@ -761,7 +761,7 @@
 "Jimmy? Alvan? Tony?": "吉米？阿尔文？托尼？";
 "Now the STATUE has a name?": "现在雕像有名字了？";
 "You finished yet?": "你完事了没？";
-"Though some will challenge the status quo, crying out for \\"equality\\" and \\"pursuit of happiness,\\" we must remember those people are affronts to the firmament of what makes us a perfect union.": "虽然有人会挑战现状，高呼\\"平等\\"和\\"追求幸福\\"，但我们必须记住，这些人是完美联邦的耻辱。";
+"Though some will challenge the status quo, crying out for \"equality\" and \"pursuit of happiness,\" we must remember those people are affronts to the firmament of what makes us a perfect union.": "虽然有人会挑战现状，高呼\"平等\"和\"追求幸福\"，但我们必须记住，这些人是完美联邦的耻辱。";
 "Matt, why can't I swear?": "马特，为什么我不能骂人？";
 "HUB?": "中心？";
 "Believe me, this whole thing was my pleasure.": "相信我，整个过程我都很享受。";

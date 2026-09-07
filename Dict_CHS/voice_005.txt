@@ -161,7 +161,7 @@
 "Then what are we waiting for?": "那还等什么？";
 "Will you two quit yammering?": "你俩能别吵了吗？";
 "Legwork, huh? All right.": "跑腿活儿，嗯？行。";
-"We come together... come on, your turn, Kinzie, \\"and you know-- it ain't fiction...\\"": "我们一起上……来，该你了，金吉，「你知道的——这可不是编的……」";
+"We come together... come on, your turn, Kinzie, \"and you know-- it ain't fiction...\"": "我们一起上……来，该你了，金吉，「你知道的——这可不是编的……」";
 "Warren, Tony, Alderman Hughes... I had them all wrapped around my finger... they would have died for me.  Come to think of it, I guess they did.": "沃伦、托尼、奥德曼·休斯……我把他们都玩弄于股掌之中……他们愿意为我而死。回头想想，他们确实死了。";
 "Manually?": "手动？";
 "We need to find a way out!": "我们得找条出路！";
@@ -202,7 +202,7 @@
 "Then shouldn't we be moving faster?": "那我们是不是该加快点速度？";
 "Then let's not give her that chance.": "那就别给她这个机会。";
 "Not gonna lie. Still not sure how to take the fact evil me is your version of hell.": "不撒谎，我到现在都不知道该怎么接受「邪恶的我就是你眼中的地狱」这件事。";
-"That's the bad kind of \\"uh-oh\\" isn't it...": "那是种坏掉的「哦哦」是吧……";
+"That's the bad kind of \"uh-oh\" isn't it...": "那是种坏掉的「哦哦」是吧……";
 "There is one more. Follow me.": "还有一个。跟我来。";
 "Dammit!": "该死！";
 "Non-conformity, nobody swears, no violence--": "不随大流，没人说脏话，没有暴力——";
@@ -292,7 +292,7 @@
 "Where's that fucking platform...?": "那破平台到底在哪儿……？";
 "Great. I have murderbots!": "太好了。我有杀人机器人了！";
 "Where...is...Kinzie...?": "金吉……在……哪儿……？";
-"So whatever they labeled \\"Key to Zinyak's lair\\"?": "那他们说的「齐尼亚克老巢钥匙」呢？";
+"So whatever they labeled \"Key to Zinyak's lair\"?": "那他们说的「齐尼亚克老巢钥匙」呢？";
 "Where are we with Johnny?": "约翰尼那边怎么样了？";
 "Man, back the fuck up!": "哥们，给老子往后退！";
 "Can I get a picture?!": "能合个影吗？！";
@@ -461,7 +461,7 @@
 "Just hoping you remember this next time I need your help on something.": "只希望你下次需要我帮忙的时候还记得这事儿。";
 "DELETE": "删除";
 "That I wasn't going out like some bitch-ass punk, that's what.": "我可不想像个小瘪三一样死掉，就这个。";
-"Johnny seems to believe I would be more useful if I had firearms attached to my physical form.  I tried to explain that I am not a combatant type, but he insisted it was a \\"fucking necessity\\".  Is there any way to decline without having him kill me?": "约翰尼似乎认为，如果我的实体形态装上枪械会更有用。我试着解释我不是战斗型，但他坚持这是「他妈的必需品」。有什么办法能拒绝又不让他杀了我吗？";
+"Johnny seems to believe I would be more useful if I had firearms attached to my physical form.  I tried to explain that I am not a combatant type, but he insisted it was a \"fucking necessity\".  Is there any way to decline without having him kill me?": "约翰尼似乎认为，如果我的实体形态装上枪械会更有用。我试着解释我不是战斗型，但他坚持这是「他妈的必需品」。有什么办法能拒绝又不让他杀了我吗？";
 "A door. How...obvious.": "一扇门。多……明显。";
 "I'll make it, I swear!": "我会做到的，我发誓！";
 "Found some more ways to show Zinyak who's really in charge here. I'll walk you through them.": "我又找到几个办法，让齐尼亚克知道这儿谁说了算。我来带你过一遍。";
@@ -484,7 +484,7 @@
 "Who are these fucking creatures.": "这些他妈的是什么生物。";
 "That boy is scrappy...": "那小子挺能打……";
 "If someone had told me twenty years ago that when I grew up, I'd rise through the ranks of a street gang, found a media empire, become the President of the United States, then get captured by aliens, well...I'd probably have believed them. I was pretty gullible as a kid.": "要是在二十年前有人告诉我，长大后我会在街头帮派里步步高升，创立传媒帝国，当上美国总统，然后被外星人抓走，嗯……我大概会信。我小时候可好骗了。";
-"That wasn't a bad \\"fuck you\\" to Zinyak. Now let's get back to the ship and find Kinzie.": "那句「去你的」给齐尼亚克说得不赖。现在回船上找金吉吧。";
+"That wasn't a bad \"fuck you\" to Zinyak. Now let's get back to the ship and find Kinzie.": "那句「去你的」给齐尼亚克说得不赖。现在回船上找金吉吧。";
 "Good news is that we had Kinzie, and Zimos, and Oleg and...": "好消息是，我们有金吉、齐莫斯、奥列格，还有……";
 "Kinzie, there any other surprises?": "金吉，还有什么别的惊喜吗？";
 "I got a broken pod here, Kinzie...": "我这有个破损的舱体，金吉……";
@@ -586,7 +586,7 @@
 "Secure the doors, I'm going to check on Kinzie.": "锁好门，我去看看金吉。";
 "You need to do more! Bigger! Hold on, I'm sending you something.": "你得做更多！更大！等等，我给你发个东西。";
 "Shh! He'll hear you.": "嘘！他会听见的。";
-"Ok, I'm going to say this again: Why did we work with Matt Miller! Did everyone forget what he did to me back before I joined the Saints? I mean come on, he set me up to be fired from the FBI and got all my ideas completely discredited just because they think I'm into kink! The truth of that aside, he ruined my life and now he's a \\"good guy\\"? This-- this just isn't fair!": "行，我再说一遍：我们为什么要跟马特·米勒合作！你们都忘了他在我加入圣徒之前对我做了什么吗？我说真的，他设局让我被联邦调查局炒掉，我所有点子都被彻底否定，就因为他们觉得我玩性虐！先不说真假，他毁了我的人生，现在他反倒成了「好人」？这、这不公平！";
+"Ok, I'm going to say this again: Why did we work with Matt Miller! Did everyone forget what he did to me back before I joined the Saints? I mean come on, he set me up to be fired from the FBI and got all my ideas completely discredited just because they think I'm into kink! The truth of that aside, he ruined my life and now he's a \"good guy\"? This-- this just isn't fair!": "行，我再说一遍：我们为什么要跟马特·米勒合作！你们都忘了他在我加入圣徒之前对我做了什么吗？我说真的，他设局让我被联邦调查局炒掉，我所有点子都被彻底否定，就因为他们觉得我玩性虐！先不说真假，他毁了我的人生，现在他反倒成了「好人」？这、这不公平！";
 "From a rundown church to a spaceship. We Saints sure know how to pick a crib.": "从破教堂到宇宙飞船。我们圣徒可真会挑窝。";
 "DELETE": "删除";
 "Good, I was beginning to get bored.": "好，我正开始觉得无聊呢。";
@@ -636,7 +636,7 @@
 "What's the Cyprian Order? I'm not exactly a NyteBlayde fan. ": "塞浦路斯骑士团是什么？我算不上夜刃粉。";
 "Uh-uh.": "呃呃。";
 "Iiiiis...?": "是……？";
-"And getting me into some decent clothes isn't a \\"basic hack\\"?": "那给我整身像样的衣服就不算「基础黑客活」了？";
+"And getting me into some decent clothes isn't a \"basic hack\"?": "那给我整身像样的衣服就不算「基础黑客活」了？";
 "Oh, this is not good.": "哦，这可不好。";
 "Whoa. Check you out, DJ Miller!": "哇。看看你，DJ米勒！";
 "Gat, hold up!": "盖特，等等！";
@@ -687,7 +687,7 @@
 "Be ready to move after I clear it.": "我清场之后准备行动。";
 "Pierce, there's a giant fucking HAND out there!": "皮尔斯，外面有只他妈巨大的手！";
 "Let's find something a little more... exhilarating.": "我们找点更……刺激的。";
-"So by \\"abstract\\" you mean \\"Ow, ow, that's fucking painful\\".": "所以你说的「抽象」意思是「嗷，嗷，他妈的疼死我了」。";
+"So by \"abstract\" you mean \"Ow, ow, that's fucking painful\".": "所以你说的「抽象」意思是「嗷，嗷，他妈的疼死我了」。";
 "I'm going to hack the code to find out where CID is going...": "我要黑进代码，找出C.I.D.要去哪儿……";
 "Helluva welcome back, huh, Johnny?": "这归来得可真风光啊，约翰尼？";
 "What's up with these...murderbots?": "这些……杀人机器人怎么回事？";
@@ -848,7 +848,7 @@
 "Ready, steady--": "准备，稳住——";
 "Kinzie, is--": "金吉，你——";
 "No need. I have already analyzed our situation.": "不必了。我已经分析过我们的处境。";
-"You mean \\"us all\\".": "你是说「我们所有人」。";
+"You mean \"us all\".": "你是说「我们所有人」。";
 "I think this is pissing them off...": "我想这把他们给惹毛了……";
 "Then what'd you have in mind?": "那你有什么打算？";
 "My eyes are burning...": "我的眼睛烧得慌……";
@@ -910,7 +910,7 @@
 "What, and have you steal all my kills?": "怎么，好让你把我的人头都抢光？";
 "We're not jinxed!": "我们才没被诅咒！";
 "MATT! YOU TOUCHED IT!": "马特！你碰它了！";
-"Until he met Marion who desperately wanted to be NyteBlayde's bride but he was forced to walk away, stating, \\"After losing Sylvia, I can never love again.\\"": "直到他遇上玛丽昂——她拼命想当暗夜刀锋的新娘，但他不得不转身离开，说「失去西尔维娅之后，我再也无法爱了。」";
+"Until he met Marion who desperately wanted to be NyteBlayde's bride but he was forced to walk away, stating, \"After losing Sylvia, I can never love again.\"": "直到他遇上玛丽昂——她拼命想当暗夜刀锋的新娘，但他不得不转身离开，说「失去西尔维娅之后，我再也无法爱了。」";
 "Overloading?": "过载了？";
 "DELETE": "删除";
 "Oleg! How the hell are you?": "奥列格！你他妈的还好吗？";
@@ -953,7 +953,7 @@
 "Any help you can give would be nice...": "你能帮忙的话就再好不过了……";
 "Yeah, boosted an APC from the armory.  Should be big enough to hold whatever we need and keep it from getting blow to hell.": "是啊，从军械库里顺了辆装甲运兵车。够装下我们需要的任何东西，也不怕被炸飞。";
 "Pierce?  What the hell, he wouldn't say that.": "皮尔斯？搞什么，他不会说那种话。";
-"To amplify his power...?  Did you not say these clusters are \\"amazing\\"?": "为了增强他的力量……？你不是说这些聚簇「惊人」吗？";
+"To amplify his power...?  Did you not say these clusters are \"amazing\"?": "为了增强他的力量……？你不是说这些聚簇「惊人」吗？";
 "Talk about second amendment remedies...": "谈什么宪法第二修正案补救……";
 "The music...oh dear god, the music...": "这音乐……天哪，这音乐……";
 "Uh. Urf. Ooph.": "呃。呜。嗷。";

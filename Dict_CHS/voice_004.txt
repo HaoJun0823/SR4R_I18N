@@ -18,7 +18,7 @@
 "Sure, why not.": "行啊，为什么不呢。";
 "Confidence isn't a crime!": "自信不是罪！";
 "Goddammit.": "妈的。";
-"I hope you never had kids otherwise it'll be \\"hey George, go play in traffic with your friends.\\"": "我希望你没孩子，不然就会是「嘿，乔治，去路上跟朋友们玩车流去。」";
+"I hope you never had kids otherwise it'll be \"hey George, go play in traffic with your friends.\"": "我希望你没孩子，不然就会是「嘿，乔治，去路上跟朋友们玩车流去。」";
 "So much for her giving up.": "还说她要放弃呢。";
 "DELETE": "删除";
 "Good job, Boss.": "干得好，老大。";
@@ -175,7 +175,7 @@
 "This isn't about you, believe or not.": "信不信由你，这跟你无关。";
 "Saints Flow?  Dammit, not again!": "圣徒之流？妈的，又来了！";
 "I'm... driving a car.": "我……在开车。";
-"Hey CID, where you taking Shaundi on you \\"date\\"...": "嘿 C.I.D.，你带莎蒂去约的是哪儿啊……";
+"Hey CID, where you taking Shaundi on you \"date\"...": "嘿 C.I.D.，你带莎蒂去约的是哪儿啊……";
 "And one too many action movies as a kid?": "还有小时候动作片看太多？";
 "So the AI won't help me break into other simulations unless he gets a body. So, how do we get him one, Kinzie?": "所以那个 AI 非要个身体才肯帮我黑进别的模拟程序。金吉，那怎么给他弄一个？";
 "You said we'd be fighting an army of minions.  These are zombies, Matt.": "你说我们要打一支喽啰大军。这些是僵尸，马特。";
@@ -408,7 +408,7 @@
 "Matt, it's time for you to pick up the phone and see the real world...": "马特，该拿起电话看看现实世界了……";
 "No shit.": "废话。";
 "*sigh* Imagine a gun that fires a bullet that bounces from one target to another to another to another like a pinball racking up a billion points.": "*叹气* 想象一把枪，射出的子弹像弹珠台一样，从一个目标弹到另一个目标，再弹到下一个，刷出一亿分。";
-"That wasn't a bad \\"fuck you\\" to Zinyak. Now let's get back to the ship and find Kinzie.": "那句对齐尼亚克的「去你的」还挺带劲。现在回飞船找金吉吧。";
+"That wasn't a bad \"fuck you\" to Zinyak. Now let's get back to the ship and find Kinzie.": "那句对齐尼亚克的「去你的」还挺带劲。现在回飞船找金吉吧。";
 "Hey baby, I could show you a good time.": "嘿宝贝，我能让你快活快活。";
 "Kinzie, thank god.": "金吉，谢天谢地。";
 "What about Kinzie?": "那金吉呢？";
@@ -558,7 +558,7 @@
 "Gat, take care of these guys while I get the door open.": "盖特，我开门的时候你来对付这些家伙。";
 "I really hope this is the real you--": "我真希望这才是真的你——";
 "Gotcha!": "逮到你了！";
-"If you even think about calling me \\"old Shaundi\\" I'm gonna shoot you.": "你要是敢叫我一声「老莎蒂」，我就毙了你。";
+"If you even think about calling me \"old Shaundi\" I'm gonna shoot you.": "你要是敢叫我一声「老莎蒂」，我就毙了你。";
 "Now can I go back to following this mysterious guy you won't tell me anything about?": "现在我能回去跟着那个你不肯告诉我任何事的神秘家伙了吗？";
 "Zinyak, this ain't pride... This is wrath.": "齐尼亚克，这不是傲慢……这是愤怒。";
 "No worries, Kinzie, I'm on it.": "别担心，金吉，交给我。";
@@ -567,7 +567,7 @@
 "But she's not the only one who got fucked up by your death, Johnny.": "可你不是唯一一个被你的死搞惨的人，约翰尼。";
 "Fair enough.": "有道理。";
 "Fuck. I need some rockets.": "操。我需要点火箭筒。";
-"Look, you don't rub your \\"natural talent\\" in my face and I won't say anything about how fuckin' ridiculous you look.  Deal?": "听着，你不拿你的「天赋」来显摆，我也不提你看起来有多蠢。成交？";
+"Look, you don't rub your \"natural talent\" in my face and I won't say anything about how fuckin' ridiculous you look.  Deal?": "听着，你不拿你的「天赋」来显摆，我也不提你看起来有多蠢。成交？";
 "Maaaatt...": "马～特～";
 "Whoa, Matt, relax. It's me!": "哇，马特，冷静，是我！";
 "Cause I didn't want them blowin' up the crib, okay?": "因为我不想他们炸了我的窝，懂？";
@@ -602,7 +602,7 @@
 "I was thinking if it was we could get Ultor to rebuild it.  Add more defenses, more weapons, a few underground jet hangars...": "我想过，要是能的话，我们可以找乌托尔重建它。加更多防御、更多武器、几个地下喷气机库……";
 "Okay, fiery sky and rain can't be good...": "好吧，火焰般的天空加下雨，肯定没好事……";
 "Am I hearing voices again?": "我又幻听了？";
-"So when you say \\"Hotspot\\" you mean...?": "那你说「热点」指的是……？";
+"So when you say \"Hotspot\" you mean...?": "那你说「热点」指的是……？";
 "Why not?": "为什么不呢？";
 "I knew this was a bust.  Come on, you promised to go after Veteran Child now.": "我就知道这是白跑一趟。来吧，你答应过现在去找老兵之子的。";
 "She's breathing.": "她还有气。";
@@ -748,7 +748,7 @@
 "You with me?": "你跟上我了吗？";
 "Hey, I've gotten us this far, haven't I?": "嘿，是我带大家走到现在的，不是吗？";
 "Cyrus has seriously lost it.": "赛勒斯彻底疯了。";
-"I hope you never had kids otherwise it'll be \\"hey George, go play in traffic with your friends.\\"": "我希望你从没生过孩子，不然就是「嘿乔治，去马路上跟你的朋友们玩吧。」";
+"I hope you never had kids otherwise it'll be \"hey George, go play in traffic with your friends.\"": "我希望你从没生过孩子，不然就是「嘿乔治，去马路上跟你的朋友们玩吧。」";
 "But then I realized Asha would never be able to do this without some help.": "但后来我意识到，没有点帮助，阿莎永远做不成这事。";
 "God, you and Kinzie both with your technobabble...": "天哪，你和金吉一个样，满口技术黑话……";
 "Yeah, they do look sharper, but this is still the same old shit-hole.": "是啊，它们看着是精神了点，但这还是那个老破窝。";
@@ -943,7 +943,7 @@
 "The reporter from GenkiBowl? You couldn't find someone more important for us to protect?": "源鬼碗的那个记者？你就找不到更重要的人要我们保护吗？";
 "Woo!": "喔！";
 "Allow me to retort.": "请允许我反驳。";
-"God this plan is brilliant!  Once I get all the parts, this'll be the key to stopping Zinyak.  Kinda why I call it the Key.  Well, that and it works like a computer lock-picking device.  And a virus delivery system.  Oh, and a massive power spike.  Okay, so \\"key\\" may be stretching it a little.": "天哪这计划太妙了！等我凑齐所有部件，这玩意就是阻止齐尼亚克的关键。所以我才叫它「钥匙」。呃，另一个原因是它干起来像电脑开锁器。还是病毒投放系统。哦，还能造成巨大的电力尖峰。好吧，「钥匙」可能有点勉强。";
+"God this plan is brilliant!  Once I get all the parts, this'll be the key to stopping Zinyak.  Kinda why I call it the Key.  Well, that and it works like a computer lock-picking device.  And a virus delivery system.  Oh, and a massive power spike.  Okay, so \"key\" may be stretching it a little.": "天哪这计划太妙了！等我凑齐所有部件，这玩意就是阻止齐尼亚克的关键。所以我才叫它「钥匙」。呃，另一个原因是它干起来像电脑开锁器。还是病毒投放系统。哦，还能造成巨大的电力尖峰。好吧，「钥匙」可能有点勉强。";
 "Oh, is something the matter?": "哦，有什么事吗？";
 "I think that means yes.": "我觉得那意思就是行。";
 "Any idea what the loud speaker is saying?": "知道喇叭在说什么吗？";

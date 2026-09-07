@@ -5,7 +5,7 @@
 "If you want doorways open to the ship, go hack stores until I can find a place to insert my own special virus.": "如果你想打开通往飞船的门，去入侵商店直到我找到插入病毒的地方。";
 "Didn't you kinda drop Tanya out a window onto your car years ago?": "你不是几年前把塔尼娅从窗户扔到你车上了吗？";
 "What, fighting against crazy enemy factions intent on trying to kill the Saints while causing mass amounts of destruction in the process of saving ourselves and the people around us who don't get caught in the crossfire?  Yeah, I was wondering that too.": "什么，对抗疯狂的敌对帮派一心想杀圣徒同时在我们自救和救周围没被交叉火力波及的人的过程中造成大量破坏？是啊，我也在想这个。";
-"Hey, I heard \\"pilotable statue\\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
+"Hey, I heard \"pilotable statue\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
 "Right.": "好。";
 "There are two things I'm sure of, Tanya. I just performed the dance of the centure, and you're gonna die tonight.": "有两件事我确定，塔尼娅。我刚跳了世纪之舞，而你今晚得死。";
 "Why?": "为什么？";
@@ -291,7 +291,7 @@
 "Nice work, Oleg.": "干得好，奥列格。";
 "Sounds simple enough.": "听着够简单。";
 "Noooope.": "不——行。";
-"Hold on, if these generators have \\"gravity inhibitors\\" then A, why aren't they floating and B, why the hell didn't I get these from the last generators?  They look exactly the same!": "等等，如果这些发电机有「重力抑制器」那第一，它们为什么不浮起来，第二，为什么该死的我上次没从那些发电机拿？它们看起来一模一样！";
+"Hold on, if these generators have \"gravity inhibitors\" then A, why aren't they floating and B, why the hell didn't I get these from the last generators?  They look exactly the same!": "等等，如果这些发电机有「重力抑制器」那第一，它们为什么不浮起来，第二，为什么该死的我上次没从那些发电机拿？它们看起来一模一样！";
 "Now it's time to lay low.": "现在该低调了。";
 "All right, that should be it.": "好了，应该就这些了。";
 "What's the plan with this key now?": "这钥匙现在什么计划？";
@@ -349,7 +349,7 @@
 "Not quite what I was expecting but okay.": "跟预期不太一样但好吧。";
 "What about that Matt kid? Were he and Kinzie a thing?": "那个马特小子呢？他和金吉是一对吗？";
 "I have my moments.": "我也有高光时刻。";
-"A simple \\"no\\" would have worked...": "一句简单的「不」就够了……";
+"A simple \"no\" would have worked...": "一句简单的「不」就够了……";
 "All right, both the access points are online. How's the download looking?": "好了，两个接入点都在线了。下载看起来怎样？";
 "Here they come.": "他们来了。";
 "Eesh, you...": "哎，你……";
@@ -475,7 +475,7 @@
 "What's the best way outta here, Kinzie?": "出去最好的路是哪，金吉？";
 "Holy crap, Kinzie...": "我的天，金吉……";
 "You really don't need to tell me that, Kinzie, but thanks.": "你真不需要告诉我那个，金吉，但谢了。";
-"I call that \\"Hotspots for Dummies.\\"": "我叫它「给傻瓜的热点指南。」";
+"I call that \"Hotspots for Dummies.\"": "我叫它「给傻瓜的热点指南。」";
 "Really...?": "真的……？";
 "Maybe but I don't think the Zin abduct humans exclusively.": "也许吧，但我不认为齐恩人只绑架人类。";
 "Okay, that virus is in.  See you back on the ship.": "好了，病毒植入完成。飞船见。";
@@ -538,9 +538,9 @@
 "Shit. Where's Processing Chamber 9?": "该死。9号处理舱在哪？";
 "Wow...": "哇...";
 "Hustle, people! Hustle!": "快点，各位！快点！";
-"In between my moments of \\"dear god, dear god, don't let this thing blow me up\\", yes I am.": "在「天哪天哪别让这玩意炸了我」的时刻之间，是的。";
+"In between my moments of \"dear god, dear god, don't let this thing blow me up\", yes I am.": "在「天哪天哪别让这玩意炸了我」的时刻之间，是的。";
 "And the fact he tried to kill us...?": "那他试图杀我们的事实呢……？";
-"That wasn't a bad \\"fuck you\\" to Zinyak. Now let's get back to the ship and find Kinzie.": "对齐尼亚克来说那算是不错的「去你的」。现在回飞船找金吉吧。";
+"That wasn't a bad \"fuck you\" to Zinyak. Now let's get back to the ship and find Kinzie.": "对齐尼亚克来说那算是不错的「去你的」。现在回飞船找金吉吧。";
 "Well, shoot. The door's locked.": "嗯，该死。门锁了。";
 "Shit...": "妈的...";
 "And that date with Keith I'm guessing.": "还有跟基思的约会我猜。";

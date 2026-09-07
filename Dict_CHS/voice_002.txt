@@ -58,7 +58,7 @@
 "Long as I'm behind the wheel.": "只要是我开车就行。";
 "I work out on one. You think this ass happens all by itself?": "我就是用这玩意儿练出来的。你以为这屁股是自己练出来的？";
 "Sounds good.": "听起来不错。";
-"Bitch, who you callin' \\"sidekick\\"?": "小婊子，你说谁是跟班？";
+"Bitch, who you callin' \"sidekick\"?": "小婊子，你说谁是跟班？";
 "Whats the status of the key?": "钥匙现在什么情况？";
 "FUCK. YOU.  I swear to christ I'm gonna get outta here and find you and when I do I am going to take my fucking time, do you hear me?  DO YOU FUCKING HEAR ME?": "去你妈的。我向上帝发誓，我会离开这里找到你，到时候我会好好跟你玩一玩，你听见了吗？你他妈听见了吗？";
 "Huh. Here I am thinking this might be about the time he tried to nuke the US.": "唔。我还以为这可能是关于他试图往美国扔核弹的事。";
@@ -98,7 +98,7 @@
 "Can't wait to kill something, anything. Pow! Pow! Just kill'em, yeah.": "我已经等不及要杀点什么了，什么都行。砰！砰！杀了他们，对。";
 "What the hell...": "搞什么鬼……";
 "Hey, Veep, how are things?": "嘿，副总统，近来可好？";
-"You realize your potential \\"readers\\" total about ten people, right?": "你知道你那些潜在的「读者」总共就十个人左右，对吧？";
+"You realize your potential \"readers\" total about ten people, right?": "你知道你那些潜在的「读者」总共就十个人左右，对吧？";
 "Translation device! Ha! Nice one, Kinz--oh, there it is.": "翻译装置！哈！干得漂亮，金——哦，在那呢。";
 "Oh!  There goes an unethical target.  That's not good.": "哦！有个没道德的目标跑了。那可不是好事。";
 "DELETE": "删除";
@@ -241,7 +241,7 @@
 "Kingdom Come Records! We're here.": "天国王朝唱片！我们到了。";
 "What an a--amicable fellow.": "真是个友——友善的家伙。";
 "Which C.I.D. should I grab?": "我该抓哪个C.I.D.？";
-"That wasn't a bad \\"fuck you\\" to Zinyak. Now let's get out of here and find Kinzie.": "对齐尼亚克来说，这记「去你的」够带劲。现在走吧，去找金吉。";
+"That wasn't a bad \"fuck you\" to Zinyak. Now let's get out of here and find Kinzie.": "对齐尼亚克来说，这记「去你的」够带劲。现在走吧，去找金吉。";
 "Flaming bullets? Holy shit.": "燃烧弹？我靠。";
 "As opposed to whatever that thing is tearing it to pieces anyway?": "总比那东西把它撕成碎片强吧？";
 "End of the road, Zinyak.": "到头了，齐尼亚克。";
@@ -282,7 +282,7 @@
 "I wish everyone I went after just sat there waiting for me to kill them.": "我真希望我追杀的每个家伙都乖乖坐在原地等着我去杀。";
 "Then we gotta move. STAY DOWN AND RUN.": "那我们得走了。趴下跑！";
 "You're showing a lot of restraint Kinzie...": "金吉，你表现得很有克制力……";
-"Look, I showed up to your \\"rift\\", so start explaining how you'll get me to my friends.": "听着，我准时到了你的「裂缝」，现在解释清楚你怎么带我去找我的朋友。";
+"Look, I showed up to your \"rift\", so start explaining how you'll get me to my friends.": "听着，我准时到了你的「裂缝」，现在解释清楚你怎么带我去找我的朋友。";
 "Thanks for telling me in advance and not after I stole one of their devices and took to a supposedly safe spot.": "谢谢你提前告诉我，而不是等我偷了他们一个设备、躲到自以为安全的地方之后才说。";
 "Thanks for getting these guns online, Matt!": "谢谢你让这些枪上线，马特！";
 "MATT! YOU TOUCHED IT!": "马特！你碰了它！";
@@ -563,7 +563,7 @@
 "This sounds AWESOME!": "这听起来太棒了！";
 "Once I kill you my whole empire will see the futility of humanity's last stand.": "一旦我杀了你，我的整个帝国都会看到人类垂死挣扎的徒劳。";
 "If you can't hack the doors and I don't exactly have fingers, how do I open them?": "既然你黑不了那些门，而我恰好又没有手指，我要怎么打开它们？";
-"I hope you never had kids otherwise it'll be \\"hey George, go play in traffic with your friends.\\"": "我希望你没养过孩子，否则就会变成「嘿乔治，去马路上跟你的朋友们玩去」。";
+"I hope you never had kids otherwise it'll be \"hey George, go play in traffic with your friends.\"": "我希望你没养过孩子，否则就会变成「嘿乔治，去马路上跟你的朋友们玩去」。";
 "I know I'm going to regret this, but how is it amazing?": "我知道我会后悔问，但怎么个厉害法？";
 "Come on, Kinzie, where you at?": "加油，金吉，你在哪儿？";
 "Correct.  Good luck.  You will need it.  Shaundi, there is a hookah bar not far from here.  Care to join me before I return to the ship?": "没错。祝你好运。你会需要的。莎蒂，离这儿不远有个水烟吧。在我回船之前，有兴趣陪我喝一杯吗？";
@@ -679,7 +679,7 @@
 "Plant some bombs around this walkway. I'm going inside.": "在这条通道周围埋些炸弹。我要进去了。";
 "I've got both the access points online. Is the download improving?": "两个接入点都上线了。下载变快了吗？";
 "Which is what we want, yes?": "这正是我们想要的，对吧？";
-"Hey, how do you like the new crib?  Hold on!  That's what we should name this thing.  The Crib!  I mean, we're always meetin' up back at \\"the crib\\".  Shit, that just makes sense.": "嘿，你觉得新窝怎么样？等等！咱们该给这玩意儿起这名——「老窝」！我的意思是，我们总在「老窝」碰头。操，这名字太合理了。";
+"Hey, how do you like the new crib?  Hold on!  That's what we should name this thing.  The Crib!  I mean, we're always meetin' up back at \"the crib\".  Shit, that just makes sense.": "嘿，你觉得新窝怎么样？等等！咱们该给这玩意儿起这名——「老窝」！我的意思是，我们总在「老窝」碰头。操，这名字太合理了。";
 "Don't worry, we wouldn't take one.": "别担心，我们一个都不拿。";
 "Ready's my middle name--": "「随时准备」是我的中间名——";
 "*Opposites Attract Lyrics*": "*《异性相吸》歌词*";
@@ -710,12 +710,12 @@
 "That's all she wrote for NyteBlayde.": "夜刃的故事到此为止了。";
 "You think you can come here and fuck with MY country?": "你以为你能跑这儿来搞我的国家？";
 "Good point.  Let's clean up the rest and then get out of here.": "有道理。把剩下的清干净，然后撤。";
-"So by \\"abstract\\" you mean \\"Ow, ow, that's fucking painful\\".": "所以你说的「抽象」，意思是「嗷，嗷，疼死老子了」。";
+"So by \"abstract\" you mean \"Ow, ow, that's fucking painful\".": "所以你说的「抽象」，意思是「嗷，嗷，疼死老子了」。";
 "It ends here...": "一切到此为止……";
 "These gangs aren't normally in my simulation, where are they coming from?": "这些帮派平时不在我的模拟里，他们是从哪冒出来的？";
 "Maybe if we were back in Stilwater you'd have a shot.": "要是我们回到斯蒂尔沃特，你也许还有机会。";
 "DELETE": "删除";
-"Quit confusing \\"love\\" and \\"loathe\\" you pervert.": "别再把「爱」和「恨」搞混了，你这变态。";
+"Quit confusing \"love\" and \"loathe\" you pervert.": "别再把「爱」和「恨」搞混了，你这变态。";
 "Security work is a cereal box. You don't get to pick your prize.": "安保工作是盒麦片粥。你挑不了里面的奖品。";
 "Don't blame the hostage. JUST FIX IT.": "别怪人质，给我修好它。";
 "Keep me posted.": "有进展告诉我。";
@@ -738,7 +738,7 @@
 "I figured as much.": "我猜到了。";
 "Just hoping you remember this next time I need your help on something.": "只是希望下次我需要你帮忙时，你还记得这次。";
 "Kinzie, we need some place to hide out, come up with a plan.": "金吉，我们得找个地方躲起来，想个办法。";
-"Don't you mean \\"we will remain\\"?": "你不是想说「我们将坚持到底」吗？";
+"Don't you mean \"we will remain\"?": "你不是想说「我们将坚持到底」吗？";
 "I've homed in on the general area of Matt's pod. When you're ready to get him, come see me.": "我已经锁定了马特吊舱的大致区域。准备好去救他时，来找我。";
 "Reports are coming in from all over, from Japan to the UAE to Australia, Rio, and beyond of saucers in the sky. This is not a joke: aliens have found us... and they are pissed.": "从日本到阿联酋、澳大利亚、里约，以及更远的地方，各地都发来报告说天空中出现飞碟。这不是玩笑：外星人找到了我们……而且他们很生气。";
 "Yes. Bad tastes.": "对。难闻的味道。";
@@ -766,14 +766,14 @@
 "That's sounds...like it is dripping with irony.": "听起来……充满讽刺意味。";
 "That seems a bit excessive, doesn't it?": "那有点过头了，对吧？";
 "Kinzie.  Language.": "金吉。注意言辞。";
-"Matthew, flip my superhero switch back to \\"On.\\"": "马修，把我的超级英雄开关拨回「开」。";
+"Matthew, flip my superhero switch back to \"On.\"": "马修，把我的超级英雄开关拨回「开」。";
 "...no.": "……不。";
 "Um, why is there a wall here?": "呃，这里为什么有堵墙？";
 "Look! The connection in this area is slow. Get closer to a major connection point like a power plant and this might go faster.": "看！这片区域的连接很慢。靠近发电厂之类的主要连接点，可能就会快些。";
 "One moment.": "稍等。";
 "Indulge me. ": "说说看。";
 "Nobody tells me anything!": "没人告诉我任何事！";
-"You realize your potential \\"readers\\" total about ten people, right?": "你知道你那些潜在的「读者」总共就十个人左右，对吧？";
+"You realize your potential \"readers\" total about ten people, right?": "你知道你那些潜在的「读者」总共就十个人左右，对吧？";
 "Almost the best result possible.  Almost.": "几乎是最好的结果了。几乎是。";
 "Uh, we're still in here!": "呃，我们还在这儿呢！";
 "*BEEP* it. I'm in. Music gun it is.": "去他的。我上了。就用音乐枪吧。";
@@ -957,7 +957,7 @@
 "Okay... wait, did that make any sense?": "好吧……等等，我说的话有道理吗？";
 "If you can open rifts, why do you need me?": "你都能开传送门了，还需要我干嘛？";
 "Kinzie...": "金吉...";
-"NOT what I meant by \\"music to my ears.\\"": "我说「悦耳」可不是这个意思。";
+"NOT what I meant by \"music to my ears.\"": "我说「悦耳」可不是这个意思。";
 "Yeah, this is just like the old days.  Everyone's trying to kill me.": "是啊，跟以前一模一样，人人都想杀我。";
 "It's fine.  Just move on.": "没事，继续吧。";
 "No, NyteBlayde, I would never..": "不，夜刃，我绝不会……";

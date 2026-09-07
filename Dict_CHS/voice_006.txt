@@ -79,7 +79,7 @@
 "Finally...": "终于……";
 "MI6, huh? All right. I'm game.": "军情六处，嗯？行，我奉陪。";
 "Hey, Saints!  I need backup!  Kinzie...?  Matt...?  Keith...?  Anyone...?": "嘿，圣徒们！我需要增援！金吉……？马特……？基思……？有人吗……？";
-"\\"let's go to a hookah bar, have fun in the death tank...\\"": "「去水烟吧逛逛，在死亡坦克里找点乐子……」";
+"\"let's go to a hookah bar, have fun in the death tank...\"": "「去水烟吧逛逛，在死亡坦克里找点乐子……」";
 "Is this what I'm looking for?": "这就是我要找的吗？";
 "Kinzie, she's falling too fast.": "金吉，她掉得太快了。";
 "Right.": "好。";
@@ -111,9 +111,9 @@
 "You have a lot on your plate, Kinzie. I figure with all this cyber-whoosie-whoosie, I figure you could use the help.": "金吉，你手上活儿已经够多了。我想着这堆什么电子神神秘秘的，你大概用得上帮手。";
 "So I just slam my foot down?": "所以我只要狠狠一脚踩下去？";
 "Goodness me, what a dream.": "我的天呐，这是多么美妙的梦。";
-"I read Sharp wrong from the jump.  I always knew he was coldhearted, but I just thought it was a lawyer thing.  I didn't realize how sadistic he was.  I'll never forget what he said to me: \\"I think it's time to unwrap you.\\"  I hope that bastard burns.": "我从一开始就看错了夏普。我一直知道他冷酷，但以为那只是当律师的通病。我没想到他那么变态。我永远不会忘记他对我说的话：「是时候把你拆开看看了。」我希望那个混蛋烂在地狱里。";
+"I read Sharp wrong from the jump.  I always knew he was coldhearted, but I just thought it was a lawyer thing.  I didn't realize how sadistic he was.  I'll never forget what he said to me: \"I think it's time to unwrap you.\"  I hope that bastard burns.": "我从一开始就看错了夏普。我一直知道他冷酷，但以为那只是当律师的通病。我没想到他那么变态。我永远不会忘记他对我说的话：「是时候把你拆开看看了。」我希望那个混蛋烂在地狱里。";
 "That sounds awesome!": "那听起来太棒了！";
-"Hang on, sugar.  These look just like the last ones.  So why didn't I find your \\"gravity inhibitors\\" back there?  And shouldn't these things float or something, anyway?": "等等，甜心。这些跟刚才那些看起来一模一样。那为什么我刚才没找到你说的「重力抑制器」？而且这些东西不是应该飘着才对吗？";
+"Hang on, sugar.  These look just like the last ones.  So why didn't I find your \"gravity inhibitors\" back there?  And shouldn't these things float or something, anyway?": "等等，甜心。这些跟刚才那些看起来一模一样。那为什么我刚才没找到你说的「重力抑制器」？而且这些东西不是应该飘着才对吗？";
 "Why thank you, Miss Press Secretary, that sounds like a perfect idea.": "哦谢谢你，新闻秘书小姐，这个主意听起来完美。";
 "Boss, are you there?": "老板，你在吗？";
 "Mommy? Is that you?": "妈妈？是你吗？";
@@ -313,7 +313,7 @@
 "You'll see me differently...": "你会重新认识我的……";
 "Die, mascots, die!": "死吧，吉祥物们，死吧！";
 "This game's a lot more fun from this end!": "这个游戏从这边玩有趣多了！";
-"What's this \\"sidekick\\" shit?": "这什么「搭档」玩意儿？";
+"What's this \"sidekick\" shit?": "这什么「搭档」玩意儿？";
 "Muuuch better.": "好多……好多了。";
 "Good job, Kinzie. I can't wait to see the look on Zinyak's face.": "干得好，金吉。我等不及想看齐尼亚克的表情了。";
 "Allegiance or death!": "效忠，或者死亡！";
@@ -384,7 +384,7 @@
 "The American people don't exactly look favorably upon the President committing grand theft auto.": "美国人民可不太乐见总统犯下偷车大罪。";
 "Gat's gone.": "盖特不见了。";
 "Hey what ever happened with that guy who won your dating show?": "喂，那个赢了你相亲节目的人后来怎么样了？";
-"You realize your potential \\"readers\\" total about ten people, right?": "你知不知道你那些潜在的「读者」总共就十个人左右，对吧？";
+"You realize your potential \"readers\" total about ten people, right?": "你知不知道你那些潜在的「读者」总共就十个人左右，对吧？";
 "What?  Why not just an entire fuckin' island then?": "什么？干嘛不干脆整他妈一座岛算了？";
 "This is all from your head, Asha. He's getting this from you.": "这都是你自己脑子里想的，阿莎。他是在从你身上汲取这些。";
 "It doesn't matter, take care of Keith!": "这没关系，先解决基思！";
@@ -463,7 +463,7 @@
 "So why don't you do this yourself?  Where are you anyway?": "那你为什么不自己来？你到底在哪儿？";
 "They said I was mad for wanting to replace the secret service with robots...I was just being a futurist...": "他们说我想用机器人取代特勤局是疯了……我只是个未来主义者……";
 "I require a date with this Shaundi.": "我要和这个莎蒂约一次会。";
-"You realize your potential \\"readers\\" total about ten people, right?": "你知不知道你那些潜在的「读者」，总共就十个人左右？";
+"You realize your potential \"readers\" total about ten people, right?": "你知不知道你那些潜在的「读者」，总共就十个人左右？";
 "Uh, actually Kinzie, yeah this is.": "呃，其实金吉，就是这个。";
 "We gotta move, Matt!": "我们得撤了，马特！";
 "Ooof!": "嗷！";
@@ -618,7 +618,7 @@
 "I don't want the Zin walking around my soon-to-be new programming environment.  Take out the local patrol.": "我可不想让齐恩人在我即将投入使用的新编程环境里乱逛。干掉当地的巡逻队。";
 "Let me guess, you want something from me.": "让我猜猜，你想要我点什么。";
 "Are you there, Asha? Hold on, Matt wants to speak with me.": "你在吗，阿莎？等等，马特要跟我说话。";
-"\\"Wing it\\".  Great.  What can go wrong.": "「临场发挥」。好啊。还能出什么乱子。";
+"\"Wing it\".  Great.  What can go wrong.": "「临场发挥」。好啊。还能出什么乱子。";
 "Ah, the armpit of America.  Who says you can't go home again?": "啊，美国的胳肢窝。谁说你回不去家了？";
 "What the fuck is this portal?": "这个传送门是什么鬼？";
 "I hope you're on your way, Kinzie.": "希望你已经在路上了，金吉。";
@@ -938,7 +938,7 @@
 "All in all, I'd rather be in Rio...": "总而言之，我宁愿待在里约……";
 "Actually Kinzie, yeah this is.": "其实金吉，就是这个。";
 "Matt added code to the absorption that'll change your outfit to be more appropriate for the stage.  So you even think of not going through with this I'll know.": "马特给吸收装置加了点代码，会把你那身行头换成更适合舞台的。所以你要是不打算演，我会知道的。";
-"So by \\"abstract\\" you mean \\"Ow, ow, that's fucking painful\\".": "所以你说的「抽象」其实是「嗷，嗷，疼死我了」。";
+"So by \"abstract\" you mean \"Ow, ow, that's fucking painful\".": "所以你说的「抽象」其实是「嗷，嗷，疼死我了」。";
 "There should be more by the bar.  Let's go.": "酒吧附近应该还有。走。";
 "Shit, man! Left!": "操，兄弟！左边！";
 "Oh god...what...woo...": "天哪……什么……喔……";
@@ -965,7 +965,7 @@
 "Oh! Mr. King from across the street is going out of town for a few weeks. He was wondering if you could check his mail for him.": "哦！街对面的金先生要出城几个星期。他想问问你能不能帮他收一下信。";
 "Kinzie, don't bother.  He's right.  Sometimes you have to do it yourself.": "金吉，别费劲了。他说得对。有时候你得亲自动手。";
 "Gather intelligence on the real world location of high-ranking Zin officials.": "收集齐恩高层官员在现实世界位置的军事情报。";
-"And by \\"They\\" you mean...?": "你说「他们」是指……？";
+"And by \"They\" you mean...?": "你说「他们」是指……？";
 "Nice work, Oleg.": "干得漂亮，奥列格。";
 "Matt Miller, the self-proclaimed hacker god, ran all the cyber terrorism for the Syndicate back in Steelport.  Now, he's Asha's right hand man in MI6.  I just hope we can trust him like she does.": "马特·米勒，自封的黑客之神，当年在钢城港替辛迪加干尽了网络恐怖活动。如今，他是阿莎在军情六处的得力干将。我只希望我们能像她一样信任他。";
 "Give a girl some space please...": "给姑娘留点私人空间，拜托……";

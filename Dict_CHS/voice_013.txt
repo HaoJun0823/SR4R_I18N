@@ -48,7 +48,7 @@
 "Remember what went down at your first meeting with those lobbyists? I imagine taking out these Zin would be pretty similar.": "还记得你第一次跟那些游说者见面时发生的事吗？我想干掉这些辛人差不多就那感觉。";
 "Kinzie, any day now...": "金吉，随时都行……";
 "Not a clue.  That's why I usually ask for a translation.": "毫无头绪。所以我通常求翻译。";
-"I think I'll title this track \\"It's Easy To Kill A Saint\\".": "我想把这首曲子命名为「杀掉一个圣徒很容易」。";
+"I think I'll title this track \"It's Easy To Kill A Saint\".": "我想把这首曲子命名为「杀掉一个圣徒很容易」。";
 "So how does Cyrus keep breaking into this simulation?": "那赛勒斯怎么能一次又一次地闯进这个模拟？";
 "DELETE": "删除";
 "Asha, about Matt...": "阿莎，关于马特……";
@@ -330,7 +330,7 @@
 "No problem!": "没问题！";
 "*scream*": "*尖叫*";
 "DELETE": "删除";
-"So where is this \\"Army of Minions\\" at?": "那么那支「仆从军团」在哪儿呢？";
+"So where is this \"Army of Minions\" at?": "那么那支「仆从军团」在哪儿呢？";
 "DELETE": "删除";
 "Jesus Kinzie...": "天哪金吉……";
 "I think they got their targets confused.": "我觉得他们搞错了目标。";
@@ -423,7 +423,7 @@
 "*laughing*": "*笑*";
 "Nope, it's fun.": "不，挺好玩。";
 "Aw, Zinyak, looks like somebody fucked up your ship.": "哦，齐尼亚克，看来有人搞砸了你的船。";
-"\\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\\"": "「嘿，阿莎，你好吗？来点茶和烤饼？来亲一个？噢！*亲吻声*」";
+"\"Hey, Asha, how you doing? Care for some tea and crumpets? Fancy a snog? Ooh! *kissie sounds*\"": "「嘿，阿莎，你好吗？来点茶和烤饼？来亲一个？噢！*亲吻声*」";
 "Abductees carry any number of serious diseases. Exercise caution when approaching or handling the abductees.": "被绑架者可能携带多种严重疾病。接近或接触被绑架者时请小心。";
 "This is no good.  I shoot one, two take his place.": "这可不行。我打掉一个，就冒出两个替代。";
 "Did he just turn into some kind of...Super-Genki?": "他刚刚变成了一种……超级源鬼？";
@@ -665,7 +665,7 @@
 "Showtime.": "开场了。";
 "You can't rely on technology these days, can you.": "这年头靠不住科技了，不是吗。";
 "This is bad...": "这可不妙……";
-"Here's your standard \\"hack Friendly Fire\\" reminder.  Like you really thought there wouldn't be one in this sector...": "这是你的标准「黑掉 Friendly Fire」提醒。像你真以为这个区域不会有一样……";
+"Here's your standard \"hack Friendly Fire\" reminder.  Like you really thought there wouldn't be one in this sector...": "这是你的标准「黑掉 Friendly Fire」提醒。像你真以为这个区域不会有一样……";
 "The man built one empire, now he's gonna help me bring down another.": "他建立了一个帝国，现在他要帮我推翻另一个。";
 "Fuck that! I'm destroying everything in this goddamnn room!": "去他妈的！我要把这该死房间里的一切都毁掉！";
 "The boss is getting to blow shit up while my biggest problem is avoiding bad roadwork. ": "老大在外面炸东西，我最大的问题却是避开糟糕的路面。";
@@ -679,7 +679,7 @@
 "How many simulations did she ask you for?": "她要了你几个模拟？";
 "Now you listen here, if you think you can cram your agenda past congress you are in for a rude awakening, you hear me? Let me tell you a little something about the greatest word in politics: FILIBUSTER!": "你听好了，如果你以为你能把你的议程塞过国会，那你等着大吃一惊吧，听见了吗？让我告诉你政治里最伟大的词是什么：冗长辩论！";
 "It's the only plan I need.": "这是我唯一需要的计划。";
-"If by \\"progress\\" you mean \\"this thing is pissing me off\\", then yeah, lots.": "如果你说的「进展」是指「这东西在气我」，那对，很多。";
+"If by \"progress\" you mean \"this thing is pissing me off\", then yeah, lots.": "如果你说的「进展」是指「这东西在气我」，那对，很多。";
 "Right.": "好。";
 "Sure there are no more infected people?": "确定没有更多被感染的人了？";
 "You couldn't even save your own!": "你连自己的都救不了！";
@@ -749,7 +749,7 @@
 "Looks like someone broke your shit, Zinyak.": "看来有人砸了你的玩意儿，齐尼亚克。";
 "Seeing how you handle the alien threat will really enhance the narrative of my new book.": "看你如何应对外星威胁将大大丰富我新书的叙事。";
 "The main parts I'll need to assemble the key are the central processing unit, memory modules, and gravity inhibitors.  I've located a CPU at the old Steelport Guard Armory. While you get that, I'll look around for the other stuff.": "组装钥匙需要的主要部件是中央处理器、内存模块和重力抑制器。我在旧钢城港国民警卫队军械库找到了一个 CPU。你去拿那个，我找找其他东西。";
-"Care to define \\"Hotspot.\\" Kinzie?": "介意定义一下「热点」吗，金吉？";
+"Care to define \"Hotspot.\" Kinzie?": "介意定义一下「热点」吗，金吉？";
 "What the hell is he doing--holy shit!": "他在干什么——我的天！";
 "Excellent.": "极好。";
 "Bert to Ernie. Bert to Ernie. Activate South Portico defenses.": "伯特呼叫厄尼。伯特呼叫厄尼。启动南门防御。";
@@ -783,13 +783,13 @@
 "If there's one thing that I know makes ME feel better, it's killing Zin.  Go try it.": "如果有一件事我知道能让我感觉好点，那就是杀辛人。去试试。";
 "Shaundi, check the cargo bay. It's just as vulnerable as the airlock. Gat, come with me.": "莎蒂，检查货舱。它跟气闸舱一样脆弱。盖特，跟我来。";
 "Excellent.": "极好。";
-"Hold on, if these generators have \\"gravity inhibitors\\" then A, why aren't they floating and B, why the hell didn't I get these from the last generators?  They look exactly the same!": "等等，如果这些发电机有「重力抑制器」，那第一，它们怎么没飘起来，第二，为什么上一个发电机没有给我？它们看起来一模一样！";
+"Hold on, if these generators have \"gravity inhibitors\" then A, why aren't they floating and B, why the hell didn't I get these from the last generators?  They look exactly the same!": "等等，如果这些发电机有「重力抑制器」，那第一，它们怎么没飘起来，第二，为什么上一个发电机没有给我？它们看起来一模一样！";
 "Trust me, this has been my pleasure.": "相信我，这是我的荣幸。";
 "That should do it!": "应该搞定了！";
 "Shaundis!": "莎蒂们！";
 "Thanks for giving me a bigger target.": "谢了给我一个大目标。";
 "Yeah great do it then.": "对，好，做吧。";
-"We come together... You're up, Kinzie: \\"and you know-- it ain't fiction...\\"": "我们一起……到你了，金吉：「你知道——这不是虚构……」";
+"We come together... You're up, Kinzie: \"and you know-- it ain't fiction...\"": "我们一起……到你了，金吉：「你知道——这不是虚构……」";
 "Kinzie has a plan to put him down.": "金吉有干掉他的计划。";
 "Let's not wear out this sing-a-long thing.": "别把这合唱的事用滥了。";
 "Okay, calm down, I'm going.": "好，冷静，我走。";
@@ -837,7 +837,7 @@
 "no, that's exactly what I'm gonna be...": "不，那正是我要成为的……";
 "From leader of the Vice Kings, to best-selling self-help book author, to the President's Chief of Staff; there are few people who've done as much as Benjamin King.  And to think I almost tried to kill him back in Stilwater before his own lieutenants staged their little coup.  Guess it worked out for him.": "从副王帮首领到畅销自助书作者再到总统幕僚长，很少有人做到过本杰明·国王那么多事。想想我当初在斯提尔沃特还差点杀了他，结果他自己的手下发动了小政变。看来对他来说是好事。";
 "That... is not Shaundi.": "那……不是莎蒂。";
-"I hope you never had kids otherwise it'll be \\"hey George, go play in traffic with your friends.\\"": "希望你没生过孩子，否则就是「嘿乔治，去跟你的朋友们在车流里玩吧。」";
+"I hope you never had kids otherwise it'll be \"hey George, go play in traffic with your friends.\"": "希望你没生过孩子，否则就是「嘿乔治，去跟你的朋友们在车流里玩吧。」";
 "What the hell is THAT?": "那到底是什么鬼？";
 "I mean look at this place.  It's just how I remember it!": "我的意思是看看这地方。跟我想象中的一模一样！";
 "You know, that's our thing.  We turn on the radio and let ourselves go.": "你知道，那是我们的事。我们打开收音机，放飞自我。";
@@ -877,7 +877,7 @@
 "TAKE OUT EVERYTHING.": "全部干掉。";
 "Showtime.": "开场了。";
 "I have to power down all of these?": "这些全得关掉？";
-"We come together... Your line Kinzie, \\"and you know-- it ain't fiction...\\"": "我们一起……你的词金吉，「你知道——这不是虚构……」";
+"We come together... Your line Kinzie, \"and you know-- it ain't fiction...\"": "我们一起……你的词金吉，「你知道——这不是虚构……」";
 "Kinzie, where's the door?": "金吉，门在哪儿？";
 "Hope you got something useful, cause the cops are swarming your location.": "希望你拿到了有用的东西，因为条子快把你那地方围了。";
 "Thank god.": "谢天谢地。";

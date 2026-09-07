@@ -287,7 +287,7 @@
 "Yeah, this is just like the old days.  Everyone's trying to kill me.": "是啊，就像旧日一样。每个人都想杀我。";
 "Gotta be on that platform...": "肯定在那个平台上……";
 "I am here. I just need to eliminate these Zin first.": "我到了。我只需要先干掉这些辛人。";
-"So by \\"abstract\\" you mean \\"Ow, ow, that's fucking painful\\".": "所以你说的「抽象」是指「哎呦哎呦真他妈疼」。";
+"So by \"abstract\" you mean \"Ow, ow, that's fucking painful\".": "所以你说的「抽象」是指「哎呦哎呦真他妈疼」。";
 "Oh man. I think something's coming up...oh god.": "天哪。我觉得什么东西要上来了……天哪。";
 "Those large towers have a lot of data clusters on them which are useful to you, right?  So go climb that thing.": "那些高塔上有很多数据簇对你有用，对吧？去爬那个。";
 "Well, if Kinzie would use standardized formatting then I wouldn't--": "嘛，如果金吉用标准格式的话我就不会——";
@@ -448,7 +448,7 @@
 "I die.  You die.  We all die.  Any combination that involves death at all really.": "我死。你死。我们都死。任何涉及死亡的组合都行。";
 "Done! Let's check on Shaundi.": "搞定！去看看莎蒂。";
 "Man, they're still putting shit in our way.": "伙计，他们还在给我们添堵。";
-"\\"Yo dawg\\"...? You *have* been gone awhile.  Can you keep from dying again, mate?": "「哟兄弟」……？你确实离开了好一阵。你能别再死一次吗，伙计？";
+"\"Yo dawg\"...? You *have* been gone awhile.  Can you keep from dying again, mate?": "「哟兄弟」……？你确实离开了好一阵。你能别再死一次吗，伙计？";
 "More important, Ben. I found my calling.": "更重要的是，本。我找到了天职。";
 "Welcome to Super Power Fight Club!": "欢迎来到超能力搏击俱乐部！";
 "Goddammit.": "该死。";
@@ -483,7 +483,7 @@
 "Go kill some Zin, take over parts of the simulation, and just have some fun.": "去杀些辛人，占领模拟中的一些区域，好好玩玩。";
 "Here is the next relay.": "这是下一个中继器。";
 "No, not really.  You know how seriously I take my performance.": "不，不全是。你知道我对表演有多认真。";
-"No, actually I call it \\"The One-Man Mambo.\\"": "不，其实我叫它「独人曼波」。";
+"No, actually I call it \"The One-Man Mambo.\"": "不，其实我叫它「独人曼波」。";
 "I have TWO words for you: Broken. Nose.": "我给你两个字：断。鼻。";
 "Easy for you to say, you're not dealing with the top down bullshit.": "你说得轻巧，你不用处理上面那一堆破事。";
 "Hold on, THIS is your greatest fear?  Marketing gone bad?": "等等，这就是你最大的恐惧？营销搞砸了？";
@@ -562,7 +562,7 @@
 "What's going to happen when we find Zinyak?": "我们找到齐尼亚克之后会怎样？";
 "Sweet. Bonding time.": "不错。增进感情的时间。";
 "Manually?": "手动？";
-"So by \\"abstract\\" you mean \\"Ow, ow, that's fucking painful\\".": "所以你说的「抽象」是指「哎呦哎呦真他妈疼」。";
+"So by \"abstract\" you mean \"Ow, ow, that's fucking painful\".": "所以你说的「抽象」是指「哎呦哎呦真他妈疼」。";
 "Absolutely not.": "绝对不行。";
 "You can do this, Matt!": "你行的，马特！";
 "Sure.  Okay.  Still doesn't explain the balloon part.": "当然。好吧。但还是解释不了气球那部分。";
@@ -652,7 +652,7 @@
 "Fuck was that?": "搞什么？";
 "Now the ground's glowing, Kinzie.": "现在地面在发光了，金吉。";
 "But CID will download faster, right?": "但C.I.D.下载会更快，对吧？";
-"You wanna explain that \\"Hotspot\\" thing?": "你能解释一下那个「热点」吗？";
+"You wanna explain that \"Hotspot\" thing?": "你能解释一下那个「热点」吗？";
 "I take it there's data things down in the ground now?": "我猜地下有数据玩意了？";
 "Well. I suppose there's no stopping either of you. You're both as bullheaded and misguided as ever.": "嘛。我想拦不住你们两个。你们都跟以前一样顽固和执迷不悟。";
 "Here I come, you sonofabitch.": "我来了，你个混蛋。";
@@ -840,7 +840,7 @@
 "Enjoying this much?": "这么享受吗？";
 "I need to find something that looks important...": "我得找点看起来重要的东西……";
 "Ben, you all right?": "本，你没事吧？";
-"What, by saying \\"easy enough\\"?": "什么，靠说「够简单」？";
+"What, by saying \"easy enough\"?": "什么，靠说「够简单」？";
 "Oh fuck you...": "哦去你的……";
 "Well if it isn't the OTHER Stilwater default player...": "这不是斯提尔沃特的另一个默认玩家吗……";
 "Gonna sidekick your head...": "要副kick你的脑袋……";
@@ -883,7 +883,7 @@
 "Kinzie doesn't seem to have a problem with it.": "金吉好像没什么意见。";
 "But NyteBlayde still fights vampires, right? Plus the Cyprian Order?": "但夜刃还在打吸血鬼，对吧？还有塞浦路斯教团？";
 "Keep an eye on Kinzie, Shaundi...Johnny and I are about to do something realllly stupid.": "照看好金吉，莎蒂……约翰尼和我准备干一件真——的——很蠢的事。";
-"Okay, wait.  These look just like the last generators.  So why didn't I grab *their* inhibitors.  And shouldn't something called a \\"gravity inhibitor\\" float like a balloon?": "等等。这些跟上次那些发电机一模一样。那我怎么没拿*它们的*抑制器。再说了，一个叫「重力抑制器」的东西不是应该像气球一样飘起来吗？";
+"Okay, wait.  These look just like the last generators.  So why didn't I grab *their* inhibitors.  And shouldn't something called a \"gravity inhibitor\" float like a balloon?": "等等。这些跟上次那些发电机一模一样。那我怎么没拿*它们的*抑制器。再说了，一个叫「重力抑制器」的东西不是应该像气球一样飘起来吗？";
 "On it!": "马上办！";
 "Why don't you send what you've got to CID. Me and him can figure it out from there.": "你把现有的发给C.I.D.吧。我和他能从那边开始研究。";
 "If I were you, I would deal with the strange heat signature by the cargo bay first.": "如果我是你，我会先处理货舱旁那个奇怪的热信号。";
@@ -965,7 +965,7 @@
 "Where did Zinyak put Kinzie?": "齐尼亚克把金吉关哪了？";
 "How we sittin', Kinzie?": "我们情况怎么样，金吉？";
 "Come out of there.": "出来。";
-"Hey, I heard \\"pilotable statue\\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
+"Hey, I heard \"pilotable statue\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
 "All right, when do Tony and Tanya usually try to kill you?": "好了，托尼和塔尼娅通常什么时候来杀你？";
 "Kinzie...I wanna take my new power for a test drive...": "金吉……我想试试我的新能力……";
 "I KNEW IT!  The dance flows within me!  You hear that, King?": "我就知道！舞步在我体内流淌！你听到了吗，金？";
@@ -987,7 +987,7 @@
 "Woah--what just happened?!": "哇——刚发生什么了？！";
 "That's not my usual style.": "那不是我平时的风格。";
 "Let me guess, you want something from me.": "让我猜猜，你想从我这里得到什么。";
-"Hey, I heard \\"pilotable statue\\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
+"Hey, I heard \"pilotable statue\".  That's enough for me.": "嘿，我听到了「可驾驶雕像」。那就够了。";
 "Tell me: Is he a threat?": "告诉我：他有威胁吗？";
 "Hold on, lemme try something.": "等等，我试试个东西。";
 "Do your worst.": "放马过来。";
@@ -1001,4 +1001,4 @@
 "This thing is armored out the ass. How do I destroy it?": "这东西装甲厚得要死。我怎么摧毁它？";
 "Brace yourself!": "抓稳了！";
 "Tear...": "撕碎……";
-"I must confess, my reaction goes way beyond, \\"oh, wow.\\"": "我必须承认，我的反应远不止「哇。」那么简单。";
+"I must confess, my reaction goes way beyond, \"oh, wow.\"": "我必须承认，我的反应远不止「哇。」那么简单。";
