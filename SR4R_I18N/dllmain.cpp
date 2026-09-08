@@ -54,57 +54,97 @@
 // ---------- 配置 ----------
 static constexpr uint64_t GAME_BASE = 0x140000000ULL;
 
-// hook 目标（VA）与入口特征（IDA 2026-09-07 实测, sr_hv.exe）
-static constexpr uint64_t VA_DRAW_WIDE   = 0x140DC36A0ULL;  // (ctx,x,y,text,scale,flag,fontId,arg8)
-static constexpr uint64_t VA_FORMAT      = 0x140CF9A00ULL;  // (dst,fmt,cap,args,argc)
-static constexpr uint64_t VA_FONT_LOOKUP = 0x140BF8550ULL;  // (fontId) -> 字体对象
-static constexpr uint64_t VA_TEXOBJ      = 0x140B7AF30ULL;  // (texId) -> 纹理对象
-static constexpr uint64_t VA_SRV_RESOLVE = 0x140E2C9E0ULL;  // (texId, useStream) -> SRV
+// ======================================================================
+//  双版本支持: Steam (sr_hv.exe) + GOG (sr_hv_gog.exe)
+//  运行时检测 exe 文件名, 选择对应 VA 集合.
+//  特征码中含 RIP 相对地址的 hook (D/F/G), 仅比较非 RIP 字节.
+//  其余 hook (A/B/C/E/J) 16 字节完全跨版本一致.
+// ======================================================================
+
+// --- 特征码 (跨版本一致的固定字节) ---
 static const uint8_t SIG_DRAW_WIDE[16] = {
     0x40,0x53,0x56,0x57,0x48,0x81,0xEC,0x10,0x01,0x00,0x00,0x8B,0xBC,0x24,0x60,0x01 };
 static const uint8_t SIG_FORMAT[16] = {
     0x40,0x55,0x56,0x57,0x41,0x57,0x48,0x8D,0xAC,0x24,0x78,0xD0,0xFF,0xFF,0xB8,0x88 };
 static const uint8_t SIG_FONT_LOOKUP[16] = {
     0x83,0xF9,0xFF,0x7D,0x3E,0x8D,0x81,0xFF,0xFF,0xFF,0x7F,0x83,0xF8,0xFF,0x7E,0x2E };
+// Hook D (TexObj): 字节 10-13 = RIP disp32, 跨版本不同, 用 mask 通配
 static const uint8_t SIG_TEXOBJ[16] = {
-    0x4C,0x63,0xC1,0x85,0xC9,0x78,0x77,0x44,0x3B,0x05,0x8E,0xA3,0xD9,0x05,0x7D,0x6E };
+    0x4C,0x63,0xC1,0x85,0xC9,0x78,0x77,0x44,0x3B,0x05,0,0,0,0,0x7D,0x6E };
+static const uint8_t MASK_TEXOBJ[16] = {
+    1,1,1,1,1,1,1,1,1,1,0,0,0,0,1,1 };
 static const uint8_t SIG_SRV_RESOLVE[16] = {
     0x40,0x53,0x48,0x83,0xEC,0x20,0x0F,0xB6,0xDA,0x83,0xF9,0xFF,0x74,0x4F,0x0F,0xBA };
-
-// 早期整句替换（引擎原生支持日/韩 => CJK 布局/切行管线现成, 让引擎自己切中文行）
-//   语言服务对象 qword_1471BF738 的 vtable[0]/[1] 被两个 thunk 尾调:
-//     sub_140CF1960: mov rax,[qword_1471BF738]; test rax,rax; jz +0B; mov rdx,[rax];
-//                    test rdx,rdx; jz +3; jmp rdx; ret0          -> vtable[0]() 当前解析文本
-//     sub_140CF1980: 同上但 mov rdx,[rax+8]; jz +0C              -> vtable[1]() 当前文本
-//   在此返回层把英文完整句替换为中文整句, Format 之后由布局引擎
-//   按 CJK 字形宽度自切行 —— 无需再赌 wrap-rejoin 状态机。
-static constexpr uint64_t VA_LANG_CUR = 0x140CF1980ULL;   // vtable[1] "当前文本"
-static constexpr uint64_t VA_LANG_TXT = 0x140CF1960ULL;   // vtable[0] "当前解析文本"
+// Hook F (LangCur): 字节 3-6 = RIP disp32, 通配
 static const uint8_t SIG_LANG_CUR[16] = {
-    0x48,0x8B,0x05,0xB1,0xDD,0x4C,0x06,0x48,0x85,0xC0,0x74,0x0C,0x48,0x8B,0x50,0x08 };
+    0x48,0x8B,0x05,0,0,0,0,0x48,0x85,0xC0,0x74,0x0C,0x48,0x8B,0x50,0x08 };
+static const uint8_t MASK_LANG_CUR[16] = {
+    1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1 };
+// Hook G (LangTxt): 字节 3-6 = RIP disp32, 通配
 static const uint8_t SIG_LANG_TXT[16] = {
-    0x48,0x8B,0x05,0xD1,0xDD,0x4C,0x06,0x48,0x85,0xC0,0x74,0x0B,0x48,0x8B,0x10,0x48 };
-
-
+    0x48,0x8B,0x05,0,0,0,0,0x48,0x85,0xC0,0x74,0x0B,0x48,0x8B,0x10,0x48 };
+static const uint8_t MASK_LANG_TXT[16] = {
+    1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1 };
+static const uint8_t SIG_SUBTITLE_DRAW[16] = {
+    0x4C,0x8B,0xDC,0x55,0x56,0x41,0x54,0x49,0x8D,0xAB,0xA8,0xFB,0xFF,0xFF,0x48,0x81 };
 
 // 字符集扩充配置
 static constexpr size_t  CHARLIST_MAX_BYTES = (1 << 20);   // 1MB 上限
 static constexpr uint32_t CHARLIST_FREQ_BASE = 60000;      // 权重基值(>词典真实频率上限, 保证 charlist 顺序优先)
 
-// 字幕/HUD 绘制入口整串替换（IDA 2026-09-07 实测, sr_hv.exe）
-//   sub_1403D18F0(text, a2, a3, a4): a1=宽字符串, 内部折行布局后
-//   逐行绘制; a3<=0.1 时从尾部字面 \n<毫秒> 解析显示时长(atoi/1000), 否则 2s。
-//   特征码前 16 字节在 sr_hv.exe 全映像唯一（已验证）。
-//   与 SR3R sub_1402D2BC0 完全相同签名和逻辑。
-static constexpr uint64_t VA_SUBTITLE_DRAW = 0x1403D18F0ULL;
-static const uint8_t SIG_SUBTITLE_DRAW[16] = {
-    0x4C,0x8B,0xDC,0x55,0x56,0x41,0x54,0x49,0x8D,0xAB,0xA8,0xFB,0xFF,0xFF,0x48,0x81 };
+// --- VA 地址表 (两套: Steam / GOG) ---
+struct ExeConfig {
+    bool        isGog;
+    uint64_t    vaDrawWide;
+    uint64_t    vaFormat;
+    uint64_t    vaFontLookup;
+    uint64_t    vaTexObj;
+    uint64_t    vaSrvResolve;
+    uint64_t    vaLangCur;
+    uint64_t    vaLangTxt;
+    uint64_t    vaSubtitleDraw;
+    uint64_t    vaFontTab;
+    uint64_t    vaFontCount;
+    uint64_t    vaD3dDevice;
+    uint64_t    vaD3dContext;
+};
 
-// 引擎全局（VA, IDA 2026-09-07 实测）
-static constexpr uint64_t VA_FONTTAB     = 0x146AE7060ULL;  // 字体对象指针表
-static constexpr uint64_t VA_FONTCOUNT   = 0x146AE504CULL;  // 字体数
-static constexpr uint64_t VA_D3D_DEVICE  = 0x147667C70ULL;  // ID3D11Device*
-static constexpr uint64_t VA_D3D_CONTEXT = 0x147667C78ULL;  // ID3D11DeviceContext*
+// Steam (sr_hv.exe) — IDA 2026-09-07/08 实测
+static constexpr ExeConfig CFG_STEAM = {
+    false,
+    0x140DC36A0ULL,  // DrawWide
+    0x140CF9A00ULL,  // Format
+    0x140BF8550ULL,  // FontLookup
+    0x140B7AF30ULL,  // TexObj
+    0x140E2C9E0ULL,  // SrvResolve
+    0x140CF1980ULL,  // LangCur
+    0x140CF1960ULL,  // LangTxt
+    0x1403D18F0ULL,  // SubtitleDraw
+    0x146AE7060ULL,  // fontTab
+    0x146AE504CULL,  // fontCount
+    0x147667C70ULL,  // D3DDevice
+    0x147667C78ULL,  // D3DContext
+};
+
+// GOG (sr_hv_gog.exe) — IDA 2026-09-08 实测 (特征码 + 拓扑桥接)
+static constexpr ExeConfig CFG_GOG = {
+    true,
+    0x140D4E520ULL,  // DrawWide
+    0x140C88810ULL,  // Format
+    0x140BBBBB0ULL,  // FontLookup
+    0x140B99ED0ULL,  // TexObj
+    0x140DC6E00ULL,  // SrvResolve
+    0x140C88120ULL,  // LangCur
+    0x140C88100ULL,  // LangTxt
+    0x140574250ULL,  // SubtitleDraw
+    0x14698A5D0ULL,  // fontTab
+    0x14698A5C8ULL,  // fontCount
+    0x14761DEF8ULL,  // D3DDevice
+    0x14761DF00ULL,  // D3DContext
+};
+
+// 运行时填充 (MainThread 中检测 exe 后设置)
+static ExeConfig g_exe;
 
 static constexpr uint32_t MAGIC_TEXID_BASE = 0x60000000u;   // +fontId（bit24=0, 界外）
 static constexpr uint32_t FAKE_FONT_MAX    = 256;
@@ -2472,11 +2512,21 @@ static DWORD WINAPI StatsThread(LPVOID)
 }
 
 // ---------- 安装 ----------
-static bool InstallHook(uint64_t va, const uint8_t* expect, const char* name,
-                        void* detour, void** orig)
+// 带 mask 的签名比较: mask[i]=1 必须精确匹配, mask[i]=0 跳过 (RIP 相对地址通配)
+static bool SigMatch(const uint8_t* target, const uint8_t* expect, const uint8_t* mask)
+{
+    for (int i = 0; i < 16; i++)
+        if (mask[i] && target[i] != expect[i])
+            return false;
+    return true;
+}
+
+static bool InstallHookMasked(uint64_t va, const uint8_t* expect, const uint8_t* mask,
+                              const char* name, void* detour, void** orig)
 {
     uint8_t* target = VA<uint8_t*>(va);
-    if (memcmp(target, expect, 16) != 0)
+    bool ok = mask ? SigMatch(target, expect, mask) : (memcmp(target, expect, 16) == 0);
+    if (!ok)
     {
         Log("hook %s @%p: signature mismatch, ABORT (game updated?)", name, (void*)target);
         return false;
@@ -2495,6 +2545,12 @@ static bool InstallHook(uint64_t va, const uint8_t* expect, const char* name,
     return true;
 }
 
+static bool InstallHook(uint64_t va, const uint8_t* expect, const char* name,
+                        void* detour, void** orig)
+{
+    return InstallHookMasked(va, expect, nullptr, name, detour, orig);
+}
+
 // ---------- 主线程 ----------
 static DWORD WINAPI MainThread(LPVOID hSelf)
 {
@@ -2504,6 +2560,24 @@ static DWORD WINAPI MainThread(LPVOID hSelf)
     wchar_t* slash = wcsrchr(dir, L'\\');
     if (slash) *slash = L'\0'; else *dir = L'\0';
     s_exeBase = reinterpret_cast<uint64_t>(GetModuleHandleW(nullptr));   // v7.4 诊断 RA 换算用
+
+    // --- 检测 exe 版本 (Steam / GOG) ---
+    wchar_t exeName[MAX_PATH];
+    GetModuleFileNameW(nullptr, exeName, MAX_PATH);
+    wchar_t* exeSlash = wcsrchr(exeName, L'\\');
+    const wchar_t* exeBase = exeSlash ? exeSlash + 1 : exeName;
+    bool isGog = false;
+    if (_wcsicmp(exeBase, L"sr_hv_gog.exe") == 0)
+    {
+        isGog = true;
+        g_exe = CFG_GOG;
+        Log("exe: sr_hv_gog.exe (GOG)");
+    }
+    else
+    {
+        g_exe = CFG_STEAM;
+        Log("exe: %ls (Steam)", exeBase);
+    }
 
     wcscpy_s(iniPath, dir); wcscat_s(iniPath, L"\\SR4R_I18N.ini");    LoadConfig(iniPath);
 
@@ -2565,10 +2639,10 @@ static DWORD WINAPI MainThread(LPVOID hSelf)
     }
 
     // 4. 引擎指针
-    g_fontTabPtr   = VA<void***>(VA_FONTTAB);
-    g_fontCountPtr = VA<volatile int*>(VA_FONTCOUNT);
-    g_devSlot      = VA<ID3D11Device**>(VA_D3D_DEVICE);
-    g_ctxSlot      = VA<ID3D11DeviceContext**>(VA_D3D_CONTEXT);
+    g_fontTabPtr   = VA<void***>(g_exe.vaFontTab);
+    g_fontCountPtr = VA<volatile int*>(g_exe.vaFontCount);
+    g_devSlot      = VA<ID3D11Device**>(g_exe.vaD3dDevice);
+    g_ctxSlot      = VA<ID3D11DeviceContext**>(g_exe.vaD3dContext);
 
     // 5. MinHook
     if (MH_Initialize() != MH_OK)
@@ -2576,18 +2650,18 @@ static DWORD WINAPI MainThread(LPVOID hSelf)
         Log("MH_Initialize failed");
         return 0;
     }
-    bool a = InstallHook(VA_DRAW_WIDE,   SIG_DRAW_WIDE,   "DrawWide",   (void*)HookDrawWide,   (void**)&g_origDrawWide);
-    bool b = InstallHook(VA_FORMAT,      SIG_FORMAT,      "Format",     (void*)HookFormat,     (void**)&g_origFormat);
-    bool c = InstallHook(VA_FONT_LOOKUP, SIG_FONT_LOOKUP, "FontLookup", (void*)HookFontLookup, (void**)&g_origFontLookup);
-    bool d = InstallHook(VA_TEXOBJ,      SIG_TEXOBJ,      "TexObj",     (void*)HookTexObj,     (void**)&g_origTexObj);
-    bool e = InstallHook(VA_SRV_RESOLVE, SIG_SRV_RESOLVE, "SrvResolve", (void*)HookSrvResolve, (void**)&g_origSrvResolve);
+    bool a = InstallHook(g_exe.vaDrawWide,   SIG_DRAW_WIDE,   "DrawWide",   (void*)HookDrawWide,   (void**)&g_origDrawWide);
+    bool b = InstallHook(g_exe.vaFormat,      SIG_FORMAT,      "Format",     (void*)HookFormat,     (void**)&g_origFormat);
+    bool c = InstallHook(g_exe.vaFontLookup, SIG_FONT_LOOKUP, "FontLookup", (void*)HookFontLookup, (void**)&g_origFontLookup);
+    bool d = InstallHookMasked(g_exe.vaTexObj, SIG_TEXOBJ, MASK_TEXOBJ, "TexObj", (void*)HookTexObj, (void**)&g_origTexObj);
+    bool e = InstallHook(g_exe.vaSrvResolve, SIG_SRV_RESOLVE, "SrvResolve", (void*)HookSrvResolve, (void**)&g_origSrvResolve);
     // v7.4 早期整句替换（语言服务返回层; ini lang_early 可关）
-    bool f = g_cfg.langEarly && InstallHook(VA_LANG_CUR, SIG_LANG_CUR, "LangCur",
+    bool f = g_cfg.langEarly && InstallHookMasked(g_exe.vaLangCur, SIG_LANG_CUR, MASK_LANG_CUR, "LangCur",
                                             (void*)HookLangCur, (void**)&g_origLangCur);
-    bool g = g_cfg.langEarly && InstallHook(VA_LANG_TXT, SIG_LANG_TXT, "LangTxt",
+    bool g = g_cfg.langEarly && InstallHookMasked(g_exe.vaLangTxt, SIG_LANG_TXT, MASK_LANG_TXT, "LangTxt",
                                             (void*)HookLangTxt, (void**)&g_origLangTxt);
     // 字幕/HUD 绘制入口整串替换（ini subtitle_early 可关）
-    bool j = g_cfg.subtitleEarly && InstallHook(VA_SUBTITLE_DRAW, SIG_SUBTITLE_DRAW, "Subtitle",
+    bool j = g_cfg.subtitleEarly && InstallHook(g_exe.vaSubtitleDraw, SIG_SUBTITLE_DRAW, "Subtitle",
                                                 (void*)HookSubtitle, (void**)&g_origSubtitle);
     if (!a && !b && !c && !d && !e && !f && !g && !j)
     {
