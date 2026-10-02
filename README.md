@@ -1,4 +1,6 @@
-﻿# SR4R_I18N — 黑道圣徒4（Saints Row IV）外挂式简体中文汉化
+# 该项目已与3代项目合并：https://github.com/HaoJun0823/SR_GAME_CHINESE
+
+# SR4R_I18N — 黑道圣徒4（Saints Row IV）外挂式简体中文汉化
 
 基于 dinput8/binkw64 代理注入的运行时汉化 DLL。**不动任何游戏资源文件**，卸载 DLL 即完全恢复原版。
 
